@@ -1,0 +1,39 @@
+{
+  "source": "C:\\Users\\Thiago Aciole\\Projetos\\UltimateNinjaStorm\\Ultimate-Ninja-Storm-1.2.10.apk",
+  "output": "C:\\Users\\Thiago Aciole\\Projetos\\UltimateNinjaStorm\\output\\Ultimate-Ninja-Storm-1.2.10-exynos.apk",
+  "version": "1.2.10",
+  "versionCode": 38,
+  "buildId": "c3e506f9be350dfb4a00c79228754028",
+  "sourceNativeSha256": "C631E7127E73ECDE32DA7C8B8054AC6810A375875CD00749D3F4DF5DB29DB79E",
+  "patchedNativeSha256": "CCEA158F39368ED13254A2F29E608E1FD7E5DCB4A1427ED4461B6A05F3C194CA",
+  "patchOffset": "0x6bf964",
+  "changedNativeBytes": 1,
+  "unchangedPayloads": 571,
+  "manifestAndDex": "SHA256 identical to received APK",
+  "signature": "v3 verified",
+  "certificateSha256": "17d4f698488d0eca80bcff7c4440426e8bc7e145abf0ec05d9692a815693f074",
+  "nativeAlignment": "16 KiB verified after signing",
+  "inputNativeDifferencesFromOriginalSplit": 675,
+  "existingThirdPartyCode": "APKVision code and pre-existing native modifications preserved",
+  "scope": "Exynos depth format 129 -> 130 only; no new authentication or Java changes",
+  "deviceTest": "updated successfully via ADB over local 1.2.9 on SM-S921B, user 0; startup and gameplay not tested in this step",
+  "widescreenImplemented": false,
+  "translationImplemented": false,
+  "size": 3485057176,
+  "apkSha256": "1863fe2760b6595ddca2047d996f5a6f17bc33477ff4401b5efac55eaa696679",
+  "deviceUpdate": {
+    "date": "2026-10-24",
+    "previousVersionCode": 37,
+    "installedVersionCode": 38,
+    "adbResult": "Success",
+    "uninstalled": false,
+    "ceDataInodePreserved": true,
+    "deDataInodePreserved": true
+  },
+  "projectRole": "primary",
+  "selectedAsPrimary": {
+    "date": "2026-10-24",
+    "reason": "Explicit user decision",
+    "baseline": "single APK 1.2.10; not the historical split set"
+  }
+}

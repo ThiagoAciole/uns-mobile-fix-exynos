@@ -1,0 +1,31 @@
+{
+  "sourceApk": "origin\\Ultimate-Ninja-Storm-1.2.10.apk",
+  "sourceVersion": "1.2.10 / code 38",
+  "method": "Selecao dos assets com necessidade de expansao de arte confirmada; demais ajustes widescreen devem ser feitos na geometria/layout nativo.",
+  "xfbinCount": 18,
+  "textureCount": 1,
+  "textures": [
+    {
+      "png": "opcoes/moption/xoption_battlebg01.png",
+      "sourceXfbin": "data/interface/option/eng/ANDROID/moption.xfbin",
+      "texture": "xoption_battlebg01",
+      "width": 1920,
+      "height": 1080,
+      "format": 2,
+      "sourceTextureSha256": "e418b7834b456c4c05c9a2bc96384acc6d2c6e5f37ef3116335befd4d5271157",
+      "classification": "candidato-a-revisao; confirmar se e fundo/painel antes de expandir"
+    }
+  ],
+  "excludedFromExpansionFolder": 243,
+  "selectionNote": "xoption_battlebg01 é o fundo confirmado da demonstração de controles (sprite 0x1e7). O título usa expansão geométrica; HUD, mapa, atlas, logos e painéis sem associação comprovada foram removidos desta pasta. As fontes XFBIN permanecem em work/widescreen-expansion-source-20261026.",
+  "expandedImage": {
+    "path": "opcoes/moption/xoption_battlebg01-widescreen.png",
+    "dimensions": [
+      2342,
+      1080
+    ],
+    "sha256": "aa01b4b6f1865e91a5c6d204a873dff9331cbd5329c9be3e27caabbbb3e1f697",
+    "origin": "background-joystick-widescreen.png já fornecido no projeto",
+    "status": "arte panorâmica pronta; importador do XFBIN aceita 2342x1080 e amostra 2340x1080"
+  }
+}

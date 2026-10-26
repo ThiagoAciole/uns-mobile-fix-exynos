@@ -1,0 +1,3814 @@
+{
+  "format": "storm-android-messages-v1",
+  "source_sha256": "ae982595f2413b12d6f951c3055bacca4dfbb542bc25666376c0631661f8c87f",
+  "entries": [
+    {
+      "chunk": "duelstart_normal",
+      "index": 0,
+      "field": 2,
+      "id": "nrt_cmn1",
+      "source": "I vow to win!!",
+      "translation": "Eu juro que vou vencer!!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 1,
+      "field": 2,
+      "id": "nrt_cmn2",
+      "source": "Alright... let's run wild!",
+      "translation": "Certo... vamos com tudo!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 2,
+      "field": 2,
+      "id": "nrt_def1",
+      "source": "We're gonna show off\nSquad 7's teamwork!!",
+      "translation": "Vamos mostrar o trabalho\nem equipe do Time 7!!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 3,
+      "field": 2,
+      "id": "nrt_def2",
+      "source": "Step aside!\nNaruto Uzumaki is on the scene!",
+      "translation": "Saiam da frente!\nNaruto Uzumaki chegou!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 4,
+      "field": 2,
+      "id": "nrt_kks",
+      "source": "Kakashi sensei, try not to\nbutt in too much, okay!?",
+      "translation": "Kakashi-sensei, tente não\nse intrometer muito, tá!?"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 5,
+      "field": 2,
+      "id": "nrt_jry",
+      "source": "Let me handle this on my own,\nPervy Sage!",
+      "translation": "Deixe isso comigo,\nSábio Tarado!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 6,
+      "field": 2,
+      "id": "nrt_tnd",
+      "source": "I'll kick so much butt, you can just\nsit back and watch, Grandma!",
+      "translation": "Vou acabar com todo mundo. Pode\nficar só assistindo, vovó!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 7,
+      "field": 2,
+      "id": "nrt_gar",
+      "source": "Here comes the Uzumaki Hurricane,\nwith a little help from the Sand!",
+      "translation": "Lá vem o Furacão Uzumaki,\ncom uma ajudinha da Areia!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 8,
+      "field": 2,
+      "id": "ssk_cmn1",
+      "source": "Alright, bring it on.",
+      "translation": "Certo, pode vir."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 9,
+      "field": 2,
+      "id": "ssk_cmn2",
+      "source": "Come on... We'll take care of you.",
+      "translation": "Vamos... Daremos um jeito em você."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 10,
+      "field": 2,
+      "id": "ssk_def1",
+      "source": "Naruto, Sakura... Let's hurry up\nand take care of these guys.",
+      "translation": "Naruto, Sakura... Vamos acabar\nlogo com esses caras."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 11,
+      "field": 2,
+      "id": "ssk_def2",
+      "source": "Let me handle this.",
+      "translation": "Deixe isso comigo."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 12,
+      "field": 2,
+      "id": "ssk_kks",
+      "source": "You can just sit back and watch, Kakashi.",
+      "translation": "Pode ficar só assistindo, Kakashi."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 13,
+      "field": 2,
+      "id": "ssk_itc",
+      "source": "I won't lose... in front of him...",
+      "translation": "Não vou perder... na frente dele..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 14,
+      "field": 2,
+      "id": "ssk_orc",
+      "source": "He-he... This'll be an\ninteresting battle...",
+      "translation": "Hehe... Esta vai ser uma\nluta interessante..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 15,
+      "field": 2,
+      "id": "skr_cmn1",
+      "source": "I'll give it all I've got!\nHope you're ready for it!!",
+      "translation": "Vou dar tudo de mim!\nEspero que esteja pronto!!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 16,
+      "field": 2,
+      "id": "skr_cmn2",
+      "source": "I don't want to lose...!\nI have to win, no matter what!",
+      "translation": "Não quero perder...!\nTenho que vencer, custe o que custar!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 17,
+      "field": 2,
+      "id": "skr_def1",
+      "source": "Squad 7 won't lose to anyone!!",
+      "translation": "O Time 7 não perde para ninguém!!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 18,
+      "field": 2,
+      "id": "skr_def2",
+      "source": "Sasuke, Naruto...\nKeep watching me!",
+      "translation": "Sasuke, Naruto...\nContinuem me observando!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 19,
+      "field": 2,
+      "id": "skr_kks",
+      "source": "Don't worry.\nKakashi sensei is on our side!",
+      "translation": "Não se preocupe.\nKakashi-sensei está do nosso lado!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 20,
+      "field": 2,
+      "id": "skr_ino",
+      "source": "Don't fall behind! Ino!",
+      "translation": "Não fique para trás, Ino!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 21,
+      "field": 2,
+      "id": "roc_cmn1",
+      "source": "I am getting excited!",
+      "translation": "Estou ficando empolgado!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 22,
+      "field": 2,
+      "id": "roc_cmn2",
+      "source": "Finally, it is time for me to show the\nresult of my efforts!",
+      "translation": "Finalmente chegou a hora de mostrar\no resultado do meu esforço!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 23,
+      "field": 2,
+      "id": "roc_def1",
+      "source": "Neji, Tenten!\nLet us make the best of it!",
+      "translation": "Neji, Tenten!\nVamos dar o nosso melhor!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 24,
+      "field": 2,
+      "id": "roc_def2",
+      "source": "I will tell you this. We are the\nstrongest Genin of them all!",
+      "translation": "Vou dizer uma coisa. Somos os\nGenin mais fortes de todos!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 25,
+      "field": 2,
+      "id": "roc_guy",
+      "source": "If Guy sensei is on my side,\nI do not fear any opponent.",
+      "translation": "Com Guy-sensei do meu lado,\nnão temo adversário algum."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 26,
+      "field": 2,
+      "id": "roc_gar",
+      "source": "Gaara of the Sand...\nPlease lend me your aid!",
+      "translation": "Gaara da Areia...\nPor favor, me ajude!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 27,
+      "field": 2,
+      "id": "nej_cmn1",
+      "source": "You're unlucky to have me as your\nopponent.",
+      "translation": "Você deu azar de me ter como\nadversário."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 28,
+      "field": 2,
+      "id": "nej_cmn2",
+      "source": "Interesting...\nI'll be your opponent.",
+      "translation": "Interessante...\nEu serei seu adversário."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 29,
+      "field": 2,
+      "id": "nej_def1",
+      "source": "Lee, Tenten,\nfollow me.",
+      "translation": "Lee, Tenten,\nvenham comigo."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 30,
+      "field": 2,
+      "id": "nej_def2",
+      "source": "We have to be\ninvincible.",
+      "translation": "Temos que ser\ninvencíveis."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 31,
+      "field": 2,
+      "id": "nej_guy",
+      "source": "With jonin on our side, we can't lose.",
+      "translation": "Com Jonin do nosso lado, não podemos perder."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 32,
+      "field": 2,
+      "id": "nej_nrt",
+      "source": "It's time to show them our power.\nLet's go, Naruto!",
+      "translation": "Hora de mostrar nosso poder.\nVamos, Naruto!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 33,
+      "field": 2,
+      "id": "nej_hnt",
+      "source": "Hinata, I'd appreciate some backup.",
+      "translation": "Hinata, conto com sua cobertura."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 34,
+      "field": 2,
+      "id": "ten_cmn1",
+      "source": "I wonder how far you can go...",
+      "translation": "Quero ver até onde você consegue ir..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 35,
+      "field": 2,
+      "id": "ten_cmn2",
+      "source": "I'll give it all I've got from the\nstart!",
+      "translation": "Vou dar tudo de mim desde\no começo!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 36,
+      "field": 2,
+      "id": "ten_def1",
+      "source": "Neji, Lee!\nLet's do our best!!",
+      "translation": "Neji, Lee!\nVamos dar o nosso melhor!!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 37,
+      "field": 2,
+      "id": "ten_def2",
+      "source": "With me, Neji and Lee teamed up,\nwe're invincible!",
+      "translation": "Comigo, Neji e Lee juntos,\nsomos invencíveis!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 38,
+      "field": 2,
+      "id": "ten_guy",
+      "source": "Guy sensei, you can't go off by yourself!",
+      "translation": "Guy-sensei, não vá sozinho!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 39,
+      "field": 2,
+      "id": "sik_cmn1",
+      "source": "Tsk, what an annoying opponent...",
+      "translation": "Tsc, que adversário irritante..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 40,
+      "field": 2,
+      "id": "sik_cmn2",
+      "source": "Guess I should get serious once\nin a while.",
+      "translation": "Acho que devo levar a sério\nde vez em quando."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 41,
+      "field": 2,
+      "id": "sik_def1",
+      "source": "Choji! Ino!\nI'll count on you for backup!!",
+      "translation": "Choji! Ino!\nConto com a cobertura de vocês!!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 42,
+      "field": 2,
+      "id": "sik_def2",
+      "source": "Time to roll our combination moves!",
+      "translation": "Hora de usar nossos golpes combinados!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 43,
+      "field": 2,
+      "id": "sik_tmr",
+      "source": "Man, I hate looking uncool in front\nof the ladies...",
+      "translation": "Cara, odeio fazer feio na frente\ndas garotas..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 44,
+      "field": 2,
+      "id": "tyo_cmn1",
+      "source": "Nobody beats me\nwhen it comes to power!!",
+      "translation": "Ninguém me supera\nquando o assunto é força!!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 45,
+      "field": 2,
+      "id": "tyo_cmn2",
+      "source": "I'll definitely win, and then\neat something tasty!",
+      "translation": "Vou vencer com certeza e depois\ncomer algo gostoso!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 46,
+      "field": 2,
+      "id": "tyo_def1",
+      "source": "All the members of Asuma's\nTeam are here!!",
+      "translation": "Todos os membros do Time Asuma\nestão aqui!!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 47,
+      "field": 2,
+      "id": "tyo_def2",
+      "source": "Shikamaru, Ino!\nI'll go this time!",
+      "translation": "Shikamaru, Ino!\nDesta vez eu vou!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 48,
+      "field": 2,
+      "id": "ino_cmn1",
+      "source": "I'm gonna clobber you!",
+      "translation": "Vou acabar com você!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 49,
+      "field": 2,
+      "id": "ino_cmn2",
+      "source": "What? You wanna fight?!",
+      "translation": "O quê? Quer brigar?!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 50,
+      "field": 2,
+      "id": "ino_def1",
+      "source": "OK you guys, back me up with\neverything you got!",
+      "translation": "Certo, pessoal, me deem cobertura\ncom tudo o que tiverem!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 51,
+      "field": 2,
+      "id": "ino_def2",
+      "source": "Ino-Shika-Cho Trio!\nLet's go all out!",
+      "translation": "Trio Ino-Shika-Cho!\nVamos com tudo!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 52,
+      "field": 2,
+      "id": "ino_skr",
+      "source": "I didn't imagine Sakura'd be on\nmy team...",
+      "translation": "Nunca imaginei que Sakura estaria\nno meu time..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 53,
+      "field": 2,
+      "id": "kib_cmn1",
+      "source": "Hey, hey. Isn't it better for you\nto withdraw from this match!?",
+      "translation": "Ei, ei. Não seria melhor\nvocê desistir desta luta!?"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 54,
+      "field": 2,
+      "id": "kib_cmn2",
+      "source": "We'll show you how much better\nour teamwork is than yours!",
+      "translation": "Vamos mostrar como o nosso\ntrabalho em equipe é melhor que o seu!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 55,
+      "field": 2,
+      "id": "kib_def1",
+      "source": "Shino, Hinata!\nDon't leave me hangin'!!",
+      "translation": "Shino, Hinata!\nNão me deixem na mão!!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 56,
+      "field": 2,
+      "id": "kib_def2",
+      "source": "Squad 8, let's go for the win!!",
+      "translation": "Time 8, vamos vencer!!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 57,
+      "field": 2,
+      "id": "kib_knk",
+      "source": "With the Sand ninja on my side...\nI'm feelin' pretty confident...",
+      "translation": "Com os ninjas da Areia ao meu lado...\nEstou bem confiante..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 58,
+      "field": 2,
+      "id": "sin_cmn1",
+      "source": "You're already caught in my insect\ntrap.",
+      "translation": "Você já caiu na minha armadilha\nde insetos."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 59,
+      "field": 2,
+      "id": "sin_cmn2",
+      "source": "I won't lower my guard no matter\nwho my opponent is.",
+      "translation": "Não baixo a guarda, seja quem\nfor o meu adversário."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 60,
+      "field": 2,
+      "id": "sin_def1",
+      "source": "Kiba, Hinata. Let's go.",
+      "translation": "Kiba, Hinata. Vamos."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 61,
+      "field": 2,
+      "id": "sin_def2",
+      "source": "I'll count on you guys to back me up.",
+      "translation": "Conto com a cobertura de vocês."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 62,
+      "field": 2,
+      "id": "hnt_cmn1",
+      "source": "I'm not scared... I'm not scared...!",
+      "translation": "Não estou com medo... Não estou com medo...!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 63,
+      "field": 2,
+      "id": "hnt_cmn2",
+      "source": "I too can fight...!",
+      "translation": "Eu também posso lutar...!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 64,
+      "field": 2,
+      "id": "hnt_def1",
+      "source": "L-Let's do our best, the three of us...!",
+      "translation": "V-vamos dar o nosso melhor, nós três...!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 65,
+      "field": 2,
+      "id": "hnt_def2",
+      "source": "If we work together...\nwe can win, right?",
+      "translation": "Se trabalharmos juntos...\npodemos vencer, não é?"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 66,
+      "field": 2,
+      "id": "hnt_nrt",
+      "source": "Naruto is watching me...\nI will... do my best..!",
+      "translation": "Naruto está me observando...\nVou... dar o meu melhor...!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 67,
+      "field": 2,
+      "id": "hnt_nej",
+      "source": "Neji... Watch my back...!",
+      "translation": "Neji... Cubra minha retaguarda...!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 68,
+      "field": 2,
+      "id": "gar_cmn1",
+      "source": "Defeating you is nothing for me...",
+      "translation": "Derrotar você não é nada para mim..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 69,
+      "field": 2,
+      "id": "gar_cmn2",
+      "source": "Take your time and enjoy the\nterror of the Sand...",
+      "translation": "Aproveite para conhecer o\nterror da Areia..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 70,
+      "field": 2,
+      "id": "gar_def1",
+      "source": "Kankuro, Temari... Let's get started.",
+      "translation": "Kankuro, Temari... Vamos começar."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 71,
+      "field": 2,
+      "id": "gar_def2",
+      "source": "We'll show you the power of the Sand...",
+      "translation": "Vamos mostrar o poder da Areia..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 72,
+      "field": 2,
+      "id": "gar_nrt",
+      "source": "I warn you...\nWe are most definitely strong...",
+      "translation": "Já vou avisando...\nSomos mesmo muito fortes..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 73,
+      "field": 2,
+      "id": "gar_roc",
+      "source": "I can handle it alone.",
+      "translation": "Posso resolver isso sozinho."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 74,
+      "field": 2,
+      "id": "knk_cmn1",
+      "source": "I'll settle this straight away!",
+      "translation": "Vou resolver isso agora mesmo!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 75,
+      "field": 2,
+      "id": "knk_cmn2",
+      "source": "Now... The horror show begins.",
+      "translation": "Agora... começa o show de horrores."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 76,
+      "field": 2,
+      "id": "knk_def1",
+      "source": "We're ninja of the Sand.\nYou don't wanna mess with us.",
+      "translation": "Somos ninjas da Areia.\nÉ melhor não mexer com a gente."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 77,
+      "field": 2,
+      "id": "knk_def2",
+      "source": "The result is obvious...\nIf you're gonna fight us...",
+      "translation": "O resultado é óbvio...\nSe você vai nos enfrentar..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 78,
+      "field": 2,
+      "id": "knk_kib",
+      "source": "Don't worry. Anyone gets in our\nway, I can handle them, no problem.",
+      "translation": "Não se preocupe. Se alguém entrar no\nnosso caminho, eu resolvo sem problema."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 79,
+      "field": 2,
+      "id": "tmr_cmn1",
+      "source": "The result of this fight is already\nclear.",
+      "translation": "O resultado desta luta já\nestá claro."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 80,
+      "field": 2,
+      "id": "tmr_cmn2",
+      "source": "I don't care what happens to you!",
+      "translation": "Não me importo com o que aconteça com você!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 81,
+      "field": 2,
+      "id": "tmr_def1",
+      "source": "You're challenging the three siblings\nof the Sand? You've got guts.",
+      "translation": "Vai desafiar os três irmãos\nda Areia? Você tem coragem."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 82,
+      "field": 2,
+      "id": "tmr_def2",
+      "source": "Actually, I can handle it by myself.",
+      "translation": "Na verdade, posso resolver isso sozinha."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 83,
+      "field": 2,
+      "id": "tmr_sik",
+      "source": "I guess I can't expect a lot of\nthe backup with lazybones here...",
+      "translation": "Acho que não posso esperar muita\ncobertura com esse preguiçoso aqui..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 84,
+      "field": 2,
+      "id": "kks_cmn1",
+      "source": "Alright, let's get started...",
+      "translation": "Certo, vamos começar..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 85,
+      "field": 2,
+      "id": "kks_cmn2",
+      "source": "Don't worry, we won't lose.",
+      "translation": "Não se preocupe, não vamos perder."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 86,
+      "field": 2,
+      "id": "kks_guy",
+      "source": "Hey, Guy... Don't let your guard down...",
+      "translation": "Ei, Guy... Não baixe a guarda..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 87,
+      "field": 2,
+      "id": "kks_guy2",
+      "source": "Sigh, I hope this won't\nget too complicated...",
+      "translation": "Ah, espero que isso não\nfique complicado demais..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 88,
+      "field": 2,
+      "id": "kks_team",
+      "source": "Alright, Squad 7... Let's go!",
+      "translation": "Certo, Time 7... Vamos!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 89,
+      "field": 2,
+      "id": "guy_cmn1",
+      "source": "Do you think you can\nput out my blazing flame!?",
+      "translation": "Acha que consegue\napagar minha chama ardente!?"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 90,
+      "field": 2,
+      "id": "guy_cmn2",
+      "source": "Passion! Hot blood of youth!\nA huge clash!!",
+      "translation": "Paixão! O sangue quente da juventude!\nUm grande confronto!!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 91,
+      "field": 2,
+      "id": "guy_kks",
+      "source": "Kakashi! Cover my back!",
+      "translation": "Kakashi! Cubra minha retaguarda!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 92,
+      "field": 2,
+      "id": "guy_kks1",
+      "source": "Let's show off our hot\ncombination, Kakashi!",
+      "translation": "Vamos mostrar nossa combinação\nincandescente, Kakashi!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 93,
+      "field": 2,
+      "id": "guy_roc",
+      "source": "Lee and I will show you the result\nof our efforts... here and now!",
+      "translation": "Lee e eu vamos mostrar o resultado\ndo nosso esforço... aqui e agora!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 94,
+      "field": 2,
+      "id": "guy_team",
+      "source": "Heh-heh-heh!\nTeam Guy! Let's go all out!",
+      "translation": "Hehehe!\nTime Guy! Vamos com tudo!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 95,
+      "field": 2,
+      "id": "jry_cmn1",
+      "source": "I'll have some fun with you.",
+      "translation": "Vou me divertir com você."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 96,
+      "field": 2,
+      "id": "jry_cmn2",
+      "source": "I should show you my serious\nside sometime...",
+      "translation": "Devo mostrar meu lado sério\nalguma hora..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 97,
+      "field": 2,
+      "id": "jry_def1",
+      "source": "The members of the Sarutobi Team\nreunited? This gets me pumped up!",
+      "translation": "O Time Sarutobi reunido?\nIsso me deixa empolgado!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 98,
+      "field": 2,
+      "id": "jry_def2",
+      "source": "You want to challenge US?\nYou're pretty reckless.",
+      "translation": "Quer desafiar a GENTE?\nVocê é bem imprudente."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 99,
+      "field": 2,
+      "id": "jry_nrt",
+      "source": "Watch my moves carefully.\nThat's part of your training too, kid.",
+      "translation": "Observe bem meus movimentos.\nIsso também faz parte do seu treino, garoto."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 100,
+      "field": 2,
+      "id": "jry_team",
+      "source": "Let heaven shudder and earth howl!\nWe're the Sannin of the Leaf Village!",
+      "translation": "Que o céu trema e a terra ruja!\nSomos os Sannin da Vila da Folha!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 101,
+      "field": 2,
+      "id": "tnd_cmn1",
+      "source": "Okay!! Let's get started!!",
+      "translation": "Certo!! Vamos começar!!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 102,
+      "field": 2,
+      "id": "tnd_cmn2",
+      "source": "Do you think you can defeat me?",
+      "translation": "Acha que pode me derrotar?"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 103,
+      "field": 2,
+      "id": "tnd_def1",
+      "source": "Sarutobi sensei! Jiraiya! Let's\nrun wild, like we did in old days!",
+      "translation": "Sarutobi-sensei! Jiraiya! Vamos\ncom tudo, como nos velhos tempos!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 104,
+      "field": 2,
+      "id": "tnd_def2",
+      "source": "The three of us fighting side by\nside... It brings back memories!",
+      "translation": "Nós três lutando lado a lado...\nIsso traz lembranças!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 105,
+      "field": 2,
+      "id": "tnd_nrt",
+      "source": "You follow my lead, Naruto.",
+      "translation": "Siga minha liderança, Naruto."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 106,
+      "field": 2,
+      "id": "tnd_szn",
+      "source": "Let's get this over with quickly, so\nwe have some time left to relax.",
+      "translation": "Vamos acabar logo com isso para\nter tempo de relaxar."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 107,
+      "field": 2,
+      "id": "tnd_team",
+      "source": "With the three of us together,\nthere's no way we'll lose!",
+      "translation": "Com nós três juntos,\nnão tem como perder!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 108,
+      "field": 2,
+      "id": "hkg_cmn1",
+      "source": "Never underestimate the power of\nthe Third Hokage!",
+      "translation": "Nunca subestime o poder\ndo Terceiro Hokage!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 109,
+      "field": 2,
+      "id": "hkg_cmn2",
+      "source": "I fight in order to protect the\npeople who are important to me.",
+      "translation": "Eu luto para proteger as\npessoas importantes para mim."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 110,
+      "field": 2,
+      "id": "hkg_def1",
+      "source": "Jiraiya, Tsunade! Let's go!",
+      "translation": "Jiraiya, Tsunade! Vamos!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 111,
+      "field": 2,
+      "id": "hkg_def2",
+      "source": "It's the Sarutobi Team... reunited!",
+      "translation": "É o Time Sarutobi... reunido!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 112,
+      "field": 2,
+      "id": "hkg_orc",
+      "source": "Orochimaru... I'll allow your\ncooperation for the time being.",
+      "translation": "Orochimaru... Vou aceitar sua\ncooperação por enquanto."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 113,
+      "field": 2,
+      "id": "hkg_team",
+      "source": "First Hokage, Second Hokage...\nLet's go!",
+      "translation": "Primeiro Hokage, Segundo Hokage...\nVamos!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 114,
+      "field": 2,
+      "id": "orc_cmn1",
+      "source": "I'll finish this off in seconds.",
+      "translation": "Vou acabar com isso em segundos."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 115,
+      "field": 2,
+      "id": "orc_cmn2",
+      "source": "This is a good opportunity to\nconduct an experiment.",
+      "translation": "Esta é uma boa oportunidade\npara fazer um experimento."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 116,
+      "field": 2,
+      "id": "orc_def1",
+      "source": "This will be a delightful feast...",
+      "translation": "Será um banquete delicioso..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 117,
+      "field": 2,
+      "id": "orc_def2",
+      "source": "I shall devour... everything...",
+      "translation": "Vou devorar... tudo..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 118,
+      "field": 2,
+      "id": "orc_hkg",
+      "source": "I'll have you lend me your support,\nSarutobi sensei...",
+      "translation": "Conto com seu apoio,\nSarutobi-sensei..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 119,
+      "field": 2,
+      "id": "orc_ssk",
+      "source": "Sasuke...! Behold my \noverwhelming power.",
+      "translation": "Sasuke...! Contemple meu\npoder avassalador."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 120,
+      "field": 2,
+      "id": "orc_team",
+      "source": "Jiraiya... Tsunade... I'll make the\nbest possible use of you two. ",
+      "translation": "Jiraiya... Tsunade... Vou aproveitar\nvocês dois ao máximo. "
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 121,
+      "field": 2,
+      "id": "kbt_cmn1",
+      "source": "Okay... let's get started.",
+      "translation": "Certo... vamos começar."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 122,
+      "field": 2,
+      "id": "kbt_cmn2",
+      "source": "Well well, it looks like playtime\nis about to begin.",
+      "translation": "Ora, ora, parece que a brincadeira\nvai começar."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 123,
+      "field": 2,
+      "id": "kbt_def1",
+      "source": "How dare you challenge us with\nLord Orochimaru on our side...?",
+      "translation": "Como ousa nos desafiar com\no senhor Orochimaru ao nosso lado...?"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 124,
+      "field": 2,
+      "id": "kbt_def2",
+      "source": "Nobody who tries to stand in the\nway of our ambitions will be spared.",
+      "translation": "Não pouparemos ninguém que tente\nimpedir nossas ambições."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 125,
+      "field": 2,
+      "id": "kmm_cmn1",
+      "source": "Whoever they may be... no one is\ngood enough to be my opponent.",
+      "translation": "Seja quem for... ninguém está\nà altura de me enfrentar."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 126,
+      "field": 2,
+      "id": "kmm_cmn2",
+      "source": "I'll finish you off quickly...",
+      "translation": "Vou acabar com você depressa..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 127,
+      "field": 2,
+      "id": "kmm_def1",
+      "source": "Lord Orochimaru is on our side.\nIt's over for you.",
+      "translation": "O senhor Orochimaru está conosco.\nAcabou para você."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 128,
+      "field": 2,
+      "id": "kmm_def2",
+      "source": "If you challenge ninja of the Hidden\nSound Village, you'll have to pay dearly for it.",
+      "translation": "Se desafiar os ninjas da Vila Oculta\ndo Som, vai pagar muito caro."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 129,
+      "field": 2,
+      "id": "itc_cmn1",
+      "source": "You're getting in my way...?\nHow feebleminded are you?",
+      "translation": "Vai ficar no meu caminho...?\nVocê é tão idiota assim?"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 130,
+      "field": 2,
+      "id": "itc_cmn2",
+      "source": "The loser has already been decided...",
+      "translation": "O perdedor já foi decidido..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 131,
+      "field": 2,
+      "id": "itc_def1",
+      "source": "Kisame... You know what to do...",
+      "translation": "Kisame... Você sabe o que fazer..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 132,
+      "field": 2,
+      "id": "itc_def2",
+      "source": "Are you challenging the Akatsuki...?",
+      "translation": "Está desafiando a Akatsuki...?"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 133,
+      "field": 2,
+      "id": "itc_ssk",
+      "source": "You should see how weak you are...\nSasuke.",
+      "translation": "Você precisa ver como é fraco...\nSasuke."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 134,
+      "field": 2,
+      "id": "ksm_cmn1",
+      "source": "I'll make you the prey of my Shark\nSkin.",
+      "translation": "Vou fazer de você uma presa\nda minha Pele de Tubarão."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 135,
+      "field": 2,
+      "id": "ksm_cmn2",
+      "source": "Well, let's see if you can entertain\nus a little.",
+      "translation": "Bem, vamos ver se você consegue\nnos divertir um pouco."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 136,
+      "field": 2,
+      "id": "ksm_def1",
+      "source": "Challenging the Akatsuki...\nFoolishness has its limits, you know...",
+      "translation": "Desafiar a Akatsuki...\nAté a tolice tem limites, sabia...?"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 137,
+      "field": 2,
+      "id": "ksm_def2",
+      "source": "What shall we do, Itachi?\nWipe them all out?",
+      "translation": "O que faremos, Itachi?\nAcabar com todos?"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 138,
+      "field": 2,
+      "id": "nrv_cmn1",
+      "source": "Guruaaaahh!!",
+      "translation": "Guruaaaahh!!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 139,
+      "field": 2,
+      "id": "nrv_cmn2",
+      "source": "I'm not gonna lose!!",
+      "translation": "Eu não vou perder!!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 140,
+      "field": 2,
+      "id": "ssv_cmn1",
+      "source": "If you try to get in our way...\nthere's no other choice...",
+      "translation": "Se tentar entrar no nosso caminho...\nnão teremos escolha..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 141,
+      "field": 2,
+      "id": "ssv_cmn2",
+      "source": "Don't get too close to me now...\nThere's no telling what will happen.",
+      "translation": "Não chegue muito perto de mim...\nNão dá para saber o que vai acontecer."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 142,
+      "field": 2,
+      "id": "kmv_cmn1",
+      "source": "I warn you, I won't be easy...",
+      "translation": "Já aviso, não vou facilitar..."
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 143,
+      "field": 2,
+      "id": "kmv_cmn2",
+      "source": "My reason to fight is\nfor Lord Orochimaru...!",
+      "translation": "Minha razão para lutar é\no senhor Orochimaru...!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 144,
+      "field": 2,
+      "id": "rov_cmn1",
+      "source": "Can you keep up with me!?",
+      "translation": "Consegue me acompanhar!?"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 145,
+      "field": 2,
+      "id": "rov_cmn2",
+      "source": "I will fight with all my power!",
+      "translation": "Vou lutar com todo o meu poder!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 146,
+      "field": 2,
+      "id": "guv_cmn1",
+      "source": "I'll achieve victory at the risk\nof my body and soul!!",
+      "translation": "Vou alcançar a vitória arriscando\nmeu corpo e minha alma!!"
+    },
+    {
+      "chunk": "duelstart_normal",
+      "index": 147,
+      "field": 2,
+      "id": "guv_cmn2",
+      "source": "I won't lose!! No matter what!!",
+      "translation": "Não vou perder!! De jeito nenhum!!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 0,
+      "field": 2,
+      "id": "001_1",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 1,
+      "field": 2,
+      "id": "001_2",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 2,
+      "field": 2,
+      "id": "002_1",
+      "source": "All right, let's get started!!",
+      "translation": "Certo, vamos começar!!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 3,
+      "field": 2,
+      "id": "002_2",
+      "source": "Alright, easy there, tiger...",
+      "translation": "Calma aí, esquentadinho..."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 4,
+      "field": 2,
+      "id": "003_1",
+      "source": "Is teamwork that important?",
+      "translation": "Trabalho em equipe é tão importante assim?"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 5,
+      "field": 2,
+      "id": "003_2",
+      "source": "Well then, let the lesson begin.",
+      "translation": "Bem, vamos começar a aula."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 6,
+      "field": 2,
+      "id": "004_1",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 7,
+      "field": 2,
+      "id": "004_2",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 8,
+      "field": 2,
+      "id": "005_1",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 9,
+      "field": 2,
+      "id": "005_2",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 10,
+      "field": 2,
+      "id": "006_1",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 11,
+      "field": 2,
+      "id": "006_2",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 12,
+      "field": 2,
+      "id": "007_1",
+      "source": "We'll show you our power!!",
+      "translation": "Vamos mostrar nosso poder!!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 13,
+      "field": 2,
+      "id": "007_2",
+      "source": "Looks like I better step it up a\nnotch, then...",
+      "translation": "Parece que vou ter que me esforçar\nmais, então..."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 14,
+      "field": 2,
+      "id": "008_1",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 15,
+      "field": 2,
+      "id": "008_2",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 16,
+      "field": 2,
+      "id": "009_1",
+      "source": "We're never gonna surrender!",
+      "translation": "Nunca vamos nos render!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 17,
+      "field": 2,
+      "id": "009_2",
+      "source": "The weakest pup will get no mercy\nfrom me, if he is my opponent.",
+      "translation": "Não terei piedade nem do filhote\nmais fraco, se ele me enfrentar."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 18,
+      "field": 2,
+      "id": "010_1",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 19,
+      "field": 2,
+      "id": "010_2",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 20,
+      "field": 2,
+      "id": "011_1",
+      "source": "No contest!!",
+      "translation": "Não teve nem graça!!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 21,
+      "field": 2,
+      "id": "011_2",
+      "source": "Don't get cocky!\nYou crybaby, Sakura!!",
+      "translation": "Não se ache tanto!\nSua chorona, Sakura!!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 22,
+      "field": 2,
+      "id": "012_1",
+      "source": "I'll bring this match to an end\nreal quick!",
+      "translation": "Vou acabar com esta luta\nbem rápido!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 23,
+      "field": 2,
+      "id": "012_2",
+      "source": "I'll play with you just to kill time.",
+      "translation": "Vou brincar com você só para passar o tempo."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 24,
+      "field": 2,
+      "id": "013_1",
+      "source": "I'm not gonna lose to you!",
+      "translation": "Não vou perder para você!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 25,
+      "field": 2,
+      "id": "013_2",
+      "source": "A single blow's enough\nto take you out!",
+      "translation": "Um único golpe basta\npara acabar com você!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 26,
+      "field": 2,
+      "id": "014_1",
+      "source": "Neji... Let's face off!!",
+      "translation": "Neji... Vamos nos enfrentar!!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 27,
+      "field": 2,
+      "id": "014_2",
+      "source": "Fine...\nI'll teach you reality...",
+      "translation": "Muito bem...\nVou ensinar a realidade a você..."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 28,
+      "field": 2,
+      "id": "015_1",
+      "source": "I am glad to be able to fight you\nso soon.",
+      "translation": "Fico feliz de poder lutar\ncom você tão cedo."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 29,
+      "field": 2,
+      "id": "015_2",
+      "source": "Hmph...",
+      "translation": "Hum..."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 30,
+      "field": 2,
+      "id": "016_1",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 31,
+      "field": 2,
+      "id": "016_2",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 32,
+      "field": 2,
+      "id": "017_1",
+      "source": "Right! Lemme show ya what I can do!",
+      "translation": "Certo! Vou mostrar do que sou capaz!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 33,
+      "field": 2,
+      "id": "017_2",
+      "source": "Well well,\nlet's see what you've got.",
+      "translation": "Ora, ora,\nvamos ver do que você é capaz."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 34,
+      "field": 2,
+      "id": "018_1",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 35,
+      "field": 2,
+      "id": "018_2",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 36,
+      "field": 2,
+      "id": "019_1",
+      "source": "I'll never lose to you... no matter what!",
+      "translation": "Nunca vou perder para você... de jeito nenhum!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 37,
+      "field": 2,
+      "id": "019_2",
+      "source": "I'm afraid you have no choice in the\nmatter. It is your destiny.",
+      "translation": "Receio que você não tenha escolha.\nÉ o seu destino."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 38,
+      "field": 2,
+      "id": "020_1",
+      "source": "Well, let me see what I can do.",
+      "translation": "Bem, vamos ver o que eu consigo fazer."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 39,
+      "field": 2,
+      "id": "020_2",
+      "source": "Give up before it's too late, okay?",
+      "translation": "Desista antes que seja tarde demais, tá?"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 40,
+      "field": 2,
+      "id": "021_1",
+      "source": "Let's do it...",
+      "translation": "Vamos lá..."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 41,
+      "field": 2,
+      "id": "021_2",
+      "source": "I'm going to enjoy this...!",
+      "translation": "Vou me divertir com isso...!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 42,
+      "field": 2,
+      "id": "022_1",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 43,
+      "field": 2,
+      "id": "022_2",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 44,
+      "field": 2,
+      "id": "023_1",
+      "source": "I never underestimate my opponent,\nno matter who they may be...",
+      "translation": "Nunca subestimo meu adversário,\nseja quem for..."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 45,
+      "field": 2,
+      "id": "023_2",
+      "source": "Huh... Bring it on!",
+      "translation": "Hum... Pode vir!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 46,
+      "field": 2,
+      "id": "024_1",
+      "source": "Let's just see who you really are..!",
+      "translation": "Vamos ver quem você é de verdade...!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 47,
+      "field": 2,
+      "id": "024_2",
+      "source": "Let's continue where we left off...\nCome.",
+      "translation": "Vamos continuar de onde paramos...\nVenha."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 48,
+      "field": 2,
+      "id": "025_1",
+      "source": "Ugh... I'll do it...!",
+      "translation": "Argh... Eu vou fazer isso...!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 49,
+      "field": 2,
+      "id": "025_2",
+      "source": "Come... I'll tear you to pieces!!",
+      "translation": "Venha... Vou despedaçar você!!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 50,
+      "field": 2,
+      "id": "026_1",
+      "source": "I'll take you prisoner and interrogate you.",
+      "translation": "Vou capturar você e interrogá-lo."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 51,
+      "field": 2,
+      "id": "026_2",
+      "source": "Think you can do it? I'm not so sure...",
+      "translation": "Acha que consegue? Não tenho tanta certeza..."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 52,
+      "field": 2,
+      "id": "027_1",
+      "source": "I will protect the Leaf Village!",
+      "translation": "Vou proteger a Vila da Folha!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 53,
+      "field": 2,
+      "id": "027_2",
+      "source": "Heh-heh-heh...\nI never imagined I'd fight you again...",
+      "translation": "Hehehe...\nNunca imaginei que lutaria com você de novo..."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 54,
+      "field": 2,
+      "id": "028_1",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 55,
+      "field": 2,
+      "id": "028_2",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 56,
+      "field": 2,
+      "id": "029_1",
+      "source": "Guess I'd better get serious...",
+      "translation": "Acho melhor levar isso a sério..."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 57,
+      "field": 2,
+      "id": "029_2",
+      "source": "Kakashi...\nI need to wipe you out...",
+      "translation": "Kakashi...\nPreciso eliminar você..."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 58,
+      "field": 2,
+      "id": "030_1",
+      "source": "I'll show you the strength of the\nfiercest beast!!!",
+      "translation": "Vou mostrar a força da\nfera mais feroz!!!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 59,
+      "field": 2,
+      "id": "030_2",
+      "source": "I'll whittle you away in no time.",
+      "translation": "Vou reduzir você a nada num instante."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 60,
+      "field": 2,
+      "id": "031_1",
+      "source": "I'm givin' this my best shot!",
+      "translation": "Vou dar o meu melhor!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 61,
+      "field": 2,
+      "id": "031_2",
+      "source": "Your eagerness alone is a handful.",
+      "translation": "Só a sua empolgação já dá trabalho."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 62,
+      "field": 2,
+      "id": "032_1",
+      "source": "I've gone on living... only to defeat you!!",
+      "translation": "Continuei vivendo... só para derrotar você!!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 63,
+      "field": 2,
+      "id": "032_2",
+      "source": "Go away. You don’t interest me\nat the moment.",
+      "translation": "Vá embora. Você não me interessa\nno momento."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 64,
+      "field": 2,
+      "id": "033_1",
+      "source": "I'll wipe you guys out!",
+      "translation": "Vou acabar com vocês!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 65,
+      "field": 2,
+      "id": "033_2",
+      "source": "I couldn't ask for\nworthier opponents!!",
+      "translation": "Não poderia pedir\nadversários mais dignos!!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 66,
+      "field": 2,
+      "id": "034_1",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 67,
+      "field": 2,
+      "id": "034_2",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 68,
+      "field": 2,
+      "id": "035_1",
+      "source": "It's too late for apologies, so save it! \nI'm not gonna forgive you!",
+      "translation": "É tarde demais para pedir desculpas!\nNão vou perdoar vocês!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 69,
+      "field": 2,
+      "id": "035_2",
+      "source": "Hmph... I don't even need to go all out.",
+      "translation": "Hum... Nem preciso dar tudo de mim."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 70,
+      "field": 2,
+      "id": "036_1",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 71,
+      "field": 2,
+      "id": "036_2",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 72,
+      "field": 2,
+      "id": "037_1",
+      "source": "You guys are worthless!\nI'll beat you down here and now!!",
+      "translation": "Vocês não valem nada!\nVou derrotá-los aqui e agora!!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 73,
+      "field": 2,
+      "id": "037_2",
+      "source": "It's my honor to be given the chance\nto do battle with you.",
+      "translation": "É uma honra ter a chance\nde lutar com você."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 74,
+      "field": 2,
+      "id": "038_1",
+      "source": "I'll defeat you...no matter what!!",
+      "translation": "Vou derrotar você... custe o que custar!!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 75,
+      "field": 2,
+      "id": "038_2",
+      "source": "If you try to get in my way...\nI won't go easy on you...",
+      "translation": "Se tentar entrar no meu caminho...\nnão vou pegar leve..."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 76,
+      "field": 2,
+      "id": "039_1",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 77,
+      "field": 2,
+      "id": "039_2",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 78,
+      "field": 2,
+      "id": "040_1",
+      "source": "Let's find out who's the strongest!!",
+      "translation": "Vamos descobrir quem é o mais forte!!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 79,
+      "field": 2,
+      "id": "040_2",
+      "source": "You loser!\nStop spouting nonsense!",
+      "translation": "Seu fracassado!\nPare de falar bobagens!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 80,
+      "field": 2,
+      "id": "041_1",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 81,
+      "field": 2,
+      "id": "041_2",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 82,
+      "field": 2,
+      "id": "042_1",
+      "source": "This will be the end of the line\nfor you...",
+      "translation": "Aqui será o fim da linha\npara você..."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 83,
+      "field": 2,
+      "id": "042_2",
+      "source": "Hm... It seems like you can\nentertain me...",
+      "translation": "Hum... Parece que você pode\nme divertir..."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 84,
+      "field": 2,
+      "id": "043_1",
+      "source": "He's an annoying opponent, but...\nI guess I just have to do it!",
+      "translation": "Ele é um adversário irritante, mas...\nAcho que não tenho escolha!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 85,
+      "field": 2,
+      "id": "043_2",
+      "source": "You all... are not my enemy.",
+      "translation": "Vocês... não são meus inimigos."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 86,
+      "field": 2,
+      "id": "044_1",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 87,
+      "field": 2,
+      "id": "044_2",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 88,
+      "field": 2,
+      "id": "045_1",
+      "source": "I won't let you take Sasuke away,\nno matter what!!",
+      "translation": "Não vou deixar vocês levarem Sasuke,\nde jeito nenhum!!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 89,
+      "field": 2,
+      "id": "045_2",
+      "source": "Come...",
+      "translation": "Venha..."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 90,
+      "field": 2,
+      "id": "046_1",
+      "source": "This match...\nI cannot lose!",
+      "translation": "Esta luta...\nEu não posso perder!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 91,
+      "field": 2,
+      "id": "046_2",
+      "source": "I must not lower my guard with\nthis one...",
+      "translation": "Não posso baixar a guarda\ncom este aqui..."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 92,
+      "field": 2,
+      "id": "047_1",
+      "source": "I'll take care of you...",
+      "translation": "Vou dar um jeito em você..."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 93,
+      "field": 2,
+      "id": "047_2",
+      "source": "Everything is for Lord Orochimaru...!",
+      "translation": "Tudo pelo senhor Orochimaru...!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 94,
+      "field": 2,
+      "id": "048_1",
+      "source": "I won't let you go to Orochimaru!!",
+      "translation": "Não vou deixar você ir até Orochimaru!!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 95,
+      "field": 2,
+      "id": "048_2",
+      "source": "If you get in my way,\nI'm not going easy on you.",
+      "translation": "Se entrar no meu caminho,\nnão vou pegar leve."
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 96,
+      "field": 2,
+      "id": "049_1",
+      "source": "I'm not gonna let that happen!",
+      "translation": "Não vou deixar isso acontecer!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 97,
+      "field": 2,
+      "id": "049_2",
+      "source": "Let's wrap this up, Naruto!",
+      "translation": "Vamos acabar com isso, Naruto!"
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 98,
+      "field": 2,
+      "id": "050_1",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duelstart_event",
+      "index": 99,
+      "field": 2,
+      "id": "050_2",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 0,
+      "field": 2,
+      "id": "0",
+      "source": "None.",
+      "translation": "Nenhum."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 1,
+      "field": 2,
+      "id": "1",
+      "source": "Win the battle.",
+      "translation": "Vença a batalha."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 2,
+      "field": 2,
+      "id": "2",
+      "source": "Fight in Awakening Mode.",
+      "translation": "Lute no modo Despertar."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 3,
+      "field": 2,
+      "id": "3",
+      "source": "In a state where Awakening mode \nis not possible.",
+      "translation": "Sem poder usar o modo\nDespertar."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 4,
+      "field": 2,
+      "id": "4",
+      "source": "In a state of Ultimate Jutsu being \nunusable.",
+      "translation": "Sem poder usar Jutsu\nSupremo."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 5,
+      "field": 2,
+      "id": "5",
+      "source": "Win with at least one life bar\nremaining.",
+      "translation": "Vença com pelo menos uma barra\nde Vida restante."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 6,
+      "field": 2,
+      "id": "6",
+      "source": "Win with at least two life bars\nremaining.",
+      "translation": "Vença com pelo menos duas barras\nde Vida restantes."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 7,
+      "field": 2,
+      "id": "7",
+      "source": "Win with at least 30% chakra\nremaining.",
+      "translation": "Vença com pelo menos 30% de\nChakra restante."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 8,
+      "field": 2,
+      "id": "8",
+      "source": "Win with at least 50% chakra\nremaining.",
+      "translation": "Vença com pelo menos 50% de\nChakra restante."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 9,
+      "field": 2,
+      "id": "9",
+      "source": "Win with at least 70% chakra\nremaining.",
+      "translation": "Vença com pelo menos 70% de\nChakra restante."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 10,
+      "field": 2,
+      "id": "10",
+      "source": "Win with 100% chakra remaining.",
+      "translation": "Vença com 100% de Chakra restante."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 11,
+      "field": 2,
+      "id": "11",
+      "source": "Defeat the enemy within 40 counts.",
+      "translation": "Derrote o inimigo em até 40 contagens."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 12,
+      "field": 2,
+      "id": "12",
+      "source": "Defeat the enemy within 60 counts.",
+      "translation": "Derrote o inimigo em até 60 contagens."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 13,
+      "field": 2,
+      "id": "13",
+      "source": "Defeat the enemy within 80 counts.",
+      "translation": "Derrote o inimigo em até 80 contagens."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 14,
+      "field": 2,
+      "id": "14",
+      "source": "Defeat the enemy by throwing them.",
+      "translation": "Derrote o inimigo com um arremesso."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 15,
+      "field": 2,
+      "id": "15",
+      "source": "Defeat the enemy with ninjutsu.",
+      "translation": "Derrote o inimigo com Ninjutsu."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 16,
+      "field": 2,
+      "id": "16",
+      "source": "Defeat the enemy with an Ultimate\nJutsu.",
+      "translation": "Derrote o inimigo com um Jutsu\nSupremo."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 17,
+      "field": 2,
+      "id": "17",
+      "source": "Defeat the enemy while in Awakening\nMode.",
+      "translation": "Derrote o inimigo no modo\nDespertar."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 18,
+      "field": 2,
+      "id": "18",
+      "source": "Win with an Ultimate Impact as the\nfinishing blow.",
+      "translation": "Vença com um Impacto Supremo\ncomo golpe final."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 19,
+      "field": 2,
+      "id": "19",
+      "source": "Win with a support attack as the\nfinishing blow.",
+      "translation": "Vença com um ataque de Suporte\ncomo golpe final."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 20,
+      "field": 2,
+      "id": "20",
+      "source": "No attack failure.",
+      "translation": "Não erre ataques."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 21,
+      "field": 2,
+      "id": "21",
+      "source": "No jump.",
+      "translation": "Não pule."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 22,
+      "field": 2,
+      "id": "22",
+      "source": "Do not use Substitution Jutsu.",
+      "translation": "Não use Jutsu de Substituição."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 23,
+      "field": 2,
+      "id": "23",
+      "source": "Don't guard against enemy attacks.",
+      "translation": "Não defenda os ataques inimigos."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 24,
+      "field": 2,
+      "id": "24",
+      "source": "Without using any ninja tools.",
+      "translation": "Sem usar Ferramentas Ninja."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 25,
+      "field": 2,
+      "id": "25",
+      "source": "No ninjutsu.",
+      "translation": "Não use Ninjutsu."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 26,
+      "field": 2,
+      "id": "26",
+      "source": "Don't use any Ultimate Jutsu.",
+      "translation": "Não use Jutsu Supremo."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 27,
+      "field": 2,
+      "id": "27",
+      "source": "Don't allow the opponent to \nuse Ultimate Jutsu.",
+      "translation": "Não deixe o adversário\nusar Jutsu Supremo."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 28,
+      "field": 2,
+      "id": "28",
+      "source": "Use Substitution Jutsu at least\n2 times.",
+      "translation": "Use Jutsu de Substituição pelo menos\n2 vezes."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 29,
+      "field": 2,
+      "id": "29",
+      "source": "Use Substitution Jutsu at least\n4 times.",
+      "translation": "Use Jutsu de Substituição pelo menos\n4 vezes."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 30,
+      "field": 2,
+      "id": "30",
+      "source": "Use Substitution Jutsu at least\n6 times.",
+      "translation": "Use Jutsu de Substituição pelo menos\n6 vezes."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 31,
+      "field": 2,
+      "id": "31",
+      "source": "Summon a support character.",
+      "translation": "Invoque um personagem de Suporte."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 32,
+      "field": 2,
+      "id": "32",
+      "source": "Summon a support character\nat least 2 times.",
+      "translation": "Invoque um personagem de Suporte\npelo menos 2 vezes."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 33,
+      "field": 2,
+      "id": "33",
+      "source": "Summon a support character\nat least 3 times.",
+      "translation": "Invoque um personagem de Suporte\npelo menos 3 vezes."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 34,
+      "field": 2,
+      "id": "34",
+      "source": "Summon a support character\nat least 4 times.",
+      "translation": "Invoque um personagem de Suporte\npelo menos 4 vezes."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 35,
+      "field": 2,
+      "id": "35",
+      "source": "Land at least 3 extra hits on a\ndowned enemy.",
+      "translation": "Acerte pelo menos 3 golpes adicionais\nno inimigo caído."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 36,
+      "field": 2,
+      "id": "36",
+      "source": "Land at least 4 extra hits on a\ndowned enemy.",
+      "translation": "Acerte pelo menos 4 golpes adicionais\nno inimigo caído."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 37,
+      "field": 2,
+      "id": "37",
+      "source": "Land at least 6 extra hits on a\ndowned enemy.",
+      "translation": "Acerte pelo menos 6 golpes adicionais\nno inimigo caído."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 38,
+      "field": 2,
+      "id": "38",
+      "source": "Perform Supportive Extra Hit.",
+      "translation": "Execute um golpe adicional de Suporte."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 39,
+      "field": 2,
+      "id": "39",
+      "source": "Perform Supportive Extra Hit 3 times.",
+      "translation": "Execute 3 golpes adicionais de Suporte."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 40,
+      "field": 2,
+      "id": "40",
+      "source": "Hit with Ultimate Impact.",
+      "translation": "Acerte um Impacto Supremo."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 41,
+      "field": 2,
+      "id": "41",
+      "source": "Hit with Ultimate Impact\n2 times.",
+      "translation": "Acerte um Impacto Supremo\n2 vezes."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 42,
+      "field": 2,
+      "id": "42",
+      "source": "Hit with Ultimate Impact\n3 times.",
+      "translation": "Acerte um Impacto Supremo\n3 vezes."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 43,
+      "field": 2,
+      "id": "43",
+      "source": "Perform a 5-hit combo attack.",
+      "translation": "Execute um combo de 5 golpes."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 44,
+      "field": 2,
+      "id": "44",
+      "source": "Perform a 10-hit combo attack.",
+      "translation": "Execute um combo de 10 golpes."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 45,
+      "field": 2,
+      "id": "45",
+      "source": "Perform a 15-hit combo attack.",
+      "translation": "Execute um combo de 15 golpes."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 46,
+      "field": 2,
+      "id": "46",
+      "source": "Perform a 20-hit combo attack.",
+      "translation": "Execute um combo de 20 golpes."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 47,
+      "field": 2,
+      "id": "47",
+      "source": "Perform a 25-hit combo attack.",
+      "translation": "Execute um combo de 25 golpes."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 48,
+      "field": 2,
+      "id": "48",
+      "source": "Perform a 30-hit combo attack.",
+      "translation": "Execute um combo de 30 golpes."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 49,
+      "field": 2,
+      "id": "49",
+      "source": "Perform a 35-hit combo attack.",
+      "translation": "Execute um combo de 35 golpes."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 50,
+      "field": 2,
+      "id": "50",
+      "source": "Perform a 40-hit combo attack.",
+      "translation": "Execute um combo de 40 golpes."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 51,
+      "field": 2,
+      "id": "51",
+      "source": "Perform a 45-hit combo attack.",
+      "translation": "Execute um combo de 45 golpes."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 52,
+      "field": 2,
+      "id": "52",
+      "source": "Perform a 50-hit combo attack.",
+      "translation": "Execute um combo de 50 golpes."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 53,
+      "field": 2,
+      "id": "53",
+      "source": "Use Awakening Mode.",
+      "translation": "Use o modo Despertar."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 54,
+      "field": 2,
+      "id": "54",
+      "source": "Use an Ultimate Jutsu.",
+      "translation": "Use um Jutsu Supremo."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 55,
+      "field": 2,
+      "id": "55",
+      "source": "Max out the Storm Gauge.",
+      "translation": "Encha a Barra de Tempestade."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 56,
+      "field": 2,
+      "id": "56",
+      "source": "Use Ultimate Jutsu while Storm\nGauge at MAX.",
+      "translation": "Use um Jutsu Supremo com a Barra\nde Tempestade no MÁX."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 57,
+      "field": 2,
+      "id": "57",
+      "source": "In a state of slow speed.",
+      "translation": "Em estado de lentidão."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 58,
+      "field": 2,
+      "id": "58",
+      "source": "In a state of low attack power.",
+      "translation": "Com poder de ataque reduzido."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 59,
+      "field": 2,
+      "id": "59",
+      "source": "In a state of low defense power.",
+      "translation": "Com poder de defesa reduzido."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 60,
+      "field": 2,
+      "id": "60",
+      "source": "In a poisoned state.",
+      "translation": "Em estado de envenenamento."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 61,
+      "field": 2,
+      "id": "61",
+      "source": "Start with only one life bar.",
+      "translation": "Comece com apenas uma barra de Vida."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 62,
+      "field": 2,
+      "id": "62",
+      "source": "Start with only two life bars.",
+      "translation": "Comece com apenas duas barras de Vida."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 63,
+      "field": 2,
+      "id": "63",
+      "source": "In a state of no chakra.",
+      "translation": "Sem Chakra."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 64,
+      "field": 2,
+      "id": "64",
+      "source": "Start with chakra at 30%.",
+      "translation": "Comece com 30% de Chakra."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 65,
+      "field": 2,
+      "id": "65",
+      "source": "Start with chakra at 50%.",
+      "translation": "Comece com 50% de Chakra."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 66,
+      "field": 2,
+      "id": "66",
+      "source": "Start with chakra at 70%.",
+      "translation": "Comece com 70% de Chakra."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 67,
+      "field": 2,
+      "id": "67",
+      "source": "In a state of chakra being unusable.",
+      "translation": "Sem poder usar Chakra."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 68,
+      "field": 2,
+      "id": "68",
+      "source": "With enemy in a fast state.",
+      "translation": "Com o inimigo acelerado."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 69,
+      "field": 2,
+      "id": "69",
+      "source": "With enemy in a fast state.",
+      "translation": "Com o inimigo acelerado."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 70,
+      "field": 2,
+      "id": "70",
+      "source": "With enemy in a fast state.",
+      "translation": "Com o inimigo acelerado."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 71,
+      "field": 2,
+      "id": "71",
+      "source": "With enemy's attack power high.",
+      "translation": "Com poder de ataque do inimigo aumentado."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 72,
+      "field": 2,
+      "id": "72",
+      "source": "With enemy's attack power high.",
+      "translation": "Com poder de ataque do inimigo aumentado."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 73,
+      "field": 2,
+      "id": "73",
+      "source": "With enemy's attack power high.",
+      "translation": "Com poder de ataque do inimigo aumentado."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 74,
+      "field": 2,
+      "id": "74",
+      "source": "With enemy's defense power high.",
+      "translation": "Com poder de defesa do inimigo aumentado."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 75,
+      "field": 2,
+      "id": "75",
+      "source": "With enemy's defense power high.",
+      "translation": "Com poder de defesa do inimigo aumentado."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 76,
+      "field": 2,
+      "id": "76",
+      "source": "With enemy's defense power high.",
+      "translation": "Com poder de defesa do inimigo aumentado."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 77,
+      "field": 2,
+      "id": "77",
+      "source": "With enemy's HEALTH continuously \nrecovering.",
+      "translation": "Com a VIDA do inimigo se\nrecuperando continuamente."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 78,
+      "field": 2,
+      "id": "78",
+      "source": "With enemy's chakra constantly\nregenerating.",
+      "translation": "Com o Chakra do inimigo se\nregenerando constantemente."
+    },
+    {
+      "chunk": "duel_condition",
+      "index": 79,
+      "field": 2,
+      "id": "79",
+      "source": "With enemy's attack depleting your\nchakra.",
+      "translation": "Com ataques inimigos que drenam\nseu Chakra."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 0,
+      "field": 2,
+      "id": "0",
+      "source": "Hee hee hee!!\nWho's number one?",
+      "translation": "Hehehe!!\nQuem é o número um?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 1,
+      "field": 2,
+      "id": "1",
+      "source": "I'm gonna get stronger and stronger!",
+      "translation": "Vou ficar cada vez mais forte!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 2,
+      "field": 2,
+      "id": "2",
+      "source": "That's the power of Squad 7!!",
+      "translation": "Esse é o poder do Time 7!!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 3,
+      "field": 2,
+      "id": "3",
+      "source": "I was cool, wasn't I, Sakura?",
+      "translation": "Eu fui demais, né, Sakura?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 4,
+      "field": 2,
+      "id": "4",
+      "source": "How 'bout some ramen to\ncelebrate our victory, Kakashi sensei?",
+      "translation": "Que tal um lámen para celebrar\na vitória, Kakashi-sensei?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 5,
+      "field": 2,
+      "id": "5",
+      "source": "I've gotten stronger, haven't I?",
+      "translation": "Fiquei mais forte, não fiquei?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 6,
+      "field": 2,
+      "id": "6",
+      "source": "Ha-ha-ha-ha!\nNo one can compare to Naruto Uzumaki!",
+      "translation": "Hahahaha!\nNinguém se compara a Naruto Uzumaki!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 7,
+      "field": 2,
+      "id": "7",
+      "source": "Heh-heh! I won, I won!\nThanks for gettin' my back, Gaara!",
+      "translation": "Hehe! Ganhei, ganhei!\nValeu pela cobertura, Gaara!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 8,
+      "field": 2,
+      "id": "8",
+      "source": "Hmph... No surprises here.",
+      "translation": "Hum... Nenhuma surpresa."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 9,
+      "field": 2,
+      "id": "9",
+      "source": "Is play time over already?",
+      "translation": "A brincadeira já acabou?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 10,
+      "field": 2,
+      "id": "10",
+      "source": "Did you really think that\nyou could defeat us?",
+      "translation": "Achou mesmo que\npoderia nos derrotar?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 11,
+      "field": 2,
+      "id": "11",
+      "source": "That was complete nonsense.",
+      "translation": "Foi uma completa bobagem."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 12,
+      "field": 2,
+      "id": "12",
+      "source": "Heh... This works...",
+      "translation": "Heh... Isso serve..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 13,
+      "field": 2,
+      "id": "13",
+      "source": "You're next to go down...\nItachi Uchiha...",
+      "translation": "Você será o próximo a cair...\nItachi Uchiha..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 14,
+      "field": 2,
+      "id": "14",
+      "source": "I see, this is the power...\nI need... to defeat him...",
+      "translation": "Entendi, este é o poder...\nde que preciso... para derrotá-lo..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 15,
+      "field": 2,
+      "id": "15",
+      "source": "Cha!\nGood going!!",
+      "translation": "Cha!\nMandou bem!!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 16,
+      "field": 2,
+      "id": "16",
+      "source": "It seems like... I got a little stronger!",
+      "translation": "Parece que... fiquei mais forte!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 17,
+      "field": 2,
+      "id": "17",
+      "source": "Our teamwork\nis the best!",
+      "translation": "Nosso trabalho em equipe\né o melhor!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 18,
+      "field": 2,
+      "id": "18",
+      "source": "Sasuke, Naruto!\nDid you see me!?",
+      "translation": "Sasuke, Naruto!\nVocês me viram!?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 19,
+      "field": 2,
+      "id": "19",
+      "source": "Wouldn't it have been faster if\nKakashi sensei had done it?",
+      "translation": "Não teria sido mais rápido se\nKakashi-sensei tivesse feito isso?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 20,
+      "field": 2,
+      "id": "20",
+      "source": "Girls in love are so powerful,\ndontcha think?",
+      "translation": "Garotas apaixonadas são muito fortes,\nnão acha?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 21,
+      "field": 2,
+      "id": "21",
+      "source": "We did it!\nWe won!",
+      "translation": "Conseguimos!\nVencemos!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 22,
+      "field": 2,
+      "id": "22",
+      "source": "Let us do it again sometime!",
+      "translation": "Vamos fazer isso de novo qualquer hora!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 23,
+      "field": 2,
+      "id": "23",
+      "source": "That was a good match!\nI am very satisfied!",
+      "translation": "Foi uma boa luta!\nEstou muito satisfeito!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 24,
+      "field": 2,
+      "id": "24",
+      "source": "I must stay humble and keep\nstriving for perfection!",
+      "translation": "Devo manter a humildade e continuar\nbuscando a perfeição!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 25,
+      "field": 2,
+      "id": "25",
+      "source": "Guy sensei! What a glorious victory!",
+      "translation": "Guy-sensei! Que vitória gloriosa!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 26,
+      "field": 2,
+      "id": "26",
+      "source": "I would like to fight you...\nGaara of the Sand...!",
+      "translation": "Gostaria de lutar com você...\nGaara da Areia...!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 27,
+      "field": 2,
+      "id": "27",
+      "source": "The game is over.",
+      "translation": "O jogo acabou."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 28,
+      "field": 2,
+      "id": "28",
+      "source": "I got a bit too serious.\nSorry.",
+      "translation": "Levei a sério demais.\nDesculpe."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 29,
+      "field": 2,
+      "id": "29",
+      "source": "Losing is not for us.",
+      "translation": "Perder não é para nós."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 30,
+      "field": 2,
+      "id": "30",
+      "source": "Heh... That was our power.",
+      "translation": "Heh... Esse foi o nosso poder."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 31,
+      "field": 2,
+      "id": "31",
+      "source": "This fight was pretty enjoyable.\nThank you.",
+      "translation": "Esta luta foi bem agradável.\nObrigado."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 32,
+      "field": 2,
+      "id": "32",
+      "source": "We should fight one another next\ntime, Naruto.",
+      "translation": "Na próxima, deveríamos lutar\num contra o outro, Naruto."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 33,
+      "field": 2,
+      "id": "33",
+      "source": "We, the Hyuga, are the strongest\nof the Hidden Leaf!",
+      "translation": "Nós, os Hyuga, somos os mais fortes\nda Vila Oculta da Folha!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 34,
+      "field": 2,
+      "id": "34",
+      "source": "We won, we won!",
+      "translation": "Vencemos, vencemos!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 35,
+      "field": 2,
+      "id": "35",
+      "source": "Phew... I'm tired now.",
+      "translation": "Ufa... Estou cansada agora."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 36,
+      "field": 2,
+      "id": "36",
+      "source": "We can make Guy sensei\nhappy now.",
+      "translation": "Agora podemos deixar\nGuy-sensei feliz."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 37,
+      "field": 2,
+      "id": "37",
+      "source": "Boy, we're as strong as I thought\nwe were!",
+      "translation": "Nossa, somos tão fortes quanto\neu imaginava!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 38,
+      "field": 2,
+      "id": "38",
+      "source": "How's that, Guy sensei?\nI'm pretty good, huh!?",
+      "translation": "Que tal, Guy-sensei?\nEu sou boa, não sou!?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 39,
+      "field": 2,
+      "id": "39",
+      "source": "You're pretty good.\nI had to work at that one.",
+      "translation": "Você é muito bom.\nTive que me esforçar nessa."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 40,
+      "field": 2,
+      "id": "40",
+      "source": "Good... Everything turned out as\nplanned.",
+      "translation": "Ótimo... Tudo saiu conforme\no planejado."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 41,
+      "field": 2,
+      "id": "41",
+      "source": "Choji, Ino... Good job. Thanks.",
+      "translation": "Choji, Ino... Bom trabalho. Valeu."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 42,
+      "field": 2,
+      "id": "42",
+      "source": "When it comes to teamwork,\nno one can beat us.",
+      "translation": "Quando se trata de trabalho em equipe,\nninguém nos supera."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 43,
+      "field": 2,
+      "id": "43",
+      "source": "Oh, man... I'm more worn out\nthan usual.",
+      "translation": "Ah, cara... Estou mais esgotado\nque de costume."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 44,
+      "field": 2,
+      "id": "44",
+      "source": "How was that? Now you should\nknow about my power!",
+      "translation": "E aí? Agora você deve\nconhecer o meu poder!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 45,
+      "field": 2,
+      "id": "45",
+      "source": "Yeah! We did it!!",
+      "translation": "Isso! Conseguimos!!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 46,
+      "field": 2,
+      "id": "46",
+      "source": "Yes! Good job, you guys!",
+      "translation": "Sim! Bom trabalho, pessoal!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 47,
+      "field": 2,
+      "id": "47",
+      "source": "It seems that I've got a little bit\nstronger too!",
+      "translation": "Parece que eu também fiquei\num pouco mais forte!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 48,
+      "field": 2,
+      "id": "48",
+      "source": "That was an easy win!",
+      "translation": "Foi uma vitória fácil!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 49,
+      "field": 2,
+      "id": "49",
+      "source": "What? Is that it?",
+      "translation": "O quê? Só isso?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 50,
+      "field": 2,
+      "id": "50",
+      "source": "Okay, let's go back and\nreport to Asuma sensei.",
+      "translation": "Certo, vamos voltar e\ncontar ao Asuma-sensei."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 51,
+      "field": 2,
+      "id": "51",
+      "source": "Just as I thought, we are the best!!",
+      "translation": "Como eu pensava, somos os melhores!!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 52,
+      "field": 2,
+      "id": "52",
+      "source": "Sakura...\nThanks, for once.",
+      "translation": "Sakura...\nDesta vez, obrigada."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 53,
+      "field": 2,
+      "id": "53",
+      "source": "Easy as can be!!\nYou're just a joke to me!",
+      "translation": "Foi fácil demais!!\nVocê é uma piada para mim!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 54,
+      "field": 2,
+      "id": "54",
+      "source": "That's one kick-butt victory!",
+      "translation": "Essa foi uma vitória e tanto!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 55,
+      "field": 2,
+      "id": "55",
+      "source": "That was awesome!\nRight, you guys?",
+      "translation": "Foi incrível!\nNé, pessoal?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 56,
+      "field": 2,
+      "id": "56",
+      "source": "I'm cut out for leadership after all!!",
+      "translation": "Afinal, eu nasci para liderar!!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 57,
+      "field": 2,
+      "id": "57",
+      "source": "You did pretty well...!",
+      "translation": "Você se saiu muito bem...!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 58,
+      "field": 2,
+      "id": "58",
+      "source": "That's it...? This was over earlier\nthan I expected.",
+      "translation": "Só isso...? Acabou antes\ndo que eu esperava."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 59,
+      "field": 2,
+      "id": "59",
+      "source": "The reason you've lost is because\nyou underestimated me.",
+      "translation": "Você perdeu porque\nme subestimou."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 60,
+      "field": 2,
+      "id": "60",
+      "source": "Good... We are invincible.",
+      "translation": "Ótimo... Somos invencíveis."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 61,
+      "field": 2,
+      "id": "61",
+      "source": "You two did well backing me up.\nThank you.",
+      "translation": "Vocês dois me deram uma boa cobertura.\nObrigado."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 62,
+      "field": 2,
+      "id": "62",
+      "source": "I... I won...",
+      "translation": "Eu... Eu venci..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 63,
+      "field": 2,
+      "id": "63",
+      "source": "If I try hard... I can do it...",
+      "translation": "Se eu me esforçar... Eu consigo..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 64,
+      "field": 2,
+      "id": "64",
+      "source": "We won because of you guys...\nThank you.",
+      "translation": "Vencemos graças a vocês...\nObrigada."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 65,
+      "field": 2,
+      "id": "65",
+      "source": "Is anyone hurt...?",
+      "translation": "Alguém se machucou...?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 66,
+      "field": 2,
+      "id": "66",
+      "source": "I hope we can work together again...",
+      "translation": "Espero que possamos trabalhar juntos de novo..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 67,
+      "field": 2,
+      "id": "67",
+      "source": "I... I was able to win...\nI'm so relieved...",
+      "translation": "Eu... Consegui vencer...\nQue alívio..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 68,
+      "field": 2,
+      "id": "68",
+      "source": "Not bad... \nBut you picked the wrong opponent.",
+      "translation": "Nada mal...\nMas escolheu o adversário errado."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 69,
+      "field": 2,
+      "id": "69",
+      "source": "You're too weak... What a bore.",
+      "translation": "Você é fraco demais... Que tédio."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 70,
+      "field": 2,
+      "id": "70",
+      "source": "Was that supposed to be\ncompetition...? Laughable.",
+      "translation": "Isso era para ser um\ndesafio...? Que piada."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 71,
+      "field": 2,
+      "id": "71",
+      "source": "It's meaningless...\nWe don't need to go on anymore.",
+      "translation": "Não faz sentido...\nNão precisamos continuar."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 72,
+      "field": 2,
+      "id": "72",
+      "source": "Naruto Uzumaki and I... We are\ntwo walls you will never break.",
+      "translation": "Naruto Uzumaki e eu... Somos dois\nmuros que você nunca vai derrubar."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 73,
+      "field": 2,
+      "id": "73",
+      "source": "Huh... There was nothing to it.",
+      "translation": "Hum... Não foi nada demais."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 74,
+      "field": 2,
+      "id": "74",
+      "source": "That was too easy...",
+      "translation": "Foi fácil demais..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 75,
+      "field": 2,
+      "id": "75",
+      "source": "What? Is that all?",
+      "translation": "O quê? Só isso?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 76,
+      "field": 2,
+      "id": "76",
+      "source": "Hah! You were too weak!",
+      "translation": "Ha! Você era fraco demais!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 77,
+      "field": 2,
+      "id": "77",
+      "source": "I knew it would turn out this way.",
+      "translation": "Eu sabia que acabaria assim."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 78,
+      "field": 2,
+      "id": "78",
+      "source": "This is the end of the show...",
+      "translation": "O espetáculo acaba aqui..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 79,
+      "field": 2,
+      "id": "79",
+      "source": "You are no good at all...",
+      "translation": "Você não é nada bom..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 80,
+      "field": 2,
+      "id": "80",
+      "source": "Heh... You did better than I\nthought you would.",
+      "translation": "Heh... Você se saiu melhor\ndo que eu esperava."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 81,
+      "field": 2,
+      "id": "81",
+      "source": "You can't just make it on guts alone.",
+      "translation": "Só coragem não basta."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 82,
+      "field": 2,
+      "id": "82",
+      "source": "No one is stronger than the\nthree of us. Remember that!!",
+      "translation": "Ninguém é mais forte que\nnós três. Lembre-se disso!!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 83,
+      "field": 2,
+      "id": "83",
+      "source": "Finally, it's over... I don't have to\ncarry your dead weight any longer...",
+      "translation": "Finalmente acabou... Não preciso mais\ncarregar seu peso morto..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 84,
+      "field": 2,
+      "id": "84",
+      "source": "Phew... You're better than I thought.",
+      "translation": "Ufa... Você é melhor do que eu pensava."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 85,
+      "field": 2,
+      "id": "85",
+      "source": "You can't defeat me so easily.",
+      "translation": "Você não vai me derrotar tão fácil."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 86,
+      "field": 2,
+      "id": "86",
+      "source": "Thanks for making it, Guy.",
+      "translation": "Obrigado por ter vindo, Guy."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 87,
+      "field": 2,
+      "id": "87",
+      "source": "Things worked out, huh...?\nI'll leave the rest to you, Guy.",
+      "translation": "Deu tudo certo, hein...?\nDeixo o resto com você, Guy."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 88,
+      "field": 2,
+      "id": "88",
+      "source": "Mm, good job, everyone.",
+      "translation": "Hum, bom trabalho, pessoal."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 89,
+      "field": 2,
+      "id": "89",
+      "source": "You haven't done nearly enough\ntraining!!",
+      "translation": "Vocês não treinaram nem perto\ndo suficiente!!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 90,
+      "field": 2,
+      "id": "90",
+      "source": "Ha-ha-ha!!\nNice battle!!",
+      "translation": "Hahaha!!\nBela batalha!!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 91,
+      "field": 2,
+      "id": "91",
+      "source": "Hmph! I admire your courage to\nhave challenged us.",
+      "translation": "Hum! Admiro sua coragem\nde nos desafiar."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 92,
+      "field": 2,
+      "id": "92",
+      "source": "Look, Kakashi! Our opponents are\nrunning away in fear of us!",
+      "translation": "Veja, Kakashi! Nossos adversários\nestão fugindo de medo!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 93,
+      "field": 2,
+      "id": "93",
+      "source": "Lee! Our nindo will keep going\non and on!!",
+      "translation": "Lee! Nosso caminho ninja vai\ncontinuar para sempre!!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 94,
+      "field": 2,
+      "id": "94",
+      "source": "Good for you, my students!\nYour backup was awesome!!",
+      "translation": "Muito bem, meus alunos!\nA cobertura de vocês foi incrível!!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 95,
+      "field": 2,
+      "id": "95",
+      "source": "Don't you come here ever again!",
+      "translation": "Nunca mais apareça aqui!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 96,
+      "field": 2,
+      "id": "96",
+      "source": "Have you learned the Toad Sage's\npower by now!?",
+      "translation": "Já aprendeu o poder do\nSábio dos Sapos!?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 97,
+      "field": 2,
+      "id": "97",
+      "source": "This is the invincible Sarutobi Team!\nHave you learned your lesson yet?",
+      "translation": "Este é o invencível Time Sarutobi!\nJá aprendeu a lição?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 98,
+      "field": 2,
+      "id": "98",
+      "source": "Heh... Have you learned your limits?",
+      "translation": "Heh... Já aprendeu seus limites?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 99,
+      "field": 2,
+      "id": "99",
+      "source": "This is how real ninja fight.",
+      "translation": "É assim que ninjas de verdade lutam."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 100,
+      "field": 2,
+      "id": "100",
+      "source": "This is that legendary power.\nKeep it well in your mind!",
+      "translation": "Esse é o poder lendário.\nGuarde bem na memória!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 101,
+      "field": 2,
+      "id": "101",
+      "source": "This match... is my victory!!",
+      "translation": "Esta luta... eu venci!!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 102,
+      "field": 2,
+      "id": "102",
+      "source": "I have things that I must protect...!",
+      "translation": "Tenho coisas que preciso proteger...!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 103,
+      "field": 2,
+      "id": "103",
+      "source": "Did I go too far...?",
+      "translation": "Será que exagerei...?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 104,
+      "field": 2,
+      "id": "104",
+      "source": "Heh-heh! This is the power of\nthe Sarutobi Team!",
+      "translation": "Hehe! Este é o poder\ndo Time Sarutobi!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 105,
+      "field": 2,
+      "id": "105",
+      "source": "That must've been a good\nexperience for you, eh, Naruto?",
+      "translation": "Deve ter sido uma boa\nexperiência para você, né, Naruto?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 106,
+      "field": 2,
+      "id": "106",
+      "source": "I didn't even need to go all out.",
+      "translation": "Nem precisei dar tudo de mim."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 107,
+      "field": 2,
+      "id": "107",
+      "source": "This is the power of the legendary\nSannin!!",
+      "translation": "Este é o poder dos lendários\nSannin!!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 108,
+      "field": 2,
+      "id": "108",
+      "source": "It seems that things worked out...",
+      "translation": "Parece que deu tudo certo..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 109,
+      "field": 2,
+      "id": "109",
+      "source": "The people who are important to me...\nI'll protect all of them.",
+      "translation": "As pessoas importantes para mim...\nVou proteger todas elas."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 110,
+      "field": 2,
+      "id": "110",
+      "source": "We may be older now, but we still\nhave our strength, do we not?!",
+      "translation": "Podemos estar mais velhos, mas\nainda temos nossa força, não é?!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 111,
+      "field": 2,
+      "id": "111",
+      "source": "Jiraiya... Tsunade! As expected.",
+      "translation": "Jiraiya... Tsunade! Como esperado."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 112,
+      "field": 2,
+      "id": "112",
+      "source": "This win wasn't a surprise, was it,\nOrochimaru?",
+      "translation": "Essa vitória não foi surpresa,\nnão é, Orochimaru?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 113,
+      "field": 2,
+      "id": "113",
+      "source": "I'm indebted you both, with all\nyour great strength.",
+      "translation": "Devo muito a vocês dois\ne à sua grande força."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 114,
+      "field": 2,
+      "id": "114",
+      "source": "Heh-heh-heh... How amusing...",
+      "translation": "Hehehe... Que divertido..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 115,
+      "field": 2,
+      "id": "115",
+      "source": "At least I was able to kill some time.",
+      "translation": "Pelo menos consegui passar o tempo."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 116,
+      "field": 2,
+      "id": "116",
+      "source": "Ho ho... That was quite an intriguing\nbattle.",
+      "translation": "Hoho... Foi uma luta\nbem intrigante."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 117,
+      "field": 2,
+      "id": "117",
+      "source": "It's over now.\nKabuto... Kimimaro, let's go home.",
+      "translation": "Acabou.\nKabuto... Kimimaro, vamos para casa."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 118,
+      "field": 2,
+      "id": "118",
+      "source": "There's no way we would lose...",
+      "translation": "Não havia como perdermos..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 119,
+      "field": 2,
+      "id": "119",
+      "source": "Those who are not gifted lose...\nI wonder which type you are, Sasuke?",
+      "translation": "Os que não têm talento perdem...\nQual dos tipos você é, Sasuke?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 120,
+      "field": 2,
+      "id": "120",
+      "source": "This should be the last time you\nchallenge the Sannin.",
+      "translation": "Que esta seja a última vez\nque você desafia os Sannin."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 121,
+      "field": 2,
+      "id": "121",
+      "source": "Oh-oh...\nDid I go too far?",
+      "translation": "Opa...\nSerá que exagerei?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 122,
+      "field": 2,
+      "id": "122",
+      "source": "Well, I think you did okay.",
+      "translation": "Bem, acho que você se saiu bem."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 123,
+      "field": 2,
+      "id": "123",
+      "source": "He-he... Boy, you're weak...",
+      "translation": "Hehe... Nossa, como você é fraco..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 124,
+      "field": 2,
+      "id": "124",
+      "source": "Everything is for Lord Orochimaru...",
+      "translation": "Tudo pelo senhor Orochimaru..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 125,
+      "field": 2,
+      "id": "125",
+      "source": "You were no match for me.",
+      "translation": "Você não era páreo para mim."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 126,
+      "field": 2,
+      "id": "126",
+      "source": "You are too weak... How meaningless...",
+      "translation": "Você é fraco demais... Que perda de tempo..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 127,
+      "field": 2,
+      "id": "127",
+      "source": "You were reckless to challenge Lord Orochimaru...",
+      "translation": "Foi imprudente desafiar o senhor Orochimaru..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 128,
+      "field": 2,
+      "id": "128",
+      "source": "Sound Ninja are different from the\nothers... Less pathetic.",
+      "translation": "Os ninjas do Som são diferentes\ndos outros... Menos patéticos."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 129,
+      "field": 2,
+      "id": "129",
+      "source": "You are weak...",
+      "translation": "Você é fraco..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 130,
+      "field": 2,
+      "id": "130",
+      "source": "Nobody can stop me...",
+      "translation": "Ninguém pode me parar..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 131,
+      "field": 2,
+      "id": "131",
+      "source": "That was the expected result...",
+      "translation": "Esse era o resultado esperado..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 132,
+      "field": 2,
+      "id": "132",
+      "source": "Our business is done...\nLet's go, Kisame...",
+      "translation": "Terminamos aqui...\nVamos, Kisame..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 133,
+      "field": 2,
+      "id": "133",
+      "source": "Now do you see the \"difference,\"\nSasuke?",
+      "translation": "Agora você vê a \"diferença\",\nSasuke?"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 134,
+      "field": 2,
+      "id": "134",
+      "source": "Not even worth grinding up...",
+      "translation": "Nem vale a pena triturar..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 135,
+      "field": 2,
+      "id": "135",
+      "source": "Heh-heh...\nI didn't expect to enjoy this match.",
+      "translation": "Hehe... Não esperava\nme divertir nesta luta."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 136,
+      "field": 2,
+      "id": "136",
+      "source": "Heh-heh... We're invincible.",
+      "translation": "Hehe... Somos invencíveis."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 137,
+      "field": 2,
+      "id": "137",
+      "source": "This is the power of the Akatsuki...\nHeh-heh-heh...",
+      "translation": "Este é o poder da Akatsuki...\nHehehe..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 138,
+      "field": 2,
+      "id": "138",
+      "source": "Groaaaaghhh!!",
+      "translation": "Groaaaaghhh!!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 139,
+      "field": 2,
+      "id": "139",
+      "source": "Yes!! I won!",
+      "translation": "Isso!! Ganhei!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 140,
+      "field": 2,
+      "id": "140",
+      "source": "He-he-heh... Excellent!!",
+      "translation": "Hehehe... Excelente!!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 141,
+      "field": 2,
+      "id": "141",
+      "source": "This power is all I need...\nHe-he-he-heh!!",
+      "translation": "Este poder é tudo de que preciso...\nHehehehe!!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 142,
+      "field": 2,
+      "id": "142",
+      "source": "This is the result!",
+      "translation": "Este é o resultado!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 143,
+      "field": 2,
+      "id": "143",
+      "source": "I will grow stronger and stronger!",
+      "translation": "Vou ficar cada vez mais forte!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 144,
+      "field": 2,
+      "id": "144",
+      "source": "Sorry!\nI can't lose yet!!",
+      "translation": "Desculpe!\nAinda não posso perder!!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 145,
+      "field": 2,
+      "id": "145",
+      "source": "How's that! Behold, the fiercest\nbeast of battle, Might Guy!!",
+      "translation": "Que tal! Contemple a fera mais\nferoz das batalhas, Might Guy!!"
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 146,
+      "field": 2,
+      "id": "146",
+      "source": "Hmph... You're too weak...",
+      "translation": "Hum... Você é fraco demais..."
+    },
+    {
+      "chunk": "duelwin_normal",
+      "index": 147,
+      "field": 2,
+      "id": "147",
+      "source": "How miserably you lost...",
+      "translation": "Que derrota miserável..."
+    }
+  ]
+}

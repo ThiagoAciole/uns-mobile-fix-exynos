@@ -1,0 +1,53 @@
+﻿--------- beginning of crash
+10-23 23:38:52.060 19236 19284 F libc    : invalid pthread_t 0x2e79616c702e6469 passed to pthread_join
+10-23 23:38:52.061 19236 19284 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 19284 (androidMain), pid 19236 (imateninjastorm)
+10-23 23:38:52.498 19307 19307 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-23 23:38:52.498 19307 19307 F DEBUG   : Build fingerprint: 'samsung/e1sxxx/e1s:17/CP2A.260605.016/S921BXXUHEZIF:user/release-keys'
+10-23 23:38:52.498 19307 19307 F DEBUG   : Kernel Release: '6.1.162-android14-11'
+10-23 23:38:52.498 19307 19307 F DEBUG   : Revision: '17'
+10-23 23:38:52.498 19307 19307 F DEBUG   : ABI: 'arm64'
+10-23 23:38:52.498 19307 19307 F DEBUG   : Processor: '8'
+10-23 23:38:52.498 19307 19307 F DEBUG   : Timestamp: 2026-10-23 23:38:52.194467098-0300
+10-23 23:38:52.498 19307 19307 F DEBUG   : Process uptime: 1s
+10-23 23:38:52.498 19307 19307 F DEBUG   : Executable: /system/bin/app_process64
+10-23 23:38:52.498 19307 19307 F DEBUG   : Cmdline: com.bandainamcoent.ultimateninjastorm
+10-23 23:38:52.498 19307 19307 F DEBUG   : pid: 19236, ppid: 1334, tid: 19284, name: androidMain  >>> com.bandainamcoent.ultimateninjastorm <<<
+10-23 23:38:52.498 19307 19307 F DEBUG   : uid: 10752
+10-23 23:38:52.498 19307 19307 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+10-23 23:38:52.498 19307 19307 F DEBUG   : pac_enabled_keys: 000000000000000f (PR_PAC_APIAKEY, PR_PAC_APIBKEY, PR_PAC_APDAKEY, PR_PAC_APDBKEY)
+10-23 23:38:52.498 19307 19307 F DEBUG   : esr: 0000000092000006 (Data Abort Exception 0x24)
+10-23 23:38:52.498 19307 19307 F DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+10-23 23:38:52.498 19307 19307 F DEBUG   : Abort message: 'invalid pthread_t 0x2e79616c702e6469 passed to pthread_join'
+10-23 23:38:52.498 19307 19307 F DEBUG   :     x0  0000000000000000  x1  0000000000004b54  x2  0000000000000006  x3  0000006ecff4c630
+10-23 23:38:52.498 19307 19307 F DEBUG   :     x4  64312f3662353035  x5  64312f3662353035  x6  64312f3662353035  x7  7f7f7f7f7f7f7f7f
+10-23 23:38:52.498 19307 19307 F DEBUG   :     x8  00000000000000f0  x9  5a221dad71adfdf8  x10 000000ff00000020  x11 0000000000000000
+10-23 23:38:52.498 19307 19307 F DEBUG   :     x12 000000006adc1a3c  x13 000000007fffffff  x14 000000000115796c  x15 000001a076e9e397
+10-23 23:38:52.498 19307 19307 F DEBUG   :     x16 000000728b53e3d0  x17 000000728b5239c0  x18 0000006ecfad8000  x19 0000000000004b24
+10-23 23:38:52.498 19307 19307 F DEBUG   :     x20 0000000000004b54  x21 00000000ffffffff  x22 b40000716e2c1720  x23 0000006ecff4d1c0
+10-23 23:38:52.498 19307 19307 F DEBUG   :     x24 0000006ecff4d1c0  x25 0000000000004b47  x26 0000006ecff4ce50  x27 0000006edd3c91c0
+10-23 23:38:52.498 19307 19307 F DEBUG   :     x28 0000006edd3c8e40  x29 0000006ecff4c6b0
+10-23 23:38:52.498 19307 19307 F DEBUG   :     lr  000000728b4c180c  sp  0000006ecff4c630  pc  000000728b4c1830  pst 0000000000001000
+10-23 23:38:52.498 19307 19307 F DEBUG   :     esr 0000000092000006  vg  0000000000000002
+10-23 23:38:52.498 19307 19307 F DEBUG   : 19 total frames
+10-23 23:38:52.498 19307 19307 F DEBUG   : backtrace:
+10-23 23:38:52.498 19307 19307 F DEBUG   :       #00 pc 000000000007a830  /apex/com.android.runtime/lib64/bionic/libc.so (abort+160) (BuildId: 262440b7895083d79b404ee09612d830)
+10-23 23:38:52.498 19307 19307 F DEBUG   :       #01 pc 000000000008cd44  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_internal_find(long, char const*)+196) (BuildId: 262440b7895083d79b404ee09612d830)
+10-23 23:38:52.498 19307 19307 F DEBUG   :       #02 pc 000000000008d470  /apex/com.android.runtime/lib64/bionic/libc.so (pthread_join+104) (BuildId: 262440b7895083d79b404ee09612d830)
+10-23 23:38:52.498 19307 19307 F DEBUG   :       #03 pc 0000000000abe8e8  /data/app/~~QqgjMO4cDR48W9ouvJcx6A==/com.bandainamcoent.ultimateninjastorm-vcQ5HvaY-SqjZ0_6lVNrsA==/split_config.arm64_v8a.apk!libultimateninjastorm.so (offset 0x140000) (mmThread_Impl::WaitForEnd()+28) (BuildId: c3e506f9be350dfb4a00c79228754028)
+10-23 23:38:52.498 19307 19307 F DEBUG   :       #04 pc 00000000011ae10c  /data/app/~~QqgjMO4cDR48W9ouvJcx6A==/com.bandainamcoent.ultimateninjastorm-vcQ5HvaY-SqjZ0_6lVNrsA==/split_config.arm64_v8a.apk!libultimateninjastorm.so (offset 0x140000) (mmRenderManager_Vulkan::Finalize()+64) (BuildId: c3e506f9be350dfb4a00c79228754028)
+10-23 23:38:52.498 19307 19307 F DEBUG   :       #05 pc 00000000011adb94  /data/app/~~QqgjMO4cDR48W9ouvJcx6A==/com.bandainamcoent.ultimateninjastorm-vcQ5HvaY-SqjZ0_6lVNrsA==/split_config.arm64_v8a.apk!libultimateninjastorm.so (offset 0x140000) (mmRenderManager_Vulkan::~mmRenderManager_Vulkan()+48) (BuildId: c3e506f9be350dfb4a00c79228754028)
+10-23 23:38:52.498 19307 19307 F DEBUG   :       #06 pc 000000000118d4b8  /data/app/~~QqgjMO4cDR48W9ouvJcx6A==/com.bandainamcoent.ultimateninjastorm-vcQ5HvaY-SqjZ0_6lVNrsA==/split_config.arm64_v8a.apk!libultimateninjastorm.so (offset 0x140000) (mmGPUDevice_Android::Finalize()+32) (BuildId: c3e506f9be350dfb4a00c79228754028)
+10-23 23:38:52.498 19307 19307 F DEBUG   :       #07 pc 0000000000d37a10  /data/app/~~QqgjMO4cDR48W9ouvJcx6A==/com.bandainamcoent.ultimateninjastorm-vcQ5HvaY-SqjZ0_6lVNrsA==/split_config.arm64_v8a.apk!libultimateninjastorm.so (offset 0x140000) (mmGPUDevice_Android::InitializeRenderSystem(mmDeviceDesc const&)+468) (BuildId: c3e506f9be350dfb4a00c79228754028)
+10-23 23:38:52.498 19307 19307 F DEBUG   :       #08 pc 0000000000d3782c  /data/app/~~QqgjMO4cDR48W9ouvJcx6A==/com.bandainamcoent.ultimateninjastorm-vcQ5HvaY-SqjZ0_6lVNrsA==/split_config.arm64_v8a.apk!libultimateninjastorm.so (offset 0x140000) (mmGPUDevice_Android::Initialize(mmDeviceDesc const&)+4) (BuildId: c3e506f9be350dfb4a00c79228754028)
+10-23 23:38:52.498 19307 19307 F DEBUG   :       #09 pc 000000000118d36c  /data/app/~~QqgjMO4cDR48W9ouvJcx6A==/com.bandainamcoent.ultimateninjastorm-vcQ5HvaY-SqjZ0_6lVNrsA==/split_config.arm64_v8a.apk!libultimateninjastorm.so (offset 0x140000) (mmDeviceManager::Initialize(mmDeviceDesc const&)+216) (BuildId: c3e506f9be350dfb4a00c79228754028)
+10-23 23:38:52.498 19307 19307 F DEBUG   :       #10 pc 000000000118cba0  /data/app/~~QqgjMO4cDR48W9ouvJcx6A==/com.bandainamcoent.ultimateninjastorm-vcQ5HvaY-SqjZ0_6lVNrsA==/split_config.arm64_v8a.apk!libultimateninjastorm.so (offset 0x140000) (mmPlatformLibrary::Initialize(mmPlatformLibraryDesc const&)+80) (BuildId: c3e506f9be350dfb4a00c79228754028)
+10-23 23:38:52.498 19307 19307 F DEBUG   :       #11 pc 0000000000f9bd08  /data/app/~~QqgjMO4cDR48W9ouvJcx6A==/com.bandainamcoent.ultimateninjastorm-vcQ5HvaY-SqjZ0_6lVNrsA==/split_config.arm64_v8a.apk!libultimateninjastorm.so (offset 0x140000) (nummRender::Init(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)+120) (BuildId: c3e506f9be350dfb4a00c79228754028)
+10-23 23:38:52.498 19307 19307 F DEBUG   :       #12 pc 0000000000cdbc14  /data/app/~~QqgjMO4cDR48W9ouvJcx6A==/com.bandainamcoent.ultimateninjastorm-vcQ5HvaY-SqjZ0_6lVNrsA==/split_config.arm64_v8a.apk!libultimateninjastorm.so (offset 0x140000) (nuccSys::InitRender()+144) (BuildId: c3e506f9be350dfb4a00c79228754028)
+10-23 23:38:52.498 19307 19307 F DEBUG   :       #13 pc 0000000000cdc49c  /data/app/~~QqgjMO4cDR48W9ouvJcx6A==/com.bandainamcoent.ultimateninjastorm-vcQ5HvaY-SqjZ0_6lVNrsA==/split_config.arm64_v8a.apk!libultimateninjastorm.so (offset 0x140000) (nuccSys::Initialize(nuccInitParam const&)+308) (BuildId: c3e506f9be350dfb4a00c79228754028)
+10-23 23:38:52.498 19307 19307 F DEBUG   :       #14 pc 0000000000c443f4  /data/app/~~QqgjMO4cDR48W9ouvJcx6A==/com.bandainamcoent.ultimateninjastorm-vcQ5HvaY-SqjZ0_6lVNrsA==/split_config.arm64_v8a.apk!libultimateninjastorm.so (offset 0x140000) (libnucc_Init(nuccInitParam const&)+116) (BuildId: c3e506f9be350dfb4a00c79228754028)
+10-23 23:38:52.498 19307 19307 F DEBUG   :       #15 pc 0000000000cef010  /data/app/~~QqgjMO4cDR48W9ouvJcx6A==/com.bandainamcoent.ultimateninjastorm-vcQ5HvaY-SqjZ0_6lVNrsA==/split_config.arm64_v8a.apk!libultimateninjastorm.so (offset 0x140000) (androidMain(android_app*, int, char**)+180) (BuildId: c3e506f9be350dfb4a00c79228754028)
+10-23 23:38:52.498 19307 19307 F DEBUG   :       #16 pc 0000000001151b54  /data/app/~~QqgjMO4cDR48W9ouvJcx6A==/com.bandainamcoent.ultimateninjastorm-vcQ5HvaY-SqjZ0_6lVNrsA==/split_config.arm64_v8a.apk!libultimateninjastorm.so (offset 0x140000) (BuildId: c3e506f9be350dfb4a00c79228754028)
+10-23 23:38:52.498 19307 19307 F DEBUG   :       #17 pc 000000000008c71c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*) (.__uniq.67847048707805468364044055584648682506)+184) (BuildId: 262440b7895083d79b404ee09612d830)
+10-23 23:38:52.498 19307 19307 F DEBUG   :       #18 pc 000000000007dd20  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+68) (BuildId: 262440b7895083d79b404ee09612d830)
+10-23 23:38:52.498 19307 19307 F DEBUG   : Note: To display stack pointer information, use the pbtombstone tool:
+10-23 23:38:52.498 19307 19307 F DEBUG   :         pbtombstone --display-sp tombstone_XX.pb

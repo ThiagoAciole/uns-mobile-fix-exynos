@@ -1,0 +1,6278 @@
+{
+  "format": "storm-android-messages-v1",
+  "source_sha256": "ae7607a71c779a042a181f58b99e62d51e754ef8bb66b1403eac8c62ba1d13f0",
+  "entries": [
+    {
+      "chunk": "itemDuel",
+      "index": 0,
+      "field": 1,
+      "id": "d001",
+      "source": "Remedy Potion",
+      "translation": "Poção Medicinal"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 0,
+      "field": 2,
+      "id": "d001",
+      "source": "Health recovers slightly.",
+      "translation": "Recupera um pouco de Vida."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 1,
+      "field": 1,
+      "id": "d002",
+      "source": "Chakra Recovery Pill",
+      "translation": "Pílula de Recuperação de Chakra"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 1,
+      "field": 2,
+      "id": "d002",
+      "source": "Chakra recovers slightly.",
+      "translation": "Recupera um pouco de Chakra."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 2,
+      "field": 1,
+      "id": "d003",
+      "source": "Food Pills",
+      "translation": "Pílulas de Ração"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 2,
+      "field": 2,
+      "id": "d003",
+      "source": "Temporarily increases attack power.",
+      "translation": "Aumenta temporariamente o poder de ataque."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 3,
+      "field": 1,
+      "id": "d004",
+      "source": "Tortoiseshell Pills",
+      "translation": "Pílulas de Casco de Tartaruga"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 3,
+      "field": 2,
+      "id": "d004",
+      "source": "Temporarily increases defense power.",
+      "translation": "Aumenta temporariamente o poder de defesa."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 4,
+      "field": 1,
+      "id": "d005",
+      "source": "Shot Run Pill",
+      "translation": "Pílula de Corrida"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 4,
+      "field": 2,
+      "id": "d005",
+      "source": "Temporarily increases movement speed.",
+      "translation": "Aumenta temporariamente a velocidade de movimento."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 5,
+      "field": 1,
+      "id": "d006",
+      "source": "Energy Pills",
+      "translation": "Pílulas de Energia"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 5,
+      "field": 2,
+      "id": "d006",
+      "source": "Temporarily prevents chakra from \ndecreasing.",
+      "translation": "Impede temporariamente a redução\nde Chakra."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 6,
+      "field": 1,
+      "id": "d007",
+      "source": "Scroll of Hidden Cloud",
+      "translation": "Pergaminho da Nuvem Oculta"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 6,
+      "field": 2,
+      "id": "d007",
+      "source": "Provides temporary invisibility and \nnegates projectile weapons.",
+      "translation": "Concede invisibilidade temporária e\nanula armas de projéteis."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 7,
+      "field": 1,
+      "id": "d008",
+      "source": "Substitution Scroll",
+      "translation": "Pergaminho de Substituição"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 7,
+      "field": 2,
+      "id": "d008",
+      "source": "Temporary substitution occurs \nautomatically.",
+      "translation": "Executa substituições automaticamente\npor um tempo."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 8,
+      "field": 1,
+      "id": "d009",
+      "source": "Exhaustion Tag",
+      "translation": "Selo de Exaustão"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 8,
+      "field": 2,
+      "id": "d009",
+      "source": "Your opponent's attack power will \ntemporarily decrease when hit.",
+      "translation": "Reduz temporariamente o poder de ataque\ndo adversário ao acertá-lo."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 9,
+      "field": 1,
+      "id": "d010",
+      "source": "Defense Breaking Tag",
+      "translation": "Selo de Quebra de Defesa"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 9,
+      "field": 2,
+      "id": "d010",
+      "source": "Your opponent's defense power will \ntemporarily decrease when hit.",
+      "translation": "Reduz temporariamente o poder de defesa\ndo adversário ao acertá-lo."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 10,
+      "field": 1,
+      "id": "d011",
+      "source": "Sluggish Tag",
+      "translation": "Selo de Lentidão"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 10,
+      "field": 2,
+      "id": "d011",
+      "source": "Your opponent's movement speed will \ntemporarily decrease when hit.",
+      "translation": "Reduz temporariamente a velocidade de\nmovimento do adversário ao acertá-lo."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 11,
+      "field": 1,
+      "id": "d012",
+      "source": "Poison Tag",
+      "translation": "Selo de Veneno"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 11,
+      "field": 2,
+      "id": "d012",
+      "source": "Your opponent will temporarily be in a \npoisoned state when hit.",
+      "translation": "Envenena temporariamente o\nadversário ao acertá-lo."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 12,
+      "field": 1,
+      "id": "d013",
+      "source": "Sleep Tag",
+      "translation": "Selo de Sono"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 12,
+      "field": 2,
+      "id": "d013",
+      "source": "Your opponent will temporarily be in a \nsleep state when hit.",
+      "translation": "Faz o adversário dormir\ntemporariamente ao acertá-lo."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 13,
+      "field": 1,
+      "id": "d014",
+      "source": "Chakra Seal Tag",
+      "translation": "Selo de Bloqueio de Chakra"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 13,
+      "field": 2,
+      "id": "d014",
+      "source": "Your opponent will temporarily be in a \nsealed state when hit.",
+      "translation": "Sela temporariamente o Chakra do\nadversário ao acertá-lo."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 14,
+      "field": 1,
+      "id": "d015",
+      "source": "Kunai Rain",
+      "translation": "Chuva de Kunais"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 14,
+      "field": 2,
+      "id": "d015",
+      "source": "Scatters kunai knives at a certain time \nafter being thrown in midair.",
+      "translation": "Espalha kunais após certo tempo\nao ser lançada no ar."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 15,
+      "field": 1,
+      "id": "d016",
+      "source": "Burst Kunai",
+      "translation": "Explosão de Kunais"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 15,
+      "field": 2,
+      "id": "d016",
+      "source": "Scatters kunai knives at a certain time \nafter being set on the ground.",
+      "translation": "Espalha kunais após certo tempo\nao ser colocada no chão."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 16,
+      "field": 1,
+      "id": "d017",
+      "source": "Paper Bomb",
+      "translation": "Papel-bomba"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 16,
+      "field": 2,
+      "id": "d017",
+      "source": "Explodes at a certain time after being \nthrown and landing on the ground.",
+      "translation": "Explode após certo tempo depois\nde ser lançado e cair no chão."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 17,
+      "field": 1,
+      "id": "d018",
+      "source": "Bomb Ball",
+      "translation": "Bola-bomba"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 17,
+      "field": 2,
+      "id": "d018",
+      "source": "Causes a large explosion at a certain \ntime after being set on the ground.",
+      "translation": "Causa uma grande explosão após\ncerto tempo no chão."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 18,
+      "field": 1,
+      "id": "d019",
+      "source": "Ramen",
+      "translation": "Lámen"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 18,
+      "field": 2,
+      "id": "d019",
+      "source": "Naruto's favorite food. Temporarily \nprevents chakra from decreasing.",
+      "translation": "Comida favorita de Naruto. Impede\ntemporariamente a redução de Chakra."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 19,
+      "field": 1,
+      "id": "d020",
+      "source": "Scroll of Perception",
+      "translation": "Pergaminho da Percepção"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 19,
+      "field": 2,
+      "id": "d020",
+      "source": "Uchiha Clan scroll.Temporary \nSubstitution Jutsu occurs automatically.",
+      "translation": "Pergaminho do Clã Uchiha. Executa Jutsu\nde Substituição automaticamente por um tempo."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 20,
+      "field": 1,
+      "id": "d021",
+      "source": "Dumpling with Sweet Bean Paste",
+      "translation": "Bolinho com Pasta Doce de Feijão"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 20,
+      "field": 2,
+      "id": "d021",
+      "source": "Sakura's favorite food. \nChakra recovers slightly.",
+      "translation": "Comida favorita de Sakura.\nRecupera um pouco de Chakra."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 21,
+      "field": 1,
+      "id": "d022",
+      "source": "Lightweight Bandage",
+      "translation": "Bandagem Leve"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 21,
+      "field": 2,
+      "id": "d022",
+      "source": "Specially made bandage. \nMovement speed temporarily increases.",
+      "translation": "Bandagem especial. Aumenta\ntemporariamente a velocidade de movimento."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 22,
+      "field": 1,
+      "id": "d023",
+      "source": "Concentration Tag",
+      "translation": "Selo de Concentração"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 22,
+      "field": 2,
+      "id": "d023",
+      "source": "Hyuga Clan tag. Temporary Substitution \nJutsu occurs automatically.",
+      "translation": "Selo do Clã Hyuga. Executa Jutsu de\nSubstituição automaticamente por um tempo."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 23,
+      "field": 1,
+      "id": "d024",
+      "source": "Chinese Bun",
+      "translation": "Pão Chinês"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 23,
+      "field": 2,
+      "id": "d024",
+      "source": "Tenten's favorite food. \nHealth recovers slightly.",
+      "translation": "Comida favorita de Tenten.\nRecupera um pouco de Vida."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 24,
+      "field": 1,
+      "id": "d025",
+      "source": "Nara Clan's Secret Medicine",
+      "translation": "Remédio Secreto do Clã Nara"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 24,
+      "field": 2,
+      "id": "d025",
+      "source": "Nara Family secret medicine. \nDefense power temporarily increases.",
+      "translation": "Remédio secreto da Família Nara.\nAumenta temporariamente a defesa."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 25,
+      "field": 1,
+      "id": "d026",
+      "source": "Potato Chips",
+      "translation": "Batatas Fritas"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 25,
+      "field": 2,
+      "id": "d026",
+      "source": "Choji's favorite food. \nHealth recovers slightly.",
+      "translation": "Comida favorita de Choji.\nRecupera um pouco de Vida."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 26,
+      "field": 1,
+      "id": "d027",
+      "source": "Flower of Instant Wind ",
+      "translation": "Flor do Vento Instantâneo "
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 26,
+      "field": 2,
+      "id": "d027",
+      "source": "An adorable flower containing chakra. \nMovement speed temporarily increases.",
+      "translation": "Uma linda flor com Chakra. Aumenta\ntemporariamente a velocidade de movimento."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 27,
+      "field": 1,
+      "id": "d028",
+      "source": "Special Food Pills",
+      "translation": "Pílulas de Ração Especiais"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 27,
+      "field": 2,
+      "id": "d028",
+      "source": "Inuzuka Family's special Food Pills. \nAttack power temporarily increases.",
+      "translation": "Pílulas especiais da Família Inuzuka.\nAumentam temporariamente o ataque."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 28,
+      "field": 1,
+      "id": "d029",
+      "source": "Mimesis Insects",
+      "translation": "Insetos de Mimetismo"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 28,
+      "field": 2,
+      "id": "d029",
+      "source": "Aburame Clan's specially bred insects. \nTemporarily negates projectile weapons.",
+      "translation": "Insetos criados pelo Clã Aburame.\nAnulam temporariamente armas de projéteis."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 29,
+      "field": 1,
+      "id": "d030",
+      "source": "Medicine",
+      "translation": "Remédio"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 29,
+      "field": 2,
+      "id": "d030",
+      "source": "Ointment handmade by Hinata. \nChakra recovers slightly.",
+      "translation": "Pomada feita por Hinata.\nRecupera um pouco de Chakra."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 30,
+      "field": 1,
+      "id": "d031",
+      "source": "Ultimate Defense Sand",
+      "translation": "Areia da Defesa Suprema"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 30,
+      "field": 2,
+      "id": "d031",
+      "source": "Special sand blended with chakra. \nDefense power temporarily increases.",
+      "translation": "Areia especial com Chakra.\nAumenta temporariamente a defesa."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 31,
+      "field": 1,
+      "id": "d032",
+      "source": "Mechanical Blade",
+      "translation": "Lâmina Mecânica"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 31,
+      "field": 2,
+      "id": "d032",
+      "source": "Crow's special mechanical blade. Attack \npower temporarily increases.",
+      "translation": "Lâmina mecânica especial de Corvo.\nAumenta temporariamente o ataque."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 32,
+      "field": 1,
+      "id": "d033",
+      "source": "Wind Style Scroll",
+      "translation": "Pergaminho do Estilo Vento"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 32,
+      "field": 2,
+      "id": "d033",
+      "source": "Scroll of Wind Style's innermost secret.\nMovement speed temporarily increases.",
+      "translation": "Pergaminho do segredo do Estilo Vento.\nAumenta temporariamente a velocidade."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 33,
+      "field": 1,
+      "id": "d034",
+      "source": "Make-Out Paradise",
+      "translation": "Paraíso da Pegação"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 33,
+      "field": 2,
+      "id": "d034",
+      "source": "Kakashi's favorite book. \nHealth recovers slightly.",
+      "translation": "Livro favorito de Kakashi.\nRecupera um pouco de Vida."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 34,
+      "field": 1,
+      "id": "d035",
+      "source": "Youthful Vigor Herbal Pills",
+      "translation": "Pílulas Herbais do Vigor da Juventude"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 34,
+      "field": 2,
+      "id": "d035",
+      "source": "The Herbal Medicine handmade by Guy. \nAttack power temporarily increases.",
+      "translation": "Remédio de ervas feito por Guy.\nAumenta temporariamente o ataque."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 35,
+      "field": 1,
+      "id": "d036",
+      "source": "Make-Out Violence",
+      "translation": "Violência da Pegação"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 35,
+      "field": 2,
+      "id": "d036",
+      "source": "Self-confident work written himself. \nHealth recovers slightly.",
+      "translation": "Obra de sua própria autoria.\nRecupera um pouco de Vida."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 36,
+      "field": 1,
+      "id": "d037",
+      "source": "Specific Remedy",
+      "translation": "Remédio Específico"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 36,
+      "field": 2,
+      "id": "d037",
+      "source": "Specific remedy prepared by Tsunade. \nChakra recovers slightly.",
+      "translation": "Remédio preparado por Tsunade.\nRecupera um pouco de Chakra."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 37,
+      "field": 1,
+      "id": "d038",
+      "source": "Hokage Hat",
+      "translation": "Chapéu do Hokage"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 37,
+      "field": 2,
+      "id": "d038",
+      "source": "Hokage's inherited invisible coat. \nTemporarily negates projectile weapons.",
+      "translation": "Manto invisível herdado pelo Hokage.\nAnula temporariamente armas de projéteis."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 38,
+      "field": 1,
+      "id": "d039",
+      "source": "Secret Regeneration Pill",
+      "translation": "Pílula Secreta de Regeneração"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 38,
+      "field": 2,
+      "id": "d039",
+      "source": "Secret medicine prepared by Orochimaru.\nHealth recovers slightly.",
+      "translation": "Remédio secreto de Orochimaru.\nRecupera um pouco de Vida."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 39,
+      "field": 1,
+      "id": "d040",
+      "source": "Kabuto's Secret Pill",
+      "translation": "Pílula Secreta de Kabuto"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 39,
+      "field": 2,
+      "id": "d040",
+      "source": "Mysterious medicine prepared by Kabuto.\nChakra recovers slightly.",
+      "translation": "Remédio misterioso de Kabuto.\nRecupera um pouco de Chakra."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 40,
+      "field": 1,
+      "id": "d041",
+      "source": "Steel Bones",
+      "translation": "Ossos de Aço"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 40,
+      "field": 2,
+      "id": "d041",
+      "source": "Hardens Kimimaro's bones. \nDefense power temporarily increases.",
+      "translation": "Endurece os ossos de Kimimaro.\nAumenta temporariamente a defesa."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 41,
+      "field": 1,
+      "id": "d042",
+      "source": "Genjutsu Scroll",
+      "translation": "Pergaminho de Genjutsu"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 41,
+      "field": 2,
+      "id": "d042",
+      "source": "Itachi's mysterious scroll. Temporary \nSubstitution Jutsu occurs automatically.",
+      "translation": "Pergaminho misterioso de Itachi. Executa\nJutsu de Substituição automaticamente por um tempo."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 42,
+      "field": 1,
+      "id": "d043",
+      "source": "Hidden Mist Scroll",
+      "translation": "Pergaminho da Névoa Oculta"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 42,
+      "field": 2,
+      "id": "d043",
+      "source": "Hidden Mist Village's scroll. \nTemporarily negates projectile weapons.",
+      "translation": "Pergaminho da Vila Oculta da Névoa.\nAnula temporariamente armas de projéteis."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 43,
+      "field": 1,
+      "id": "d044",
+      "source": "Dumplings with Sweet Sauce",
+      "translation": "Bolinhos com Molho Doce"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 43,
+      "field": 2,
+      "id": "d044",
+      "source": "HEALTH moderately recovers.",
+      "translation": "Recupera uma quantidade moderada de VIDA."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 44,
+      "field": 1,
+      "id": "d045",
+      "source": "Leaf Village Steamed Bun",
+      "translation": "Pão no Vapor da Vila da Folha"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 44,
+      "field": 2,
+      "id": "d045",
+      "source": "HEALTH substantially recovers.",
+      "translation": "Recupera bastante VIDA."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 45,
+      "field": 1,
+      "id": "d046",
+      "source": "Secret Sweet Red Bean Soup",
+      "translation": "Sopa Doce Secreta de Feijão Vermelho"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 45,
+      "field": 2,
+      "id": "d046",
+      "source": "HEALTH completely recovers.",
+      "translation": "Recupera toda a VIDA."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 46,
+      "field": 1,
+      "id": "d047",
+      "source": "Limpid Stream Water",
+      "translation": "Água de Riacho Cristalino"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 46,
+      "field": 2,
+      "id": "d047",
+      "source": "Chakra moderately recovers.",
+      "translation": "Recupera uma quantidade moderada de Chakra."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 47,
+      "field": 1,
+      "id": "d048",
+      "source": "Chakra Water",
+      "translation": "Água de Chakra"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 47,
+      "field": 2,
+      "id": "d048",
+      "source": "Chakra substantially recovers.",
+      "translation": "Recupera bastante Chakra."
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 48,
+      "field": 1,
+      "id": "d049",
+      "source": "Ninja World's Secret Water",
+      "translation": "Água Secreta do Mundo Ninja"
+    },
+    {
+      "chunk": "itemDuel",
+      "index": 48,
+      "field": 2,
+      "id": "d049",
+      "source": "Chakra completely recovers.",
+      "translation": "Recupera todo o Chakra."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 0,
+      "field": 1,
+      "id": "flower001",
+      "source": "Red Flower",
+      "translation": "Flor Vermelha"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 0,
+      "field": 2,
+      "id": "flower001",
+      "source": "A flower red as raging flames.",
+      "translation": "Uma flor vermelha como chamas intensas."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 1,
+      "field": 1,
+      "id": "flower002",
+      "source": "Blue Flower",
+      "translation": "Flor Azul"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 1,
+      "field": 2,
+      "id": "flower002",
+      "source": "A flower blue as the cloudless sky.",
+      "translation": "Uma flor azul como o céu sem nuvens."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 2,
+      "field": 1,
+      "id": "flower003",
+      "source": "Yellow Flower",
+      "translation": "Flor Amarela"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 2,
+      "field": 2,
+      "id": "flower003",
+      "source": "A flower yellow as a field of stars.",
+      "translation": "Uma flor amarela como um campo de estrelas."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 3,
+      "field": 1,
+      "id": "flower004",
+      "source": "Black Flower",
+      "translation": "Flor Preta"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 3,
+      "field": 2,
+      "id": "flower004",
+      "source": "A flower black as the deepest darkness.",
+      "translation": "Uma flor negra como a mais profunda escuridão."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 4,
+      "field": 1,
+      "id": "flower005",
+      "source": "Purple Flower",
+      "translation": "Flor Roxa"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 4,
+      "field": 2,
+      "id": "flower005",
+      "source": "A flower whose violet shade bespeaks\ndignified beauty.",
+      "translation": "Uma flor cujo tom violeta expressa\numa beleza digna."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 5,
+      "field": 1,
+      "id": "flower006",
+      "source": "White Flower",
+      "translation": "Flor Branca"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 5,
+      "field": 2,
+      "id": "flower006",
+      "source": "A white flower of utmost value and\nnobility.",
+      "translation": "Uma flor branca de valor e\nnobreza incomparáveis."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 6,
+      "field": 1,
+      "id": "insect001",
+      "source": "Legendary Beetle",
+      "translation": "Besouro Lendário"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 6,
+      "field": 2,
+      "id": "insect001",
+      "source": "The king of kings in the insect world \nwith a shiny gold colored body.",
+      "translation": "O rei dos reis do mundo dos insetos,\ncom um corpo dourado brilhante."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 7,
+      "field": 1,
+      "id": "insect002",
+      "source": "Beetle",
+      "translation": "Besouro"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 7,
+      "field": 2,
+      "id": "insect002",
+      "source": "The king of insects with a great horn.\nVery powerful.",
+      "translation": "O rei dos insetos, com um grande chifre.\nMuito poderoso."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 8,
+      "field": 1,
+      "id": "insect003",
+      "source": "Legendary Stag Beetle",
+      "translation": "Besouro-cervo Lendário"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 8,
+      "field": 2,
+      "id": "insect003",
+      "source": "An extremely rare stag beetle with a \nshiny silver colored body.",
+      "translation": "Besouro-cervo extremamente raro\ncom um corpo prateado brilhante."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 9,
+      "field": 1,
+      "id": "insect004",
+      "source": "Stag Beetle",
+      "translation": "Besouro-cervo"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 9,
+      "field": 2,
+      "id": "insect004",
+      "source": "An insect with a notably large jaw.\nBe careful not to get bitten.",
+      "translation": "Inseto com mandíbulas bem grandes.\nCuidado para não levar uma mordida."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 10,
+      "field": 1,
+      "id": "insect005",
+      "source": "Cicada",
+      "translation": "Cigarra"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 10,
+      "field": 2,
+      "id": "insect005",
+      "source": "An insect that stridulates loudly.\nOften seen perched on trees.",
+      "translation": "Inseto que canta alto.\nCostuma ser encontrado nas árvores."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 11,
+      "field": 1,
+      "id": "insect006",
+      "source": "Butterfly",
+      "translation": "Borboleta"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 11,
+      "field": 2,
+      "id": "insect006",
+      "source": "Beautiful insect that flies in flower \nfields. Its sight soothes the heart.",
+      "translation": "Belo inseto que voa entre flores.\nSua presença acalma o coração."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 12,
+      "field": 1,
+      "id": "insect007",
+      "source": "Grasshopper",
+      "translation": "Gafanhoto"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 12,
+      "field": 2,
+      "id": "insect007",
+      "source": "An insect known for the greatest\njumping power in the insect kingdom.",
+      "translation": "Inseto conhecido pela maior capacidade\nde salto do reino dos insetos."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 13,
+      "field": 1,
+      "id": "fruit001",
+      "source": "Walnut",
+      "translation": "Noz"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 13,
+      "field": 2,
+      "id": "fruit001",
+      "source": "A nut covered by a hard shell.\nLooks impossible to crunch down.",
+      "translation": "Fruto coberto por uma casca dura.\nParece impossível de quebrar com os dentes."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 14,
+      "field": 1,
+      "id": "fruit002",
+      "source": "Golden Walnut",
+      "translation": "Noz Dourada"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 14,
+      "field": 2,
+      "id": "fruit002",
+      "source": "A rare walnut covered by a golden shell.\nVery dazzling.",
+      "translation": "Noz rara coberta por uma casca dourada.\nMuito deslumbrante."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 15,
+      "field": 1,
+      "id": "fruit003",
+      "source": "Apple",
+      "translation": "Maçã"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 15,
+      "field": 2,
+      "id": "fruit003",
+      "source": "A red fruit with a sweet aroma. It gives \nout fruit juice and tastes good too.",
+      "translation": "Fruta vermelha de aroma doce. É\nsuculenta e também muito saborosa."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 16,
+      "field": 1,
+      "id": "fruit004",
+      "source": "Cherry",
+      "translation": "Cereja"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 16,
+      "field": 2,
+      "id": "fruit004",
+      "source": "A tiny, cute fruit. Tastes sweet and \nsour.",
+      "translation": "Fruta pequena e graciosa. Tem sabor\nagridoce."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 17,
+      "field": 1,
+      "id": "mushroom001",
+      "source": "Recovery Mushroom",
+      "translation": "Cogumelo de Recuperação"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 17,
+      "field": 2,
+      "id": "mushroom001",
+      "source": "A mushroom brewed since ancient\ntimes in healing remedies.",
+      "translation": "Cogumelo usado desde a antiguidade\nem remédios de cura."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 18,
+      "field": 1,
+      "id": "mushroom002",
+      "source": "Death Cup",
+      "translation": "Cogumelo da Morte"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 18,
+      "field": 2,
+      "id": "mushroom002",
+      "source": "Rare mushroom that grows out of plain \nview. A very rare and valuable item.",
+      "translation": "Cogumelo raro que cresce longe da vista.\nUm item muito raro e valioso."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 19,
+      "field": 1,
+      "id": "mushroom003",
+      "source": "Explode Mushroom",
+      "translation": "Cogumelo Explosivo"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 19,
+      "field": 2,
+      "id": "mushroom003",
+      "source": "A kind of dangerous mushroom used for \nninja tools.",
+      "translation": "Cogumelo perigoso usado para\nFerramentas Ninja."
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 20,
+      "field": 1,
+      "id": "mushroom004",
+      "source": "Poison Mushroom",
+      "translation": "Cogumelo Venenoso"
+    },
+    {
+      "chunk": "itemUltimate",
+      "index": 20,
+      "field": 2,
+      "id": "mushroom004",
+      "source": "A mushroom containing low-dose poison.\nTastes delicious once detoxified.",
+      "translation": "Cogumelo levemente venenoso. Fica\ndelicioso depois de desintoxicado."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 0,
+      "field": 1,
+      "id": "e001",
+      "source": "Ninja Tool Summoning Scroll",
+      "translation": "Pergaminho de Invocação de Ferramentas Ninja"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 0,
+      "field": 2,
+      "id": "e001",
+      "source": "Summoning Scroll Tenten regularly uses.\nContains various ninja tools.",
+      "translation": "Pergaminho que Tenten sempre usa.\nContém várias Ferramentas Ninja."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 1,
+      "field": 1,
+      "id": "e002",
+      "source": "Hinata's Diary Part 1",
+      "translation": "Diário de Hinata: Parte 1"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 1,
+      "field": 2,
+      "id": "e002",
+      "source": "The secret diary Hinata writes in daily.\nWhat's in it...?",
+      "translation": "Diário secreto que Hinata escreve todo dia.\nO que será que tem nele...?"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 2,
+      "field": 1,
+      "id": "e003",
+      "source": "Hinata's Diary Part 2",
+      "translation": "Diário de Hinata: Parte 2"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 2,
+      "field": 2,
+      "id": "e003",
+      "source": "The secret diary Hinata writes in daily. \nWhat's in it...?",
+      "translation": "Diário secreto que Hinata escreve todo dia.\nO que será que tem nele...?"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 3,
+      "field": 1,
+      "id": "e004",
+      "source": "Hinata's Diary Part 3",
+      "translation": "Diário de Hinata: Parte 3"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 3,
+      "field": 2,
+      "id": "e004",
+      "source": "The secret diary Hinata writes in daily.\nWhat's in it...?",
+      "translation": "Diário secreto que Hinata escreve todo dia.\nO que será que tem nele...?"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 4,
+      "field": 1,
+      "id": "e005",
+      "source": "Top Secret Document No.1",
+      "translation": "Documento Ultrassecreto Nº 1"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 4,
+      "field": 2,
+      "id": "e005",
+      "source": "Top Secret document that was stolen from\nTsunade. Mysterious numbers are in it.",
+      "translation": "Documento ultrassecreto roubado de\nTsunade. Contém números misteriosos."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 5,
+      "field": 1,
+      "id": "e006",
+      "source": "Top Secret Document No.2",
+      "translation": "Documento Ultrassecreto Nº 2"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 5,
+      "field": 2,
+      "id": "e006",
+      "source": "Top Secret document that was stolen from\nTsunade. Mysterious numbers are in it.",
+      "translation": "Documento ultrassecreto roubado de\nTsunade. Contém números misteriosos."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 6,
+      "field": 1,
+      "id": "e007",
+      "source": "Top Secret Document No.3",
+      "translation": "Documento Ultrassecreto Nº 3"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 6,
+      "field": 2,
+      "id": "e007",
+      "source": "Top Secret document that was stolen from\nTsunade. Mysterious numbers are in it.",
+      "translation": "Documento ultrassecreto roubado de\nTsunade. Contém números misteriosos."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 7,
+      "field": 1,
+      "id": "e008",
+      "source": "Top Secret Document No.4",
+      "translation": "Documento Ultrassecreto Nº 4"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 7,
+      "field": 2,
+      "id": "e008",
+      "source": "Top Secret document that was stolen from\nTsunade. Mysterious numbers are in it.",
+      "translation": "Documento ultrassecreto roubado de\nTsunade. Contém números misteriosos."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 8,
+      "field": 1,
+      "id": "e009",
+      "source": "Top Secret Document No.5",
+      "translation": "Documento Ultrassecreto Nº 5"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 8,
+      "field": 2,
+      "id": "e009",
+      "source": "Top Secret document that was stolen from\nTsunade. Mysterious numbers are in it.",
+      "translation": "Documento ultrassecreto roubado de\nTsunade. Contém números misteriosos."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 9,
+      "field": 1,
+      "id": "e010",
+      "source": "e010",
+      "translation": "e010"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 9,
+      "field": 2,
+      "id": "e010",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 10,
+      "field": 1,
+      "id": "e011",
+      "source": "e011",
+      "translation": "e011"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 10,
+      "field": 2,
+      "id": "e011",
+      "source": "Dummy",
+      "translation": "Teste"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 11,
+      "field": 1,
+      "id": "e012",
+      "source": "Bug-catching Net",
+      "translation": "Rede de Insetos"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 11,
+      "field": 2,
+      "id": "e012",
+      "source": "A net used to catch insects.",
+      "translation": "Uma rede usada para capturar insetos."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 12,
+      "field": 1,
+      "id": "e013",
+      "source": "Ninja Tool Pouch: One",
+      "translation": "Bolsa de Ferramentas Ninja: Um"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 12,
+      "field": 2,
+      "id": "e013",
+      "source": "The number of item slots increases by 3.",
+      "translation": "Aumenta em 3 os espaços para itens."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 13,
+      "field": 1,
+      "id": "e014",
+      "source": "Ninja Tool Pouch: Two",
+      "translation": "Bolsa de Ferramentas Ninja: Dois"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 13,
+      "field": 2,
+      "id": "e014",
+      "source": "The number of item slots increases by 3.",
+      "translation": "Aumenta em 3 os espaços para itens."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 14,
+      "field": 1,
+      "id": "e015",
+      "source": "Ninja Tool Pouch: Three",
+      "translation": "Bolsa de Ferramentas Ninja: Três"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 14,
+      "field": 2,
+      "id": "e015",
+      "source": "The number of item slots increases by 3.",
+      "translation": "Aumenta em 3 os espaços para itens."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 15,
+      "field": 1,
+      "id": "e016",
+      "source": "Ninja Tool Pouch: Four",
+      "translation": "Bolsa de Ferramentas Ninja: Quatro"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 15,
+      "field": 2,
+      "id": "e016",
+      "source": "The number of item slots increases by 3.",
+      "translation": "Aumenta em 3 os espaços para itens."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 16,
+      "field": 1,
+      "id": "e017",
+      "source": "Ninja Tool Pouch: Five",
+      "translation": "Bolsa de Ferramentas Ninja: Cinco"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 16,
+      "field": 2,
+      "id": "e017",
+      "source": "The number of item slots increases by 3.",
+      "translation": "Aumenta em 3 os espaços para itens."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 17,
+      "field": 1,
+      "id": "e018",
+      "source": "Shuriken Holster: One",
+      "translation": "Coldre de Shurikens: Um"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 17,
+      "field": 2,
+      "id": "e018",
+      "source": "The number of targets you can lock onto \nin Shuriken Mode increases by 1.",
+      "translation": "Aumenta em 1 o número de alvos que você\npode fixar no modo Shuriken."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 18,
+      "field": 1,
+      "id": "e019",
+      "source": "Shuriken Holster: Two",
+      "translation": "Coldre de Shurikens: Dois"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 18,
+      "field": 2,
+      "id": "e019",
+      "source": "The number of targets you can lock onto \nin Shuriken Mode increases by 1.",
+      "translation": "Aumenta em 1 o número de alvos que você\npode fixar no modo Shuriken."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 19,
+      "field": 1,
+      "id": "e020",
+      "source": "Shuriken Holster: Three",
+      "translation": "Coldre de Shurikens: Três"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 19,
+      "field": 2,
+      "id": "e020",
+      "source": "The number of targets you can lock onto \nin Shuriken Mode increases by 1.",
+      "translation": "Aumenta em 1 o número de alvos que você\npode fixar no modo Shuriken."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 20,
+      "field": 1,
+      "id": "e021",
+      "source": "Shuriken Holster: Four",
+      "translation": "Coldre de Shurikens: Quatro"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 20,
+      "field": 2,
+      "id": "e021",
+      "source": "The number of targets you can lock onto \nin Shuriken Mode increases by 1.",
+      "translation": "Aumenta em 1 o número de alvos que você\npode fixar no modo Shuriken."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 21,
+      "field": 1,
+      "id": "e022",
+      "source": "Shuriken Holster: Five",
+      "translation": "Coldre de Shurikens: Cinco"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 21,
+      "field": 2,
+      "id": "e022",
+      "source": "The number of targets you can lock onto \nin Shuriken Mode increases by 1.",
+      "translation": "Aumenta em 1 o número de alvos que você\npode fixar no modo Shuriken."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 22,
+      "field": 1,
+      "id": "e023",
+      "source": "Shuriken Holster: Six",
+      "translation": "Coldre de Shurikens: Seis"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 22,
+      "field": 2,
+      "id": "e023",
+      "source": "The number of targets you can lock onto \nin Shuriken Mode increases by 1.",
+      "translation": "Aumenta em 1 o número de alvos que você\npode fixar no modo Shuriken."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 23,
+      "field": 1,
+      "id": "m001",
+      "source": "Chicken",
+      "translation": "Frango"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 23,
+      "field": 2,
+      "id": "m001",
+      "source": "Juicy, healthy meat. Looks suitable to　\nuse as a ramen ingredient.",
+      "translation": "Carne suculenta e saudável. Parece boa\npara usar como ingrediente de lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 24,
+      "field": 1,
+      "id": "m002",
+      "source": "Mania Noodles",
+      "translation": "Macarrão Mania"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 24,
+      "field": 2,
+      "id": "m002",
+      "source": "Smooth Noodles. Probably perfect for \nmaking ramen.",
+      "translation": "Macarrão de textura lisa. Deve ser\nperfeito para fazer lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 25,
+      "field": 1,
+      "id": "m003",
+      "source": "Leaf Clam",
+      "translation": "Marisco da Folha"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 25,
+      "field": 2,
+      "id": "m003",
+      "source": "Clam with plump flesh from the river of　\nthe Land of Fire. Good to use for ramen.",
+      "translation": "Marisco carnudo dos rios do País do\nFogo. Bom para usar no lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 26,
+      "field": 1,
+      "id": "m004",
+      "source": "Corbicula Clam",
+      "translation": "Marisco Corbícula"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 26,
+      "field": 2,
+      "id": "m004",
+      "source": "Small fresh water clam, best for making　\nsoup stock. Good to use for ramen.",
+      "translation": "Pequeno marisco de água doce, ideal\npara caldos. Bom para usar no lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 27,
+      "field": 1,
+      "id": "m005",
+      "source": "River Littleneck Clam",
+      "translation": "Amêijoa de Rio"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 27,
+      "field": 2,
+      "id": "m005",
+      "source": "Special littleneck clam that grows in a \nriver. Good to use for ramen.",
+      "translation": "Amêijoa especial que cresce em rios.\nBoa para usar no lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 28,
+      "field": 1,
+      "id": "m006",
+      "source": "Cabbage",
+      "translation": "Repolho"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 28,
+      "field": 2,
+      "id": "m006",
+      "source": "A vegetable with a sweet flavor. Good to\nuse for ramen.",
+      "translation": "Verdura de sabor adocicado. Boa para\nusar no lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 29,
+      "field": 1,
+      "id": "m007",
+      "source": "Scallion",
+      "translation": "Cebolinha"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 29,
+      "field": 2,
+      "id": "m007",
+      "source": "A vegetable enjoyed both simmered or \ngrilled. Good to use for ramen.",
+      "translation": "Verdura saborosa cozida ou\ngrelhada. Boa para usar no lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 30,
+      "field": 1,
+      "id": "m008",
+      "source": "Bean Sprouts",
+      "translation": "Brotos de Feijão"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 30,
+      "field": 2,
+      "id": "m008",
+      "source": "Vegetable with a nice crispy texture. \nGood to use for ramen.",
+      "translation": "Verdura de textura crocante agradável.\nBoa para usar no lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 31,
+      "field": 1,
+      "id": "m009",
+      "source": "Carrot",
+      "translation": "Cenoura"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 31,
+      "field": 2,
+      "id": "m009",
+      "source": "A vegetable with high nutritional value.\nGood to use for ramen.",
+      "translation": "Verdura de alto valor nutritivo.\nBoa para usar no lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 32,
+      "field": 1,
+      "id": "m010",
+      "source": "Green pepper",
+      "translation": "Pimentão Verde"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 32,
+      "field": 2,
+      "id": "m010",
+      "source": "The vegetable with a bit bitter taste. \nGood to use for ramen.",
+      "translation": "Verdura de sabor levemente amargo.\nBoa para usar no lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 33,
+      "field": 1,
+      "id": "m011",
+      "source": "Algae from Limpid Stream",
+      "translation": "Alga de Riacho Cristalino"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 33,
+      "field": 2,
+      "id": "m011",
+      "source": "A kind of laver with a rich aroma. Good \nto use for ramen.",
+      "translation": "Tipo de alga de aroma marcante.\nBoa para usar no lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 34,
+      "field": 1,
+      "id": "m012",
+      "source": "Pure White Egg",
+      "translation": "Ovo Branco Puro"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 34,
+      "field": 2,
+      "id": "m012",
+      "source": "A rich yolk contained inside a pure \negg white. Good to use for ramen.",
+      "translation": "Gema saborosa envolta em uma clara\npura. Bom para usar no lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 35,
+      "field": 1,
+      "id": "m013",
+      "source": "Spring water",
+      "translation": "Água de Nascente"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 35,
+      "field": 2,
+      "id": "m013",
+      "source": "Mild water that nurtures a limpid \nstream. Good to use for ramen.",
+      "translation": "Água suave que alimenta um riacho\ncristalino. Boa para usar no lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 36,
+      "field": 1,
+      "id": "m014",
+      "source": "Short Ribs",
+      "translation": "Costela"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 36,
+      "field": 2,
+      "id": "m014",
+      "source": "Beef with a big bone. Good to use for \nramen.",
+      "translation": "Carne bovina com um osso grande. Boa\npara usar no lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 37,
+      "field": 1,
+      "id": "m015",
+      "source": "Leaf Village Bird's Nest",
+      "translation": "Ninho de Pássaro da Vila da Folha"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 37,
+      "field": 2,
+      "id": "m015",
+      "source": "Expensive ingredient with a skin \nbeautifying effect. Good with ramen.",
+      "translation": "Ingrediente caro que deixa a pele\nmais bonita. Bom para usar no lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 38,
+      "field": 1,
+      "id": "m016",
+      "source": "Assorted Snacks",
+      "translation": "Petiscos Variados"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 38,
+      "field": 2,
+      "id": "m016",
+      "source": "Contains various snacks. \nGood to use for ramen.",
+      "translation": "Contém vários petiscos.\nBons para usar no lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 39,
+      "field": 1,
+      "id": "m017",
+      "source": "Choicest Rice",
+      "translation": "Arroz Selecionado"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 39,
+      "field": 2,
+      "id": "m017",
+      "source": "Hand-picked rice. Good to use for ramen.",
+      "translation": "Arroz selecionado à mão. Bom para o lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 40,
+      "field": 1,
+      "id": "m018",
+      "source": "Native Salt",
+      "translation": "Sal Natural"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 40,
+      "field": 2,
+      "id": "m018",
+      "source": "Naturally made salt crystals. Good to \nuse for ramen.",
+      "translation": "Cristais de sal formados naturalmente.\nBom para usar no lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 41,
+      "field": 1,
+      "id": "m019",
+      "source": "Red Miso",
+      "translation": "Missô Vermelho"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 41,
+      "field": 2,
+      "id": "m019",
+      "source": "Carefully made miso. Good to use for \nramen.",
+      "translation": "Missô preparado com cuidado. Bom\npara usar no lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 42,
+      "field": 1,
+      "id": "m020",
+      "source": "White Scroll",
+      "translation": "Pergaminho Branco"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 42,
+      "field": 2,
+      "id": "m020",
+      "source": "A blank scroll.",
+      "translation": "Um pergaminho em branco."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 43,
+      "field": 1,
+      "id": "m021",
+      "source": "Plain Tag",
+      "translation": "Selo em Branco"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 43,
+      "field": 2,
+      "id": "m021",
+      "source": "A blank tag.",
+      "translation": "Um selo em branco."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 44,
+      "field": 1,
+      "id": "m022",
+      "source": "Straw Figure",
+      "translation": "Boneco de Palha"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 44,
+      "field": 2,
+      "id": "m022",
+      "source": "A figure stuffed with straw.",
+      "translation": "Um boneco recheado de palha."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 45,
+      "field": 1,
+      "id": "m023",
+      "source": "Glittering Morning Dew",
+      "translation": "Orvalho Brilhante da Manhã"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 45,
+      "field": 2,
+      "id": "m023",
+      "source": "Precious morning dew made by clear and \npure air.",
+      "translation": "Orvalho precioso formado pelo ar\npuro e limpo da manhã."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 46,
+      "field": 1,
+      "id": "m024",
+      "source": "Sleeping Grass",
+      "translation": "Erva do Sono"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 46,
+      "field": 2,
+      "id": "m024",
+      "source": "Grass that contains a sleep-inducing \nsubstance.",
+      "translation": "Erva que contém uma substância\nque induz ao sono."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 47,
+      "field": 1,
+      "id": "m025",
+      "source": "Heavy Steel",
+      "translation": "Aço Pesado"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 47,
+      "field": 2,
+      "id": "m025",
+      "source": "Heavy steel perfect for training.",
+      "translation": "Aço pesado perfeito para treinar."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 48,
+      "field": 1,
+      "id": "m026",
+      "source": "Firecracker Ball",
+      "translation": "Bola de Fogos"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 48,
+      "field": 2,
+      "id": "m026",
+      "source": "A ball stuffed with various explosive \npowders.",
+      "translation": "Uma bola recheada com vários\npós explosivos."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 49,
+      "field": 1,
+      "id": "n001",
+      "source": "Mania Ramen",
+      "translation": "Lámen Mania"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 49,
+      "field": 2,
+      "id": "n001",
+      "source": "Special ramen with an\nobsessive focus on noodles.",
+      "translation": "Lámen especial feito com uma\nobsessão pelo macarrão perfeito."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 50,
+      "field": 1,
+      "id": "n002",
+      "source": "Floral Ramen",
+      "translation": "Lámen Floral"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 50,
+      "field": 2,
+      "id": "n002",
+      "source": "Gorgeous ramen with a floral aroma.",
+      "translation": "Belo lámen com aroma de flores."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 51,
+      "field": 1,
+      "id": "n003",
+      "source": "Chicken Ramen",
+      "translation": "Lámen de Frango"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 51,
+      "field": 2,
+      "id": "n003",
+      "source": "A health-conscious yet tasty ramen.",
+      "translation": "Um lámen saudável e saboroso."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 52,
+      "field": 1,
+      "id": "n004",
+      "source": "Walnut Ramen",
+      "translation": "Lámen de Nozes"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 52,
+      "field": 2,
+      "id": "n004",
+      "source": "A distinctive ramen with a crisp, savory\nsmell and texture.",
+      "translation": "Lámen peculiar com aroma e textura\ncrocantes e apetitosos."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 53,
+      "field": 1,
+      "id": "n005",
+      "source": "Fruit Juice Ramen",
+      "translation": "Lámen de Suco de Frutas"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 53,
+      "field": 2,
+      "id": "n005",
+      "source": "A nouvelle ramen that contains plenty　\nof fruit juice.",
+      "translation": "Lámen inovador que contém bastante\nsuco de frutas."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 54,
+      "field": 1,
+      "id": "n006",
+      "source": "Mushroom Ramen",
+      "translation": "Lámen de Cogumelos"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 54,
+      "field": 2,
+      "id": "n006",
+      "source": "A special ramen with lots of mushrooms.",
+      "translation": "Lámen especial com muitos cogumelos."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 55,
+      "field": 1,
+      "id": "n007",
+      "source": "Red Miso Ramen",
+      "translation": "Lámen de Missô Vermelho"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 55,
+      "field": 2,
+      "id": "n007",
+      "source": "The miso ramen cooked with plenty of red\nmiso.",
+      "translation": "Lámen preparado com bastante\nmissô vermelho."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 56,
+      "field": 1,
+      "id": "n008",
+      "source": "Laver Ramen",
+      "translation": "Lámen de Algas"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 56,
+      "field": 2,
+      "id": "n008",
+      "source": "Flavorful ramen full of tasty laver \naroma.",
+      "translation": "Lámen saboroso com o rico\naroma das algas."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 57,
+      "field": 1,
+      "id": "n009",
+      "source": "Meat Ramen",
+      "translation": "Lámen de Carne"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 57,
+      "field": 2,
+      "id": "n009",
+      "source": "Ramen with hearty meat.",
+      "translation": "Lámen com uma generosa porção de carne."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 58,
+      "field": 1,
+      "id": "n010",
+      "source": "Vegetable Ramen",
+      "translation": "Lámen de Legumes"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 58,
+      "field": 2,
+      "id": "n010",
+      "source": "A health-conscious ramen cooked with \nlots of vegetables.",
+      "translation": "Lámen saudável preparado com\nmuitos legumes."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 59,
+      "field": 1,
+      "id": "n011",
+      "source": "Mineral Water Ramen",
+      "translation": "Lámen de Água Mineral"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 59,
+      "field": 2,
+      "id": "n011",
+      "source": "Tasty ramen made with spring\nwater.",
+      "translation": "Lámen saboroso feito com água\nde nascente."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 60,
+      "field": 1,
+      "id": "n012",
+      "source": "Egg Ramen",
+      "translation": "Lámen de Ovo"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 60,
+      "field": 2,
+      "id": "n012",
+      "source": "Ramen topped with a special poached egg.",
+      "translation": "Lámen coberto com um ovo pochê especial."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 61,
+      "field": 1,
+      "id": "n013",
+      "source": "Snack Ramen",
+      "translation": "Lámen de Petiscos"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 61,
+      "field": 2,
+      "id": "n013",
+      "source": "A surprising ramen topped with snacks...",
+      "translation": "Lámen surpreendente coberto de petiscos..."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 62,
+      "field": 1,
+      "id": "n014",
+      "source": "Rice In Ramen",
+      "translation": "Arroz no Lámen"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 62,
+      "field": 2,
+      "id": "n014",
+      "source": "Ramen that can be enjoyed twice, because\nit also contains cooked rice.",
+      "translation": "Lámen para saborear em dobro, pois\ntambém contém arroz cozido."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 63,
+      "field": 1,
+      "id": "n015",
+      "source": "Clam Ramen",
+      "translation": "Lámen de Mariscos"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 63,
+      "field": 2,
+      "id": "n015",
+      "source": "Non-fatty ramen with clams.",
+      "translation": "Lámen sem gordura com mariscos."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 64,
+      "field": 1,
+      "id": "n016",
+      "source": "Natural Salt Ramen",
+      "translation": "Lámen de Sal Natural"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 64,
+      "field": 2,
+      "id": "n016",
+      "source": "Ramen with a mild taste made with \nnatural salt.",
+      "translation": "Lámen de sabor suave feito\ncom sal natural."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 65,
+      "field": 1,
+      "id": "n017",
+      "source": "Ramen with Gold Dust",
+      "translation": "Lámen com Pó de Ouro"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 65,
+      "field": 2,
+      "id": "n017",
+      "source": "A great, flamboyant ramen topped with \ngorgeous gold dust.",
+      "translation": "Lámen esplêndido e chamativo\ncoberto com um belo pó de ouro."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 66,
+      "field": 1,
+      "id": "n018",
+      "source": "Bird's Nest Ramen",
+      "translation": "Lámen de Ninho de Pássaro"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 66,
+      "field": 2,
+      "id": "n018",
+      "source": "The ramen made with a bird's nest, a \nvery expensive ingredient.",
+      "translation": "Lámen feito com ninho de pássaro,\num ingrediente muito caro."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 67,
+      "field": 1,
+      "id": "n019",
+      "source": "Three Major Delicacies Ramen",
+      "translation": "Lámen das Três Grandes Iguarias"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 67,
+      "field": 2,
+      "id": "n019",
+      "source": "The finest class of ramen prepared using\nonly rare and valuable ingredients.",
+      "translation": "Lámen da mais alta qualidade, feito\napenas com ingredientes raros e valiosos."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 68,
+      "field": 1,
+      "id": "n020",
+      "source": "Legendary Ramen",
+      "translation": "Lámen Lendário"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 68,
+      "field": 2,
+      "id": "n020",
+      "source": "Already a legend in its own time,\nthis is the ultimate ramen.",
+      "translation": "Já lendário em sua própria época,\neste é o lámen supremo."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 69,
+      "field": 1,
+      "id": "ss001",
+      "source": "Demon Wind Bomb Book",
+      "translation": "Livro da Bomba do Vento Demoníaco"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 69,
+      "field": 2,
+      "id": "ss001",
+      "source": "Naruto's \"Demon Wind Bomb\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar a \"Bomba do Vento\nDemoníaco\" de Naruto como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 70,
+      "field": 1,
+      "id": "ss002",
+      "source": "Rasengan Book",
+      "translation": "Livro do Rasengan"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 70,
+      "field": 2,
+      "id": "ss002",
+      "source": "Naruto's \"Rasengan\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar o \"Rasengan\"\nde Naruto como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 71,
+      "field": 1,
+      "id": "ss003",
+      "source": "Fire Style: Fire Ball Book",
+      "translation": "Livro do Estilo Fogo: Bola de Fogo"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 71,
+      "field": 2,
+      "id": "ss003",
+      "source": "Sasuke's \"Fire Style: Fire Ball Jutsu\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar o \"Estilo Fogo:\nJutsu Bola de Fogo\" de Sasuke como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 72,
+      "field": 1,
+      "id": "ss004",
+      "source": "Fire Style: Phoenix Flower Book",
+      "translation": "Livro do Estilo Fogo: Flor de Fênix"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 72,
+      "field": 2,
+      "id": "ss004",
+      "source": "Sasuke's \"Fire Style: Phoenix Flower\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar o \"Estilo Fogo:\nFlor de Fênix\" de Sasuke como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 73,
+      "field": 1,
+      "id": "ss005",
+      "source": "Chidori Book",
+      "translation": "Livro do Chidori"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 73,
+      "field": 2,
+      "id": "ss005",
+      "source": "Sasuke's \"Chidori\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar o \"Chidori\"\nde Sasuke como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 74,
+      "field": 1,
+      "id": "ss006",
+      "source": "Booby Trap Book",
+      "translation": "Livro da Armadilha"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 74,
+      "field": 2,
+      "id": "ss006",
+      "source": "Sakura's \"Booby Trap\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar a \"Armadilha\"\nde Sakura como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 75,
+      "field": 1,
+      "id": "ss007",
+      "source": "Leaf Hurricane Book",
+      "translation": "Livro do Furacão da Folha"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 75,
+      "field": 2,
+      "id": "ss007",
+      "source": "Rock Lee's \"Leaf Hurricane\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar o \"Furacão\nda Folha\" de Rock Lee como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 76,
+      "field": 1,
+      "id": "ss008",
+      "source": "8 Trigrams Palm Rotation Book",
+      "translation": "Livro da Rotação de Palmas dos Oito Trigramas"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 76,
+      "field": 2,
+      "id": "ss008",
+      "source": "Neji's \"8 Trigrams Palms Rotation\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar a \"Rotação de Palmas\ndos Oito Trigramas\" de Neji como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 77,
+      "field": 1,
+      "id": "ss009",
+      "source": "Ninja Tool: Blade of 1,000 Strikes Book",
+      "translation": "Livro da Ferramenta Ninja: Lâmina dos Mil Golpes"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 77,
+      "field": 2,
+      "id": "ss009",
+      "source": "Tenten's \"Ninja Tool: Blade of 1,000\nStrikes\" now customizable as support!",
+      "translation": "Agora você pode equipar a \"Ferramenta Ninja:\nLâmina dos Mil Golpes\" de Tenten como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 78,
+      "field": 1,
+      "id": "ss010",
+      "source": "Explosive Style Flying Blade Book",
+      "translation": "Livro da Lâmina Voadora Explosiva"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 78,
+      "field": 2,
+      "id": "ss010",
+      "source": "Shikamaru's \"Explosive Style Flying\nBlade\" now customizable as support!",
+      "translation": "Agora você pode equipar a \"Lâmina Voadora\nExplosiva\" de Shikamaru como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 79,
+      "field": 1,
+      "id": "ss011",
+      "source": "Human Boulder Book",
+      "translation": "Livro do Tanque Humano"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 79,
+      "field": 2,
+      "id": "ss011",
+      "source": "Choji's \"Human Boulder\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar o \"Tanque Humano\"\nde Choji como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 80,
+      "field": 1,
+      "id": "ss012",
+      "source": "Memorial Flower Sending Book",
+      "translation": "Livro do Envio de Flores Fúnebres"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 80,
+      "field": 2,
+      "id": "ss012",
+      "source": "Ino's \"Memorial Flower Sending\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar o \"Envio de Flores\nFúnebres\" de Ino como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 81,
+      "field": 1,
+      "id": "ss013",
+      "source": "Fang Over Fang Book",
+      "translation": "Livro da Presa sobre Presa"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 81,
+      "field": 2,
+      "id": "ss013",
+      "source": "Kiba's \"Fang Over Fang\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar a \"Presa sobre Presa\"\nde Kiba como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 82,
+      "field": 1,
+      "id": "ss014",
+      "source": "Dynamic Marking Book",
+      "translation": "Livro da Marcação Dinâmica"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 82,
+      "field": 2,
+      "id": "ss014",
+      "source": "Kiba's \"Dynamic Marking\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar a \"Marcação\nDinâmica\" de Kiba como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 83,
+      "field": 1,
+      "id": "ss015",
+      "source": "Ground Scamper Insects Book",
+      "translation": "Livro dos Insetos Rastejantes"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 83,
+      "field": 2,
+      "id": "ss015",
+      "source": "Shino's \"Ground Scamper Insects\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar os \"Insetos\nRastejantes\" de Shino como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 84,
+      "field": 1,
+      "id": "ss016",
+      "source": "Dashing Double Palm Book",
+      "translation": "Livro da Investida de Palma Dupla"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 84,
+      "field": 2,
+      "id": "ss016",
+      "source": "Hinata's \"Dashing Double Palm\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar a \"Investida de\nPalma Dupla\" de Hinata como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 85,
+      "field": 1,
+      "id": "ss017",
+      "source": "Sand Shower Book",
+      "translation": "Livro da Chuva de Areia"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 85,
+      "field": 2,
+      "id": "ss017",
+      "source": "Gaara's \"Sand Shower\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar a \"Chuva de Areia\"\nde Gaara como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 86,
+      "field": 1,
+      "id": "ss018",
+      "source": "Puppet: May Shower Book",
+      "translation": "Livro da Marionete: Chuva de Maio"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 86,
+      "field": 2,
+      "id": "ss018",
+      "source": "Kankuro's \"Puppet: May Shower\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar a \"Marionete:\nChuva de Maio\" de Kankuro como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 87,
+      "field": 1,
+      "id": "ss019",
+      "source": "Rumbling Fan Wind Wall Book",
+      "translation": "Livro da Muralha de Vento do Leque Estrondoso"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 87,
+      "field": 2,
+      "id": "ss019",
+      "source": "Temari's \"Rumbling Fan Wind Wall\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar a \"Muralha de Vento\ndo Leque Estrondoso\" de Temari como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 88,
+      "field": 1,
+      "id": "ss020",
+      "source": "True Wind Scythe Jutsu Book",
+      "translation": "Livro do Jutsu Foice de Vento Verdadeira"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 88,
+      "field": 2,
+      "id": "ss020",
+      "source": "Temari's \"True Wind Scythe Jutsu\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar o \"Jutsu Foice de\nVento Verdadeira\" de Temari como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 89,
+      "field": 1,
+      "id": "ss021",
+      "source": "Lightning Blade Book",
+      "translation": "Livro da Lâmina Relâmpago"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 89,
+      "field": 2,
+      "id": "ss021",
+      "source": "Kakashi's \"Lightning Blade\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar a \"Lâmina\nRelâmpago\" de Kakashi como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 90,
+      "field": 1,
+      "id": "ss022",
+      "source": "Copy Jutsu: Fire Ball Book",
+      "translation": "Livro do Jutsu de Cópia: Bola de Fogo"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 90,
+      "field": 2,
+      "id": "ss022",
+      "source": "Kakashi's \"Fire Style: Fire Ball Jutsu\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar o \"Estilo Fogo:\nJutsu Bola de Fogo\" de Kakashi como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 91,
+      "field": 1,
+      "id": "ss023",
+      "source": "Copy Jutsu: Water Shark Bomb Book",
+      "translation": "Livro do Jutsu de Cópia: Bomba do Tubarão de Água"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 91,
+      "field": 2,
+      "id": "ss023",
+      "source": "Kakashi's \"Water Style: Water Shark\nBomb Jutsu\" now customizable as support!",
+      "translation": "Agora você pode equipar o \"Estilo Água: Jutsu\nBomba do Tubarão de Água\" de Kakashi como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 92,
+      "field": 1,
+      "id": "ss024",
+      "source": "Severe Leaf Hurricanes Book",
+      "translation": "Livro dos Furacões Violentos da Folha"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 92,
+      "field": 2,
+      "id": "ss024",
+      "source": "Guy's \"Leaf's Severe Hurricanes\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar os \"Furacões\nViolentos da Folha\" de Guy como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 93,
+      "field": 1,
+      "id": "ss025",
+      "source": "Dynamic Entry Book",
+      "translation": "Livro da Entrada Dinâmica"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 93,
+      "field": 2,
+      "id": "ss025",
+      "source": "Guy's \"Dynamic Entry\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar a \"Entrada\nDinâmica\" de Guy como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 94,
+      "field": 1,
+      "id": "ss026",
+      "source": "Summoning Jutsu: Bring Down the House Book",
+      "translation": "Livro do Jutsu de Invocação: Destruidor de Barracas"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 94,
+      "field": 2,
+      "id": "ss026",
+      "source": "Jiraiya's \"Summoning: Bring Down the\nHouse Jutsu\" now customizable as support!",
+      "translation": "Agora você pode equipar o \"Jutsu de Invocação:\nDestruidor de Barracas\" de Jiraiya como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 95,
+      "field": 1,
+      "id": "ss027",
+      "source": "Heaven Kick of Pain Book",
+      "translation": "Livro do Chute Celestial da Dor"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 95,
+      "field": 2,
+      "id": "ss027",
+      "source": "Tsunade's \"Heaven Kick of Pain\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar o \"Chute Celestial\nda Dor\" de Tsunade como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 96,
+      "field": 1,
+      "id": "ss028",
+      "source": "Fire Style: Dragon Flame Bombs Book",
+      "translation": "Livro do Estilo Fogo: Bombas de Chamas do Dragão"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 96,
+      "field": 2,
+      "id": "ss028",
+      "source": "The Third Hokage's \"Fire Style: Dragon\nFlame Bombs\" now customizable as support!",
+      "translation": "Agora você pode equipar o \"Estilo Fogo: Bombas de\nChamas do Dragão\" do Terceiro Hokage como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 97,
+      "field": 1,
+      "id": "ss029",
+      "source": "Blade Technique Book",
+      "translation": "Livro da Técnica da Lâmina"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 97,
+      "field": 2,
+      "id": "ss029",
+      "source": "Orochimaru's \"Blade Dance\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar a \"Dança da\nLâmina\" de Orochimaru como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 98,
+      "field": 1,
+      "id": "ss030",
+      "source": "Feather Illusion Book",
+      "translation": "Livro da Ilusão de Penas"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 98,
+      "field": 2,
+      "id": "ss030",
+      "source": "Kabuto's \"Feather Illusion Jutsu\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar o \"Jutsu Ilusão\nde Penas\" de Kabuto como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 99,
+      "field": 1,
+      "id": "ss031",
+      "source": "Larch Dance Book",
+      "translation": "Livro da Dança do Lariço"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 99,
+      "field": 2,
+      "id": "ss031",
+      "source": "Kimimaro's \"Larch Dance\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar a \"Dança do\nLariço\" de Kimimaro como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 100,
+      "field": 1,
+      "id": "ss032",
+      "source": "Clone Jutsu: Super Explosion Book",
+      "translation": "Livro do Jutsu de Clonagem: Superexplosão"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 100,
+      "field": 2,
+      "id": "ss032",
+      "source": "Itachi's \"Clone Jutsu: Super Explosion\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar o \"Jutsu de Clonagem:\nSuperexplosão\" de Itachi como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 101,
+      "field": 1,
+      "id": "ss033",
+      "source": "Fire Style: Fire Ball Book",
+      "translation": "Livro do Estilo Fogo: Bola de Fogo"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 101,
+      "field": 2,
+      "id": "ss033",
+      "source": "Itachi's \"Fire Style: Fire Ball Jutsu\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar o \"Estilo Fogo:\nJutsu Bola de Fogo\" de Itachi como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 102,
+      "field": 1,
+      "id": "ss034",
+      "source": "Water Style: Water Shark Bomb Book",
+      "translation": "Livro do Estilo Água: Bomba do Tubarão de Água"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 102,
+      "field": 2,
+      "id": "ss034",
+      "source": "Kisame's \"Water Style: Water Shark\nBomb Jutsu\" now customizable as support!",
+      "translation": "Agora você pode equipar o \"Estilo Água: Jutsu\nBomba do Tubarão de Água\" de Kisame como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 103,
+      "field": 1,
+      "id": "ss035",
+      "source": "s035",
+      "translation": "s035"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 103,
+      "field": 2,
+      "id": "ss035",
+      "source": "The First Hokage's \"Deep Forest\nEmergence\" now customizable as support!",
+      "translation": "Agora você pode equipar o \"Surgimento da\nFloresta Densa\" do Primeiro Hokage como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 104,
+      "field": 1,
+      "id": "ss036",
+      "source": "s036",
+      "translation": "s036"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 104,
+      "field": 2,
+      "id": "ss036",
+      "source": "The Second Hokage's \"Water Style:\nWater Wall\" now customizable as support!",
+      "translation": "Agora você pode equipar o \"Estilo Água:\nMuralha de Água\" do Segundo Hokage como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 105,
+      "field": 1,
+      "id": "ss037",
+      "source": "s037",
+      "translation": "s037"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 105,
+      "field": 2,
+      "id": "ss037",
+      "source": "Kidomaru's \"Spiral Spider Web\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar a \"Teia de Aranha\nEspiral\" de Kidomaru como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 106,
+      "field": 1,
+      "id": "ss038",
+      "source": "s038",
+      "translation": "s038"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 106,
+      "field": 2,
+      "id": "ss038",
+      "source": "Jirobo's \"Earth Style: Sphere of Graves\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar o \"Estilo Terra: Esfera\nde Túmulos\" de Jirobo como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 107,
+      "field": 1,
+      "id": "ss039",
+      "source": "s039",
+      "translation": "s039"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 107,
+      "field": 2,
+      "id": "ss039",
+      "source": "Tayuya's \"Demon Flute: Phantom Wave\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar a \"Flauta Demoníaca:\nOnda Fantasma\" de Tayuya como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 108,
+      "field": 1,
+      "id": "ss040",
+      "source": "s040",
+      "translation": "s040"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 108,
+      "field": 2,
+      "id": "ss040",
+      "source": "Sakon's \"Summoning Jutsu: Rashomon\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar o \"Jutsu de Invocação:\nRashomon\" de Sakon como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 109,
+      "field": 1,
+      "id": "ss041",
+      "source": "s041",
+      "translation": "s041"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 109,
+      "field": 2,
+      "id": "ss041",
+      "source": "Asuma's \"Flying Sparrow Thrust\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar a \"Estocada do\nPardal Voador\" de Asuma como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 110,
+      "field": 1,
+      "id": "ss042",
+      "source": "s042",
+      "translation": "s042"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 110,
+      "field": 2,
+      "id": "ss042",
+      "source": "Kurenai's \"Genjutsu: Haze\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar o \"Genjutsu:\nNévoa\" de Kurenai como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 111,
+      "field": 1,
+      "id": "ss043",
+      "source": "s043",
+      "translation": "s043"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 111,
+      "field": 2,
+      "id": "ss043",
+      "source": "Shizune's \"Ninja Art: Poison Fog\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar a \"Arte Ninja:\nNévoa Venenosa\" de Shizune como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 112,
+      "field": 1,
+      "id": "ss044",
+      "source": "s044",
+      "translation": "s044"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 112,
+      "field": 2,
+      "id": "ss044",
+      "source": "Anko's \"Striking Shadow Snake\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar a \"Serpente\nda Sombra Atacante\" de Anko como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 113,
+      "field": 1,
+      "id": "ss045",
+      "source": "Needle Flower Blast Book",
+      "translation": "Livro da Explosão de Flores de Agulhas"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 113,
+      "field": 2,
+      "id": "ss045",
+      "source": "Tenten's \"Needle Flower Blast\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar a \"Explosão de Flores\nde Agulhas\" de Tenten como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 114,
+      "field": 1,
+      "id": "ss046",
+      "source": "Expansion Book",
+      "translation": "Livro da Expansão"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 114,
+      "field": 2,
+      "id": "ss046",
+      "source": "Choji's \"Expansion Jutsu\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar o \"Jutsu de\nExpansão\" de Choji como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 115,
+      "field": 1,
+      "id": "ss047",
+      "source": "Insects Net in the Mist Book",
+      "translation": "Livro da Rede de Insetos na Névoa"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 115,
+      "field": 2,
+      "id": "ss047",
+      "source": "Shino's \"Insects Net in the Mist\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar a \"Rede de Insetos\nna Névoa\" de Shino como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 116,
+      "field": 1,
+      "id": "ss048",
+      "source": "Rasengan Book - Ancient",
+      "translation": "Livro do Rasengan - Antigo"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 116,
+      "field": 2,
+      "id": "ss048",
+      "source": "Jiraiya's \"Rasengan\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar o \"Rasengan\"\nde Jiraiya como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 117,
+      "field": 1,
+      "id": "ss049",
+      "source": "Extreme Deadly Blow Book",
+      "translation": "Livro do Golpe Mortal Extremo"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 117,
+      "field": 2,
+      "id": "ss049",
+      "source": "Tsunade's \"Extreme Deadly Blow\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar o \"Golpe Mortal\nExtremo\" de Tsunade como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 118,
+      "field": 1,
+      "id": "ss050",
+      "source": "Shuriken Shadow Clone Book",
+      "translation": "Livro dos Clones das Sombras de Shuriken"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 118,
+      "field": 2,
+      "id": "ss050",
+      "source": "The Third Hokage's \"Shuriken Shadow\nClone Jutsu\" now customizable as support!",
+      "translation": "Agora você pode equipar o \"Jutsu Clone das Sombras\nde Shuriken\" do Terceiro Hokage como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 119,
+      "field": 1,
+      "id": "ss051",
+      "source": "Water Shark Shotgun Jutsu Book",
+      "translation": "Livro do Jutsu Escopeta de Tubarões de Água"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 119,
+      "field": 2,
+      "id": "ss051",
+      "source": "Kisame's \"Water Shark Shotgun Jutsu\"\nnow customizable as support!",
+      "translation": "Agora você pode equipar o \"Jutsu Escopeta\nde Tubarões de Água\" de Kisame como Suporte!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 120,
+      "field": 1,
+      "id": "sl001",
+      "source": "Naruto's Ninja Handbook",
+      "translation": "Manual Ninja de Naruto"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 120,
+      "field": 2,
+      "id": "sl001",
+      "source": "Naruto's \"Rasengan\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar o \"Rasengan\"\nde Naruto em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 121,
+      "field": 1,
+      "id": "sl002",
+      "source": "Sasuke's Ninja Handbook - Volume 1",
+      "translation": "Manual Ninja de Sasuke - Volume 1"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 121,
+      "field": 2,
+      "id": "sl002",
+      "source": "Sasuke's \"Fire Style: Phoenix Flower\nJutsu\" now customizable in battle!",
+      "translation": "Agora você pode equipar o \"Estilo Fogo: Jutsu\nFlor de Fênix\" de Sasuke em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 122,
+      "field": 1,
+      "id": "sl003",
+      "source": "Sasuke's Ninja Handbook - Volume 2",
+      "translation": "Manual Ninja de Sasuke - Volume 2"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 122,
+      "field": 2,
+      "id": "sl003",
+      "source": "Sasuke's \"Chidori\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar o \"Chidori\"\nde Sasuke em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 123,
+      "field": 1,
+      "id": "sl004",
+      "source": "Sakura's Ninja Handbook",
+      "translation": "Manual Ninja de Sakura"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 123,
+      "field": 2,
+      "id": "sl004",
+      "source": "Sakura's \"This Fairy Tale is for Real!\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar o \"Este Conto\nde Fadas É Real!\" de Sakura em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 124,
+      "field": 1,
+      "id": "sl005",
+      "source": "Lee's Ninja Handbook",
+      "translation": "Manual Ninja de Lee"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 124,
+      "field": 2,
+      "id": "sl005",
+      "source": "Rock Lee's \"Primary Lotus\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar a \"Lótus\nPrimária\" de Rock Lee em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 125,
+      "field": 1,
+      "id": "sl006",
+      "source": "Neji's Ninja Handbook",
+      "translation": "Manual Ninja de Neji"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 125,
+      "field": 2,
+      "id": "sl006",
+      "source": "Neji's \"8 Trigrams Palm Storm Dance\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar a \"Dança da Tempestade de\nPalmas dos Oito Trigramas\" de Neji em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 126,
+      "field": 1,
+      "id": "sl007",
+      "source": "Tenten's Ninja Handbook",
+      "translation": "Manual Ninja de Tenten"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 126,
+      "field": 2,
+      "id": "sl007",
+      "source": "Tenten's \"Ninja Tool: Needle Flower\nBlast\" now customizable in battle!",
+      "translation": "Agora você pode equipar a \"Ferramenta Ninja:\nExplosão de Flores de Agulhas\" de Tenten em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 127,
+      "field": 1,
+      "id": "sl008",
+      "source": "Shikamaru's Ninja Handbook",
+      "translation": "Manual Ninja de Shikamaru"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 127,
+      "field": 2,
+      "id": "sl008",
+      "source": "Shikamaru's \"Explosive Style Flying\nBlade\" now customizable in battle!",
+      "translation": "Agora você pode equipar a \"Lâmina Voadora\nExplosiva\" de Shikamaru em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 128,
+      "field": 1,
+      "id": "sl008b",
+      "source": "Shikamaru's Ninja Handbook",
+      "translation": "Manual Ninja de Shikamaru"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 128,
+      "field": 2,
+      "id": "sl008b",
+      "source": "Shikamaru's \"Shadow Possession Jutsu\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar o \"Jutsu de Possessão\ndas Sombras\" de Shikamaru em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 129,
+      "field": 1,
+      "id": "sl009",
+      "source": "Choji's Ninja Handbook",
+      "translation": "Manual Ninja de Choji"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 129,
+      "field": 2,
+      "id": "sl009",
+      "source": "Choji's \"Expansion Jutsu\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar o \"Jutsu de\nExpansão\" de Choji em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 130,
+      "field": 1,
+      "id": "sl010",
+      "source": "Ino's Ninja Handbook",
+      "translation": "Manual Ninja de Ino"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 130,
+      "field": 2,
+      "id": "sl010",
+      "source": "Ino's \"16-Hit Combo\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar o \"Combo de\n16 Golpes\" de Ino em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 131,
+      "field": 1,
+      "id": "sl011",
+      "source": "Kiba's Ninja Handbook",
+      "translation": "Manual Ninja de Kiba"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 131,
+      "field": 2,
+      "id": "sl011",
+      "source": "Kiba's \"Dynamic Marking\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar a \"Marcação\nDinâmica\" de Kiba em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 132,
+      "field": 1,
+      "id": "sl012",
+      "source": "Shino's Ninja Handbook",
+      "translation": "Manual Ninja de Shino"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 132,
+      "field": 2,
+      "id": "sl012",
+      "source": "Shino's \"Insects Net in the Mist\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar a \"Rede de Insetos\nna Névoa\" de Shino em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 133,
+      "field": 1,
+      "id": "sl013",
+      "source": "Hinata's Ninja Handbook",
+      "translation": "Manual Ninja de Hinata"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 133,
+      "field": 2,
+      "id": "sl013",
+      "source": "Hinata's \"Heaven's Dance of Hazy White\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar a \"Dança Celestial\ndo Branco Nebuloso\" de Hinata em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 134,
+      "field": 1,
+      "id": "sl014",
+      "source": "Gaara's Ninja Handbook",
+      "translation": "Manual Ninja de Gaara"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 134,
+      "field": 2,
+      "id": "sl014",
+      "source": "Gaara's \"Sand Burial\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar o \"Funeral\nda Areia\" de Gaara em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 135,
+      "field": 1,
+      "id": "sl015",
+      "source": "Kankuro's Ninja Handbook",
+      "translation": "Manual Ninja de Kankuro"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 135,
+      "field": 2,
+      "id": "sl015",
+      "source": "Kankuro's \"Puppet: Coarse Coffin\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar a \"Marionete:\nCaixão Rústico\" de Kankuro em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 136,
+      "field": 1,
+      "id": "sl016",
+      "source": "Temari's Ninja Handbook",
+      "translation": "Manual Ninja de Temari"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 136,
+      "field": 2,
+      "id": "sl016",
+      "source": "Temari's \"True Wind Scythe Jutsu\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar o \"Jutsu Foice\nde Vento Verdadeira\" de Temari em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 137,
+      "field": 1,
+      "id": "sl017",
+      "source": "Kakashi's Ninja Handbook - Volume 1",
+      "translation": "Manual Ninja de Kakashi - Volume 1"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 137,
+      "field": 2,
+      "id": "sl017",
+      "source": "Kakashi's \"Lightning Blade\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar a \"Lâmina\nRelâmpago\" de Kakashi em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 138,
+      "field": 1,
+      "id": "sl017b",
+      "source": "Kakashi's Ninja Handbook - Volume 1",
+      "translation": "Manual Ninja de Kakashi - Volume 1"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 138,
+      "field": 2,
+      "id": "sl017b",
+      "source": "Kakashi's \"Summoning Earth Style: Fanged\nPursuit Jutsu\" now customizable in battle!",
+      "translation": "Agora você pode equipar a \"Invocação Estilo Terra:\nJutsu Perseguição das Presas\" de Kakashi em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 139,
+      "field": 1,
+      "id": "sl018",
+      "source": "Kakashi's Ninja Handbook - Volume 2",
+      "translation": "Manual Ninja de Kakashi - Volume 2"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 139,
+      "field": 2,
+      "id": "sl018",
+      "source": "Kakashi's \"Fire Style: Fire Ball Jutsu\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar o \"Estilo Fogo:\nJutsu Bola de Fogo\" de Kakashi em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 140,
+      "field": 1,
+      "id": "sl019",
+      "source": "Kakashi's Ninja Handbook - Volume 3",
+      "translation": "Manual Ninja de Kakashi - Volume 3"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 140,
+      "field": 2,
+      "id": "sl019",
+      "source": "Kakashi's \"Water Style: Water Shark\nBomb Jutsu\" now customizable in battle!",
+      "translation": "Agora você pode equipar o \"Estilo Água: Jutsu\nBomba do Tubarão de Água\" de Kakashi em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 141,
+      "field": 1,
+      "id": "sl020",
+      "source": "Guy's Ninja Handbook",
+      "translation": "Manual Ninja de Guy"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 141,
+      "field": 2,
+      "id": "sl020",
+      "source": "Guy's \"Dynamic Entry\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar a \"Entrada\nDinâmica\" de Guy em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 142,
+      "field": 1,
+      "id": "sl021",
+      "source": "Jiraiya's Ninja Handbook",
+      "translation": "Manual Ninja de Jiraiya"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 142,
+      "field": 2,
+      "id": "sl021",
+      "source": "Jiraiya's \"Rasengan\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar o \"Rasengan\"\nde Jiraiya em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 143,
+      "field": 1,
+      "id": "sl022",
+      "source": "Tsunade's Ninja Handbook",
+      "translation": "Manual Ninja de Tsunade"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 143,
+      "field": 2,
+      "id": "sl022",
+      "source": "Tsunade's \"Extreme Deadly Blow\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar o \"Golpe Mortal\nExtremo\" de Tsunade em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 144,
+      "field": 1,
+      "id": "sl023",
+      "source": "Third Hokage's Ninja Handbook",
+      "translation": "Manual Ninja do Terceiro Hokage"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 144,
+      "field": 2,
+      "id": "sl023",
+      "source": "The Third Hokage's \"Shuriken Shadow\nClone Jutsu\" now customizable in battle!",
+      "translation": "Agora você pode equipar o \"Jutsu Clone das Sombras\nde Shuriken\" do Terceiro Hokage em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 145,
+      "field": 1,
+      "id": "sl024",
+      "source": "Orochimaru's Ninja Handbook",
+      "translation": "Manual Ninja de Orochimaru"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 145,
+      "field": 2,
+      "id": "sl024",
+      "source": "Orochimaru's \"Blade Dance\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar a \"Dança da\nLâmina\" de Orochimaru em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 146,
+      "field": 1,
+      "id": "sl024b",
+      "source": "Orochimaru's Ninja Handbook",
+      "translation": "Manual Ninja de Orochimaru"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 146,
+      "field": 2,
+      "id": "sl024b",
+      "source": "Orochimaru's \"Striking Shadow Snake\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar a \"Serpente da\nSombra Atacante\" de Orochimaru em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 147,
+      "field": 1,
+      "id": "sl025",
+      "source": "Kabuto's Ninja Handbook",
+      "translation": "Manual Ninja de Kabuto"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 147,
+      "field": 2,
+      "id": "sl025",
+      "source": "Kabuto's \"Chakra Dissection Blade\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar a \"Lâmina de\nDissecção de Chakra\" de Kabuto em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 148,
+      "field": 1,
+      "id": "sl026",
+      "source": "Kimimaro's Ninja Handbook",
+      "translation": "Manual Ninja de Kimimaro"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 148,
+      "field": 2,
+      "id": "sl026",
+      "source": "Kimimaro's \"Larch Dance\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar a \"Dança do\nLariço\" de Kimimaro em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 149,
+      "field": 1,
+      "id": "sl026b",
+      "source": "Kimimaro's Ninja Handbook",
+      "translation": "Manual Ninja de Kimimaro"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 149,
+      "field": 2,
+      "id": "sl026b",
+      "source": "Kimimaro's \"Camellia Dance\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar a \"Dança da\nCamélia\" de Kimimaro em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 150,
+      "field": 1,
+      "id": "sl027",
+      "source": "Itachi's Ninja Handbook",
+      "translation": "Manual Ninja de Itachi"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 150,
+      "field": 2,
+      "id": "sl027",
+      "source": "Itachi's \"Fire Style: Fire Ball Jutsu\"\nnow customizable in battle!",
+      "translation": "Agora você pode equipar o \"Estilo Fogo:\nJutsu Bola de Fogo\" de Itachi em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 151,
+      "field": 1,
+      "id": "sl028",
+      "source": "Kisame's Ninja Handbook",
+      "translation": "Manual Ninja de Kisame"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 151,
+      "field": 2,
+      "id": "sl028",
+      "source": "Kisame's \"Water Style: Water Shark\nShotgun Jutsu\" now customizable in battle!",
+      "translation": "Agora você pode equipar o \"Estilo Água: Jutsu\nEscopeta de Tubarões de Água\" de Kisame em batalha!"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 152,
+      "field": 1,
+      "id": "n021",
+      "source": "Legendary Pork Bone",
+      "translation": "Osso Suíno Lendário"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 152,
+      "field": 2,
+      "id": "n021",
+      "source": "This juicy soup bone is considered \nlegendary. Perfect for making ramen.",
+      "translation": "Osso suculento para caldo, considerado\nlendário. Perfeito para fazer lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 153,
+      "field": 1,
+      "id": "n022",
+      "source": "Legendary Noodles",
+      "translation": "Macarrão Lendário"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 153,
+      "field": 2,
+      "id": "n022",
+      "source": "These noodles are considered legendary. \nProbably perfect for making ramen.",
+      "translation": "Macarrão considerado lendário.\nDeve ser perfeito para fazer lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 154,
+      "field": 1,
+      "id": "n023",
+      "source": "Legendary Char Siu",
+      "translation": "Char Siu Lendário"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 154,
+      "field": 2,
+      "id": "n023",
+      "source": "This Char Siu meat is considered \nlegendary. Perfect for making ramen.",
+      "translation": "Carne de Char Siu considerada\nlendária. Perfeita para fazer lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 155,
+      "field": 1,
+      "id": "n024",
+      "source": "Legendary Garlic",
+      "translation": "Alho Lendário"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 155,
+      "field": 2,
+      "id": "n024",
+      "source": "This zesty garlic is considered legendary. \nProbably perfect for making ramen.",
+      "translation": "Alho de sabor marcante, considerado\nlendário. Deve ser perfeito para o lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 156,
+      "field": 1,
+      "id": "n025",
+      "source": "Legendary Soy Sauce",
+      "translation": "Molho de Soja Lendário"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 156,
+      "field": 2,
+      "id": "n025",
+      "source": "This soy sauce is considered legendary. \nProbably perfect for making ramen.",
+      "translation": "Molho de soja considerado lendário.\nDeve ser perfeito para fazer lámen."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 157,
+      "field": 1,
+      "id": "c00",
+      "source": "Proof of Completion",
+      "translation": "Prova de Conclusão"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 157,
+      "field": 2,
+      "id": "c00",
+      "source": "Proof of clearing a Flashback Mission.\nOnly given to the best ninja.",
+      "translation": "Prova de conclusão de uma Missão de Memória.\nConcedida apenas aos melhores ninjas."
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 158,
+      "field": 1,
+      "id": "c01",
+      "source": "Proof of Total Completion",
+      "translation": "Prova de Conclusão Total"
+    },
+    {
+      "chunk": "itemEvent",
+      "index": 158,
+      "field": 2,
+      "id": "c01",
+      "source": "Proof of completing the entire game.\nOnly given to the best ninja.",
+      "translation": "Prova de conclusão de todo o jogo.\nConcedida apenas aos melhores ninjas."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 0,
+      "field": 1,
+      "id": "f_nrt01",
+      "source": "Naruto Uzumaki 1",
+      "translation": "Naruto Uzumaki 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 0,
+      "field": 2,
+      "id": "f_nrt01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 1,
+      "field": 1,
+      "id": "f_nrt02",
+      "source": "Naruto Uzumaki 2",
+      "translation": "Naruto Uzumaki 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 1,
+      "field": 2,
+      "id": "f_nrt02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 2,
+      "field": 1,
+      "id": "f_nrt03",
+      "source": "Naruto Uzumaki 3",
+      "translation": "Naruto Uzumaki 3"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 2,
+      "field": 2,
+      "id": "f_nrt03",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 3,
+      "field": 1,
+      "id": "f_ssk01",
+      "source": "Sasuke Uchiha 1",
+      "translation": "Sasuke Uchiha 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 3,
+      "field": 2,
+      "id": "f_ssk01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 4,
+      "field": 1,
+      "id": "f_ssk02",
+      "source": "Sasuke Uchiha 2",
+      "translation": "Sasuke Uchiha 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 4,
+      "field": 2,
+      "id": "f_ssk02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 5,
+      "field": 1,
+      "id": "f_ssk03",
+      "source": "Sasuke Uchiha 3",
+      "translation": "Sasuke Uchiha 3"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 5,
+      "field": 2,
+      "id": "f_ssk03",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 6,
+      "field": 1,
+      "id": "f_skr01",
+      "source": "Sakura Haruno 1",
+      "translation": "Sakura Haruno 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 6,
+      "field": 2,
+      "id": "f_skr01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 7,
+      "field": 1,
+      "id": "f_skr02",
+      "source": "Sakura Haruno 2",
+      "translation": "Sakura Haruno 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 7,
+      "field": 2,
+      "id": "f_skr02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 8,
+      "field": 1,
+      "id": "f_roc01",
+      "source": "Rock Lee 1",
+      "translation": "Rock Lee 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 8,
+      "field": 2,
+      "id": "f_roc01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 9,
+      "field": 1,
+      "id": "f_roc02",
+      "source": "Rock Lee 2",
+      "translation": "Rock Lee 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 9,
+      "field": 2,
+      "id": "f_roc02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 10,
+      "field": 1,
+      "id": "f_gar01",
+      "source": "Gaara of the Sand 1",
+      "translation": "Gaara da Areia 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 10,
+      "field": 2,
+      "id": "f_gar01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 11,
+      "field": 1,
+      "id": "f_gar02",
+      "source": "Gaara of the Sand 2",
+      "translation": "Gaara da Areia 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 11,
+      "field": 2,
+      "id": "f_gar02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 12,
+      "field": 1,
+      "id": "f_gar03",
+      "source": "Gaara of the Sand 3",
+      "translation": "Gaara da Areia 3"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 12,
+      "field": 2,
+      "id": "f_gar03",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 13,
+      "field": 1,
+      "id": "f_sik01",
+      "source": "Shikamaru Nara 1",
+      "translation": "Shikamaru Nara 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 13,
+      "field": 2,
+      "id": "f_sik01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 14,
+      "field": 1,
+      "id": "f_sik02",
+      "source": "Shikamaru Nara 2",
+      "translation": "Shikamaru Nara 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 14,
+      "field": 2,
+      "id": "f_sik02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 15,
+      "field": 1,
+      "id": "f_nej01",
+      "source": "Neji Hyuga 1",
+      "translation": "Neji Hyuga 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 15,
+      "field": 2,
+      "id": "f_nej01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 16,
+      "field": 1,
+      "id": "f_nej02",
+      "source": "Neji Hyuga 2",
+      "translation": "Neji Hyuga 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 16,
+      "field": 2,
+      "id": "f_nej02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 17,
+      "field": 1,
+      "id": "f_kks01",
+      "source": "Kakashi Hatake 1",
+      "translation": "Kakashi Hatake 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 17,
+      "field": 2,
+      "id": "f_kks01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 18,
+      "field": 1,
+      "id": "f_kks02",
+      "source": "Kakashi Hatake 2",
+      "translation": "Kakashi Hatake 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 18,
+      "field": 2,
+      "id": "f_kks02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 19,
+      "field": 1,
+      "id": "f_orc01",
+      "source": "Orochimaru 1",
+      "translation": "Orochimaru 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 19,
+      "field": 2,
+      "id": "f_orc01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 20,
+      "field": 1,
+      "id": "f_orc02",
+      "source": "Orochimaru 2",
+      "translation": "Orochimaru 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 20,
+      "field": 2,
+      "id": "f_orc02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 21,
+      "field": 1,
+      "id": "f_hnt01",
+      "source": "Hinata Hyuga 1",
+      "translation": "Hinata Hyuga 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 21,
+      "field": 2,
+      "id": "f_hnt01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 22,
+      "field": 1,
+      "id": "f_hnt02",
+      "source": "Hinata Hyuga 2",
+      "translation": "Hinata Hyuga 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 22,
+      "field": 2,
+      "id": "f_hnt02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 23,
+      "field": 1,
+      "id": "f_guy01",
+      "source": "Might Guy 1",
+      "translation": "Might Guy 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 23,
+      "field": 2,
+      "id": "f_guy01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 24,
+      "field": 1,
+      "id": "f_guy02",
+      "source": "Might Guy 2",
+      "translation": "Might Guy 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 24,
+      "field": 2,
+      "id": "f_guy02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 25,
+      "field": 1,
+      "id": "f_sin01",
+      "source": "Shino Aburame 1",
+      "translation": "Shino Aburame 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 25,
+      "field": 2,
+      "id": "f_sin01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 26,
+      "field": 1,
+      "id": "f_sin02",
+      "source": "Shino Aburame 2",
+      "translation": "Shino Aburame 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 26,
+      "field": 2,
+      "id": "f_sin02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 27,
+      "field": 1,
+      "id": "f_ten01",
+      "source": "Tenten 1",
+      "translation": "Tenten 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 27,
+      "field": 2,
+      "id": "f_ten01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 28,
+      "field": 1,
+      "id": "f_ten02",
+      "source": "Tenten 2",
+      "translation": "Tenten 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 28,
+      "field": 2,
+      "id": "f_ten02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 29,
+      "field": 1,
+      "id": "f_jry01",
+      "source": "Jiraiya 1",
+      "translation": "Jiraiya 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 29,
+      "field": 2,
+      "id": "f_jry01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 30,
+      "field": 1,
+      "id": "f_jry02",
+      "source": "Jiraiya 2",
+      "translation": "Jiraiya 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 30,
+      "field": 2,
+      "id": "f_jry02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 31,
+      "field": 1,
+      "id": "f_ino01",
+      "source": "Ino Yamanaka 1",
+      "translation": "Ino Yamanaka 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 31,
+      "field": 2,
+      "id": "f_ino01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 32,
+      "field": 1,
+      "id": "f_ino02",
+      "source": "Ino Yamanaka 2",
+      "translation": "Ino Yamanaka 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 32,
+      "field": 2,
+      "id": "f_ino02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 33,
+      "field": 1,
+      "id": "f_tyo01",
+      "source": "Choji Akimichi 1",
+      "translation": "Choji Akimichi 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 33,
+      "field": 2,
+      "id": "f_tyo01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 34,
+      "field": 1,
+      "id": "f_tyo02",
+      "source": "Choji Akimichi 2",
+      "translation": "Choji Akimichi 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 34,
+      "field": 2,
+      "id": "f_tyo02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 35,
+      "field": 1,
+      "id": "f_kib01",
+      "source": "Kiba Inuzuka 1",
+      "translation": "Kiba Inuzuka 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 35,
+      "field": 2,
+      "id": "f_kib01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 36,
+      "field": 1,
+      "id": "f_kib02",
+      "source": "Kiba Inuzuka 2",
+      "translation": "Kiba Inuzuka 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 36,
+      "field": 2,
+      "id": "f_kib02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 37,
+      "field": 1,
+      "id": "f_itc01",
+      "source": "Itachi Uchiha 1",
+      "translation": "Itachi Uchiha 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 37,
+      "field": 2,
+      "id": "f_itc01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 38,
+      "field": 1,
+      "id": "f_itc02",
+      "source": "Itachi Uchiha 2",
+      "translation": "Itachi Uchiha 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 38,
+      "field": 2,
+      "id": "f_itc02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 39,
+      "field": 1,
+      "id": "f_ksm01",
+      "source": "Kisame Hoshigaki 1",
+      "translation": "Kisame Hoshigaki 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 39,
+      "field": 2,
+      "id": "f_ksm01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 40,
+      "field": 1,
+      "id": "f_ksm02",
+      "source": "Kisame Hoshigaki 2",
+      "translation": "Kisame Hoshigaki 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 40,
+      "field": 2,
+      "id": "f_ksm02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 41,
+      "field": 1,
+      "id": "f_tnd01",
+      "source": "Tsunade 1",
+      "translation": "Tsunade 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 41,
+      "field": 2,
+      "id": "f_tnd01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 42,
+      "field": 1,
+      "id": "f_tnd02",
+      "source": "Tsunade 2",
+      "translation": "Tsunade 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 42,
+      "field": 2,
+      "id": "f_tnd02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 43,
+      "field": 1,
+      "id": "f_hkg01",
+      "source": "The Third Hokage 1",
+      "translation": "Terceiro Hokage 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 43,
+      "field": 2,
+      "id": "f_hkg01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 44,
+      "field": 1,
+      "id": "f_hkg02",
+      "source": "The Third Hokage 2",
+      "translation": "Terceiro Hokage 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 44,
+      "field": 2,
+      "id": "f_hkg02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 45,
+      "field": 1,
+      "id": "f_kbt01",
+      "source": "Kabuto Yakushi 1",
+      "translation": "Kabuto Yakushi 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 45,
+      "field": 2,
+      "id": "f_kbt01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 46,
+      "field": 1,
+      "id": "f_kbt02",
+      "source": "Kabuto Yakushi 2",
+      "translation": "Kabuto Yakushi 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 46,
+      "field": 2,
+      "id": "f_kbt02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 47,
+      "field": 1,
+      "id": "f_tmr01",
+      "source": "Temari 1",
+      "translation": "Temari 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 47,
+      "field": 2,
+      "id": "f_tmr01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 48,
+      "field": 1,
+      "id": "f_tmr02",
+      "source": "Temari 2",
+      "translation": "Temari 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 48,
+      "field": 2,
+      "id": "f_tmr02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 49,
+      "field": 1,
+      "id": "f_knk01",
+      "source": "Kankuro 1",
+      "translation": "Kankuro 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 49,
+      "field": 2,
+      "id": "f_knk01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 50,
+      "field": 1,
+      "id": "f_knk02",
+      "source": "Kankuro 2",
+      "translation": "Kankuro 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 50,
+      "field": 2,
+      "id": "f_knk02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 51,
+      "field": 1,
+      "id": "f_kmm01",
+      "source": "Kimimaro 1",
+      "translation": "Kimimaro 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 51,
+      "field": 2,
+      "id": "f_kmm01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 52,
+      "field": 1,
+      "id": "f_kmm02",
+      "source": "Kimimaro 2",
+      "translation": "Kimimaro 2"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 52,
+      "field": 2,
+      "id": "f_kmm02",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 53,
+      "field": 1,
+      "id": "f_fir01",
+      "source": "The First Hokage",
+      "translation": "Primeiro Hokage"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 53,
+      "field": 2,
+      "id": "f_fir01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 54,
+      "field": 1,
+      "id": "f_sec01",
+      "source": "The Second Hokage",
+      "translation": "Segundo Hokage"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 54,
+      "field": 2,
+      "id": "f_sec01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 55,
+      "field": 1,
+      "id": "f_kdm01",
+      "source": "Kidomaru",
+      "translation": "Kidomaru"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 55,
+      "field": 2,
+      "id": "f_kdm01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 56,
+      "field": 1,
+      "id": "f_jrb01",
+      "source": "Jirobo",
+      "translation": "Jirobo"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 56,
+      "field": 2,
+      "id": "f_jrb01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 57,
+      "field": 1,
+      "id": "f_tyy01",
+      "source": "Tayuya",
+      "translation": "Tayuya"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 57,
+      "field": 2,
+      "id": "f_tyy01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 58,
+      "field": 1,
+      "id": "f_skn01",
+      "source": "Sakon",
+      "translation": "Sakon"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 58,
+      "field": 2,
+      "id": "f_skn01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 59,
+      "field": 1,
+      "id": "f_asm01",
+      "source": "Asuma Sarutobi ",
+      "translation": "Asuma Sarutobi "
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 59,
+      "field": 2,
+      "id": "f_asm01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 60,
+      "field": 1,
+      "id": "f_krn01",
+      "source": "Kurenai Yuhi",
+      "translation": "Kurenai Yuhi"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 60,
+      "field": 2,
+      "id": "f_krn01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 61,
+      "field": 1,
+      "id": "f_szn01",
+      "source": "Shizune",
+      "translation": "Shizune"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 61,
+      "field": 2,
+      "id": "f_szn01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 62,
+      "field": 1,
+      "id": "f_ank01",
+      "source": "Anko Mitarashi",
+      "translation": "Anko Mitarashi"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 62,
+      "field": 2,
+      "id": "f_ank01",
+      "source": "A moving character figure. Can be\nviewed in Collection once purchased.",
+      "translation": "Figura animada de um personagem. Pode\nser vista na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 63,
+      "field": 1,
+      "id": "s_nrt01",
+      "source": "Naruto Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Naruto"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 63,
+      "field": 2,
+      "id": "s_nrt01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 64,
+      "field": 1,
+      "id": "s_nrt02",
+      "source": "Naruto UJ Scenes - Seal",
+      "translation": "Cenas de JS de Naruto - Selo"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 64,
+      "field": 2,
+      "id": "s_nrt02",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 65,
+      "field": 1,
+      "id": "s_nrt03",
+      "source": "Naruto UJ Scenes - Shadow",
+      "translation": "Cenas de JS de Naruto - Sombra"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 65,
+      "field": 2,
+      "id": "s_nrt03",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 66,
+      "field": 1,
+      "id": "s_ssk01",
+      "source": "Sasuke Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Sasuke"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 66,
+      "field": 2,
+      "id": "s_ssk01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 67,
+      "field": 1,
+      "id": "s_ssk02",
+      "source": "Sasuke UJ Scenes - Seal",
+      "translation": "Cenas de JS de Sasuke - Selo"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 67,
+      "field": 2,
+      "id": "s_ssk02",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 68,
+      "field": 1,
+      "id": "s_ssk03",
+      "source": "Sasuke UJ Scenes - Shadow",
+      "translation": "Cenas de JS de Sasuke - Sombra"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 68,
+      "field": 2,
+      "id": "s_ssk03",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 69,
+      "field": 1,
+      "id": "s_skr01",
+      "source": "Sakura Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Sakura"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 69,
+      "field": 2,
+      "id": "s_skr01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 70,
+      "field": 1,
+      "id": "s_roc01",
+      "source": "Lee Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Lee"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 70,
+      "field": 2,
+      "id": "s_roc01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 71,
+      "field": 1,
+      "id": "s_roc02",
+      "source": "Lee UJ Scenes - Seal",
+      "translation": "Cenas de JS de Lee - Selo"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 71,
+      "field": 2,
+      "id": "s_roc02",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 72,
+      "field": 1,
+      "id": "s_nej01",
+      "source": "Neji Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Neji"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 72,
+      "field": 2,
+      "id": "s_nej01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 73,
+      "field": 1,
+      "id": "s_ten01",
+      "source": "Tenten Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Tenten"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 73,
+      "field": 2,
+      "id": "s_ten01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 74,
+      "field": 1,
+      "id": "s_sik01",
+      "source": "Shikamaru UJ Scenes",
+      "translation": "Cenas de JS de Shikamaru"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 74,
+      "field": 2,
+      "id": "s_sik01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 75,
+      "field": 1,
+      "id": "s_sik02",
+      "source": "Shikamaru UJ Scenes - Shadow",
+      "translation": "Cenas de JS de Shikamaru - Sombra"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 75,
+      "field": 2,
+      "id": "s_sik02",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 76,
+      "field": 1,
+      "id": "s_tyo01",
+      "source": "Choji Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Choji"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 76,
+      "field": 2,
+      "id": "s_tyo01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 77,
+      "field": 1,
+      "id": "s_ino01",
+      "source": "Ino Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Ino"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 77,
+      "field": 2,
+      "id": "s_ino01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 78,
+      "field": 1,
+      "id": "s_kib01",
+      "source": "Kiba Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Kiba"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 78,
+      "field": 2,
+      "id": "s_kib01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 79,
+      "field": 1,
+      "id": "s_sin01",
+      "source": "Shino Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Shino"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 79,
+      "field": 2,
+      "id": "s_sin01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 80,
+      "field": 1,
+      "id": "s_hnt01",
+      "source": "Hinata Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Hinata"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 80,
+      "field": 2,
+      "id": "s_hnt01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 81,
+      "field": 1,
+      "id": "s_gar01",
+      "source": "Gaara Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Gaara"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 81,
+      "field": 2,
+      "id": "s_gar01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 82,
+      "field": 1,
+      "id": "s_gar02",
+      "source": "Gaara UJ Scenes - Shadow",
+      "translation": "Cenas de JS de Gaara - Sombra"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 82,
+      "field": 2,
+      "id": "s_gar02",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 83,
+      "field": 1,
+      "id": "s_knk01",
+      "source": "Kankuro Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Kankuro"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 83,
+      "field": 2,
+      "id": "s_knk01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 84,
+      "field": 1,
+      "id": "s_knk02",
+      "source": "Kankuro UJ Scenes - Shadow",
+      "translation": "Cenas de JS de Kankuro - Sombra"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 84,
+      "field": 2,
+      "id": "s_knk02",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 85,
+      "field": 1,
+      "id": "s_tmr01",
+      "source": "Temari Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Temari"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 85,
+      "field": 2,
+      "id": "s_tmr01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 86,
+      "field": 1,
+      "id": "s_tmr02",
+      "source": "Temari UJ Scenes - Shadow",
+      "translation": "Cenas de JS de Temari - Sombra"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 86,
+      "field": 2,
+      "id": "s_tmr02",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 87,
+      "field": 1,
+      "id": "s_kks01",
+      "source": "Kakashi Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Kakashi"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 87,
+      "field": 2,
+      "id": "s_kks01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 88,
+      "field": 1,
+      "id": "s_guy01",
+      "source": "Guy Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Guy"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 88,
+      "field": 2,
+      "id": "s_guy01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 89,
+      "field": 1,
+      "id": "s_guy02",
+      "source": "Guy UJ Scenes - Seal",
+      "translation": "Cenas de JS de Guy - Selo"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 89,
+      "field": 2,
+      "id": "s_guy02",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 90,
+      "field": 1,
+      "id": "s_jry01",
+      "source": "Jiraiya Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Jiraiya"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 90,
+      "field": 2,
+      "id": "s_jry01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 91,
+      "field": 1,
+      "id": "s_tnd01",
+      "source": "Tsunade Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Tsunade"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 91,
+      "field": 2,
+      "id": "s_tnd01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 92,
+      "field": 1,
+      "id": "s_hkg01",
+      "source": "Third Hokage UJ Scenes",
+      "translation": "Cenas de JS do Terceiro Hokage"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 92,
+      "field": 2,
+      "id": "s_hkg01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 93,
+      "field": 1,
+      "id": "s_orc01",
+      "source": "Orochimaru UJ Scenes",
+      "translation": "Cenas de JS de Orochimaru"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 93,
+      "field": 2,
+      "id": "s_orc01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 94,
+      "field": 1,
+      "id": "s_kbt01",
+      "source": "Kabuto Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Kabuto"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 94,
+      "field": 2,
+      "id": "s_kbt01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 95,
+      "field": 1,
+      "id": "s_kmm01",
+      "source": "Kimimaro Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Kimimaro"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 95,
+      "field": 2,
+      "id": "s_kmm01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 96,
+      "field": 1,
+      "id": "s_kmm02",
+      "source": "Kimimaro UJ Scenes - Seal",
+      "translation": "Cenas de JS de Kimimaro - Selo"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 96,
+      "field": 2,
+      "id": "s_kmm02",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 97,
+      "field": 1,
+      "id": "s_itc01",
+      "source": "Itachi Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Itachi"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 97,
+      "field": 2,
+      "id": "s_itc01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 98,
+      "field": 1,
+      "id": "s_ksm01",
+      "source": "Kisame Ultimate Jutsu Scenes",
+      "translation": "Cenas de Jutsu Supremo de Kisame"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 98,
+      "field": 2,
+      "id": "s_ksm01",
+      "source": "Video of Ultimate Jutsu. Can be\nviewed in Collection once purchased.",
+      "translation": "Vídeo de Jutsu Supremo. Pode ser\nvisto na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 99,
+      "field": 1,
+      "id": "m_001",
+      "source": "Along with the Dancing Leaves",
+      "translation": "Junto às Folhas Dançantes"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 99,
+      "field": 2,
+      "id": "m_001",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 100,
+      "field": 1,
+      "id": "m_002",
+      "source": "The Forest of Disquiet",
+      "translation": "A Floresta da Inquietação"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 100,
+      "field": 2,
+      "id": "m_002",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 101,
+      "field": 1,
+      "id": "m_003",
+      "source": "Running Gale",
+      "translation": "Vendaval Veloz"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 101,
+      "field": 2,
+      "id": "m_003",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 102,
+      "field": 1,
+      "id": "m_004",
+      "source": "The Forest of High-speed",
+      "translation": "A Floresta da Alta Velocidade"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 102,
+      "field": 2,
+      "id": "m_004",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 103,
+      "field": 1,
+      "id": "m_005",
+      "source": "Aim for the Summit",
+      "translation": "Rumo ao Topo"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 103,
+      "field": 2,
+      "id": "m_005",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 104,
+      "field": 1,
+      "id": "m_006",
+      "source": "Dashing Naruto",
+      "translation": "Naruto em Disparada"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 104,
+      "field": 2,
+      "id": "m_006",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 105,
+      "field": 1,
+      "id": "m_007",
+      "source": "Hide-and-seek",
+      "translation": "Esconde-esconde"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 105,
+      "field": 2,
+      "id": "m_007",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 106,
+      "field": 1,
+      "id": "m_008",
+      "source": "Exposed Ninja Hand Book",
+      "translation": "Manual Ninja Revelado"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 106,
+      "field": 2,
+      "id": "m_008",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 107,
+      "field": 1,
+      "id": "m_009",
+      "source": "The Ones to be Protected",
+      "translation": "Aqueles a Proteger"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 107,
+      "field": 2,
+      "id": "m_009",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 108,
+      "field": 1,
+      "id": "m_010",
+      "source": "Sand Ripples in the Wind",
+      "translation": "Ondulações de Areia ao Vento"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 108,
+      "field": 2,
+      "id": "m_010",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 109,
+      "field": 1,
+      "id": "m_011",
+      "source": "Dream and Determination",
+      "translation": "Sonho e Determinação"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 109,
+      "field": 2,
+      "id": "m_011",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 110,
+      "field": 1,
+      "id": "m_012",
+      "source": "Gentle Eyes",
+      "translation": "Olhos Gentis"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 110,
+      "field": 2,
+      "id": "m_012",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 111,
+      "field": 1,
+      "id": "m_013",
+      "source": "The Roar in a Rain of Tears",
+      "translation": "O Rugido na Chuva de Lágrimas"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 111,
+      "field": 2,
+      "id": "m_013",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 112,
+      "field": 1,
+      "id": "m_014",
+      "source": "The Back that Fades Away",
+      "translation": "A Silhueta que se Afasta"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 112,
+      "field": 2,
+      "id": "m_014",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 113,
+      "field": 1,
+      "id": "m_015",
+      "source": "Light Never Goes Out",
+      "translation": "A Luz Nunca se Apaga"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 113,
+      "field": 2,
+      "id": "m_015",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 114,
+      "field": 1,
+      "id": "m_016",
+      "source": "Day of Departure",
+      "translation": "Dia da Partida"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 114,
+      "field": 2,
+      "id": "m_016",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 115,
+      "field": 1,
+      "id": "m_017",
+      "source": "Training Field",
+      "translation": "Campo de Treinamento"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 115,
+      "field": 2,
+      "id": "m_017",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 116,
+      "field": 1,
+      "id": "m_018",
+      "source": "Chunin Exams Finals Stage",
+      "translation": "Arena das Finais do Exame Chunin"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 116,
+      "field": 2,
+      "id": "m_018",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 117,
+      "field": 1,
+      "id": "m_019",
+      "source": "Top of Lookout Tower",
+      "translation": "Topo da Torre de Vigia"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 117,
+      "field": 2,
+      "id": "m_019",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 118,
+      "field": 1,
+      "id": "m_020",
+      "source": "The Forest of Death",
+      "translation": "Floresta da Morte"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 118,
+      "field": 2,
+      "id": "m_020",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 119,
+      "field": 1,
+      "id": "m_021",
+      "source": "Hidden Leaf Forest",
+      "translation": "Floresta da Folha"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 119,
+      "field": 2,
+      "id": "m_021",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 120,
+      "field": 1,
+      "id": "m_022",
+      "source": "Chunin Exams Prelims Stage",
+      "translation": "Arena das Preliminares do Exame Chunin"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 120,
+      "field": 2,
+      "id": "m_022",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 121,
+      "field": 1,
+      "id": "m_023",
+      "source": "Grassy Waves Prairie",
+      "translation": "Pradaria de Ondas Verdes"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 121,
+      "field": 2,
+      "id": "m_023",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 122,
+      "field": 1,
+      "id": "m_024",
+      "source": "Dusk Sky Prairie",
+      "translation": "Pradaria ao Entardecer"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 122,
+      "field": 2,
+      "id": "m_024",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 123,
+      "field": 1,
+      "id": "m_025",
+      "source": "The Final Valley",
+      "translation": "Vale do Fim"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 123,
+      "field": 2,
+      "id": "m_025",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 124,
+      "field": 1,
+      "id": "m_026",
+      "source": "Big Fight with the Giant Toad",
+      "translation": "Grande Luta com o Sapo Gigante"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 124,
+      "field": 2,
+      "id": "m_026",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 125,
+      "field": 1,
+      "id": "m_027",
+      "source": "Sorrowful Eyes",
+      "translation": "Olhos Tristes"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 125,
+      "field": 2,
+      "id": "m_027",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 126,
+      "field": 1,
+      "id": "m_028",
+      "source": "Earth-shaking Matter",
+      "translation": "Assunto que Abala a Terra"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 126,
+      "field": 2,
+      "id": "m_028",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 127,
+      "field": 1,
+      "id": "m_029",
+      "source": "Deadly Struggle",
+      "translation": "Luta Mortal"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 127,
+      "field": 2,
+      "id": "m_029",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 128,
+      "field": 1,
+      "id": "m_030",
+      "source": "Crimson Spiral & Black Thunder",
+      "translation": "Espiral Carmesim e Trovão Negro"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 128,
+      "field": 2,
+      "id": "m_030",
+      "source": "Music used in the game. Can be\nviewed in Collection once purchased.",
+      "translation": "Música usada no jogo. Pode ser\nacessada na Coleção após a compra."
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 129,
+      "field": 1,
+      "id": "d_001",
+      "source": "Survival Exercise",
+      "translation": "Exercício de Sobrevivência"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 129,
+      "field": 2,
+      "id": "d_001",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 130,
+      "field": 1,
+      "id": "d_002",
+      "source": "No Compromise",
+      "translation": "Sem Concessões"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 130,
+      "field": 2,
+      "id": "d_002",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 131,
+      "field": 1,
+      "id": "d_003",
+      "source": "Wall of Whirlwind",
+      "translation": "Muralha de Redemoinho"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 131,
+      "field": 2,
+      "id": "d_003",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 132,
+      "field": 1,
+      "id": "d_004",
+      "source": "Clan of Fate",
+      "translation": "Clã do Destino"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 132,
+      "field": 2,
+      "id": "d_004",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 133,
+      "field": 1,
+      "id": "d_005",
+      "source": "The Strongest Hyuga",
+      "translation": "O Hyuga Mais Forte"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 133,
+      "field": 2,
+      "id": "d_005",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 134,
+      "field": 1,
+      "id": "d_006",
+      "source": "A Thousand Birds Take Wing",
+      "translation": "Mil Pássaros Alçam Voo"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 134,
+      "field": 2,
+      "id": "d_006",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 135,
+      "field": 1,
+      "id": "d_007",
+      "source": "Battle Like a Storm",
+      "translation": "Batalha como uma Tempestade"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 135,
+      "field": 2,
+      "id": "d_007",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 136,
+      "field": 1,
+      "id": "d_008",
+      "source": "Copy Ninjutsu Explodes",
+      "translation": "O Ninjutsu de Cópia Explode"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 136,
+      "field": 2,
+      "id": "d_008",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 137,
+      "field": 1,
+      "id": "d_009",
+      "source": "Beast and Demon",
+      "translation": "Fera e Demônio"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 137,
+      "field": 2,
+      "id": "d_009",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 138,
+      "field": 1,
+      "id": "d_010",
+      "source": "Rasengan Roars",
+      "translation": "O Rasengan Ruge"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 138,
+      "field": 2,
+      "id": "d_010",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 139,
+      "field": 1,
+      "id": "d_011",
+      "source": "Three-way Deadlock",
+      "translation": "Impasse Triplo"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 139,
+      "field": 2,
+      "id": "d_011",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 140,
+      "field": 1,
+      "id": "d_012",
+      "source": "Two People's Pride",
+      "translation": "O Orgulho de Duas Pessoas"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 140,
+      "field": 2,
+      "id": "d_012",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 141,
+      "field": 1,
+      "id": "d_013",
+      "source": "Shikamaru's Platoon",
+      "translation": "O Pelotão de Shikamaru"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 141,
+      "field": 2,
+      "id": "d_013",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 142,
+      "field": 1,
+      "id": "d_014",
+      "source": "Uncontainable Emotions",
+      "translation": "Emoções Incontroláveis"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 142,
+      "field": 2,
+      "id": "d_014",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 143,
+      "field": 1,
+      "id": "d_015",
+      "source": "Bonds",
+      "translation": "Laços"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 143,
+      "field": 2,
+      "id": "d_015",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 144,
+      "field": 1,
+      "id": "d_016",
+      "source": "The No. 1 Knucklehead Ninja",
+      "translation": "O Ninja Hiperativo Número 1"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 144,
+      "field": 2,
+      "id": "d_016",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 145,
+      "field": 1,
+      "id": "d_s01",
+      "source": "Dummy",
+      "translation": "Teste"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 145,
+      "field": 2,
+      "id": "d_s01",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 146,
+      "field": 1,
+      "id": "d_s02",
+      "source": "Dummy",
+      "translation": "Teste"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 146,
+      "field": 2,
+      "id": "d_s02",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 147,
+      "field": 1,
+      "id": "d_s03",
+      "source": "Dummy",
+      "translation": "Teste"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 147,
+      "field": 2,
+      "id": "d_s03",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 148,
+      "field": 1,
+      "id": "d_s04",
+      "source": "Dummy",
+      "translation": "Teste"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 148,
+      "field": 2,
+      "id": "d_s04",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 149,
+      "field": 1,
+      "id": "d_s05",
+      "source": "Dummy",
+      "translation": "Teste"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 149,
+      "field": 2,
+      "id": "d_s05",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 150,
+      "field": 1,
+      "id": "d_s06",
+      "source": "Dummy",
+      "translation": "Teste"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 150,
+      "field": 2,
+      "id": "d_s06",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 151,
+      "field": 1,
+      "id": "d_s07",
+      "source": "Dummy",
+      "translation": "Teste"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 151,
+      "field": 2,
+      "id": "d_s07",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 152,
+      "field": 1,
+      "id": "d_s08",
+      "source": "Dummy",
+      "translation": "Teste"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 152,
+      "field": 2,
+      "id": "d_s08",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 153,
+      "field": 1,
+      "id": "d_s09",
+      "source": "Dummy",
+      "translation": "Teste"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 153,
+      "field": 2,
+      "id": "d_s09",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 154,
+      "field": 1,
+      "id": "d_s10",
+      "source": "Dummy",
+      "translation": "Teste"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 154,
+      "field": 2,
+      "id": "d_s10",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 155,
+      "field": 1,
+      "id": "d_s11",
+      "source": "Dummy",
+      "translation": "Teste"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 155,
+      "field": 2,
+      "id": "d_s11",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 156,
+      "field": 1,
+      "id": "d_s12",
+      "source": "Dummy",
+      "translation": "Teste"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 156,
+      "field": 2,
+      "id": "d_s12",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 157,
+      "field": 1,
+      "id": "d_s13",
+      "source": "Dummy",
+      "translation": "Teste"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 157,
+      "field": 2,
+      "id": "d_s13",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 158,
+      "field": 1,
+      "id": "d_s14",
+      "source": "Dummy",
+      "translation": "Teste"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 158,
+      "field": 2,
+      "id": "d_s14",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 159,
+      "field": 1,
+      "id": "d_s15",
+      "source": "Dummy",
+      "translation": "Teste"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 159,
+      "field": 2,
+      "id": "d_s15",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 160,
+      "field": 1,
+      "id": "d_s16",
+      "source": "Dummy",
+      "translation": "Teste"
+    },
+    {
+      "chunk": "itemCollect",
+      "index": 160,
+      "field": 2,
+      "id": "d_s16",
+      "source": "",
+      "translation": ""
+    },
+    {
+      "chunk": "itemWords",
+      "index": 0,
+      "field": 1,
+      "id": "itemNone",
+      "source": "-",
+      "translation": "-"
+    },
+    {
+      "chunk": "itemWords",
+      "index": 0,
+      "field": 2,
+      "id": "itemNone",
+      "source": "-",
+      "translation": "-"
+    },
+    {
+      "chunk": "itemWords",
+      "index": 1,
+      "field": 1,
+      "id": "close",
+      "source": "?????",
+      "translation": "?????"
+    },
+    {
+      "chunk": "itemWords",
+      "index": 1,
+      "field": 2,
+      "id": "close",
+      "source": "?????",
+      "translation": "?????"
+    }
+  ]
+}

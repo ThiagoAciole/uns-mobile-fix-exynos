@@ -1,0 +1,23 @@
+{
+  "source": "C:\\Users\\Thiago Aciole\\Projetos\\UltimateNinjaStorm\\naruto-ultimate-ninja-storm.apk",
+  "output": "C:\\Users\\Thiago Aciole\\Projetos\\UltimateNinjaStorm\\output\\naruto-ultimate-ninja-storm-exynos.apk",
+  "version": "1.2.9",
+  "buildId": "d6c3c1ca40aa936ceb5b585da96f4a4a",
+  "nativeSha256": "6989DB81BADDBD8B140E0B79CFA8A1C5926EA309D549E16DB28A03764E553507",
+  "patchOffset": "0x6c6164",
+  "unchangedPayloads": 570,
+  "manifestAndDex": "SHA256 equal to input",
+  "deviceTest": "installed successfully via ADB on SM-S921B, user 0; launch not tested in this step",
+  "signature": "v3 verified",
+  "nativeAlignment": "16 KiB verified after signing",
+  "scope": "depth format 129 -> 130 only",
+  "existingAddedCode": "com.adshim preserved; opens browser every 180 seconds",
+  "authentication": "Play Games preserved; OAuth compatibility not established",
+  "size": 3484961255,
+  "userReport": {
+    "date": "2026-10-24",
+    "statement": "Deu Certo!",
+    "scope": "Sucesso relatado após instalação; menu e batalha não especificados."
+  },
+  "projectRole": "historical-reference"
+}
