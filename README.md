@@ -42,6 +42,8 @@ A base ativa é o APK único **1.2.10** (`versionCode 38`).
 | **Português (Brasil)** | Incluído nos textos e letreiros. Dublagem e algumas artes continuam no idioma original. |
 | **Controle externo** | ⚠️ **Não funciona ainda.** Investigação em andamento; não use como referência de funcionamento. |
 
+Uma variante mantém português e coloca inglês no lugar de francês. O usuário confirmou o funcionamento do inglês no S24; veja a construção e os limites em [Inglês no espaço do francês](docs/ENGLISH_NO_FRANCES.md).
+
 ## Para quem vai usar
 
 Este repositório **não distribui o jogo**. Você precisa do seu próprio APK 1.2.10 (`versionCode 38`), obtido legalmente.
