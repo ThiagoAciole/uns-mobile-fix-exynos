@@ -34,7 +34,7 @@ flowchart LR
 | Entrada | `origin/` | APK original. Ignorada pelo Git. |
 | Saída aceita | `build/` | Único APK aceito no S24. Ignorado pelo Git. |
 | Trabalho | `work/` | Insumos, candidatos, análises e chave de assinatura. Ignorada pelo Git. |
-| Evidência | `audit/`, `docs/` | Frames de referência e documentação. |
+| Evidência | `docs/` | Documentação e registros de análise. |
 
 ## 3. Invariantes
 

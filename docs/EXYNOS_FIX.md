@@ -336,7 +336,7 @@ Para construir outra cópia do probe, escolha um diretório novo:
 
 Os arquivos `.awb` do InstallPack foram inicialmente classificados como áudio pela extensão. A leitura dos cabeçalhos corrigiu essa hipótese: são contêineres **CPK/@UTF**, com conteúdos variados.
 
-[inventory-cpk.py](../scripts/inventory-cpk.py) inventariou os três contêineres da 1.2.10 sem extrair todos os payloads: 406 entradas em `installTimeDisc.awb`, 34 em `installTime.awb` e 252 em `sound.awb`, totalizando 692. Os dados estão em [cpk-inventory.json](../work/assets/cpk-inventory.json).
+[inventory-cpk.py](../scripts/inventory-cpk.py) inventariou os três contêineres da 1.2.10 sem extrair todos os payloads: 406 entradas em `installTimeDisc.awb`, 34 em `installTime.awb` e 252 em `sound.awb`, totalizando 692. Os dados estão em [cpk-inventory.json](../work/inventory/cpk-inventory.json).
 
 [extract-cpk-files.py](../scripts/extract-cpk-files.py) extraiu e descomprimiu seletivamente:
 
@@ -346,7 +346,7 @@ Os arquivos `.awb` do InstallPack foram inicialmente classificados como áudio p
 | `data/event/eng/message_btl.bin.xfbin` | 50.038 bytes |
 | `data/event/eng/itemtext.bin.xfbin` | 51.433 bytes |
 
-Os arquivos têm prefixo NUCC e contêm textos reais, como `Free Battle`, tutoriais e IDs `NS1_Mobile_*`. O inventário também encontrou versões fre/ger/ita/jpn/spa. O [manifesto da extração](../work/assets/localization-eng/manifest.json) registra hashes e origem.
+Os arquivos têm prefixo NUCC e contêm textos reais, como `Free Battle`, tutoriais e IDs `NS1_Mobile_*`. O inventário também encontrou versões fre/ger/ita/jpn/spa. O [manifesto da extração](../work/inventory/localization-eng/manifest.json) registra hashes e origem.
 
 O split `pt` analisado contém textos de AndroidX/Google Play Services, não uma tradução completa do jogo. Ainda faltam interpretar os registros e offsets NUCC, criar o catálogo por ID, traduzir, reempacotar e validar fontes/placeholders.
 

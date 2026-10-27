@@ -53,7 +53,7 @@
 **Files:**
 - Modify: `docs/WIDESCREEN_ASSET_MAP.md`
 - Create/update: `work/candidates/widescreen-app-completion/screen-state-ledger.json`
-- References: `audit/frame_001.jpg`–`audit/frame_029.jpg`, `work/candidates/widescreen-followup-20261026-01/reference-manifest.json`
+- References: `audit/frame_001.jpg`–`audit/frame_029.jpg` (removidos do repositório em `4d0b573`), `work/candidates/widescreen-followup-20261026-01/reference-manifest.json`
 
 - [x] Create one record per flow in the map: 20 screen/state flows are registered, including boot/logo, menus, gameplay, battle, fades, video/events, credits, touch and pt-BR layout.
 - [ ] Complete previous/next route and save-data reachability for each record; unknown or save-sensitive paths stay explicitly marked until a safe route is demonstrated.
@@ -67,7 +67,7 @@
 **Files:**
 - Update: `docs/WIDESCREEN_ASSET_MAP.md`
 - Create: `work/candidates/widescreen-app-completion/render-route-ledger.json`
-- Inputs: `work/candidates/widescreen-app-completion/canonical-base-cpk-inventory.json` (the older `work/assets/cpk-inventory.json` has stale offsets for this APK), `docs/WIDESCREEN_NATIVE_ASSET_BINDINGS_20261026.md`, `work/s24-title/findings.md`, `work/s24-controls/findings.md`, `work/s24-rpg-menu-analysis/manifest.json`, `work/s24-startmenu-analysis/manifest.json`, `work/widescreen/cover/analysis.md`
+- Inputs: `work/candidates/widescreen-app-completion/canonical-base-cpk-inventory.json` (the older `work/inventory/cpk-inventory.json` has stale offsets for this APK), `docs/WIDESCREEN_NATIVE_ASSET_BINDINGS_20261026.md`, `work/s24-title/findings.md`, `work/s24-controls/findings.md`, `work/s24-rpg-menu-analysis/manifest.json`, `work/s24-startmenu-analysis/manifest.json`, `work/widescreen/cover/analysis.md`
 
 - [ ] For each screen record native entry/draw call path and ELF VA against the exact library Build ID from Task 0. **Partial: 11 shared routes are registered; most screen-specific asset/layout bindings remain unknown.**
 - [ ] For each visible 2D element record XFBIN path/member, chunk kind/name, sprite/model ID, material, texture, UV rectangle, vertex bounds, transform, z/order and screen-space result.

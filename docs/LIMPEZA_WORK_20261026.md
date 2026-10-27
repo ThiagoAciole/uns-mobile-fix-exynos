@@ -30,7 +30,7 @@ Espaço livre em `C:` passou de 16 GB para 25 GB.
 - `work/s24-touchstart/extracted/`, `candidate/`, `xtitle_fd01.png`: fonte e referência do texto "Toque para iniciar".
 - `work/s24-charsel-v3/build.sh`: pipeline do fundo com escala 752, ainda não executado com sucesso.
 - `work/s24-title/`, `work/s24-controls/`, `work/captures/`, `work/widescreen-expansion-source-20261026/`.
-- `work/ptbr-translation/` (`translated/`, `jobs/`, `unique-source.json`, `coverage.json`, `final/`, `final-s24/`), `work/localization-format/`, `work/graphic-ptbr/`, `work/assets/`.
+- `work/ptbr-translation/` (`translated/`, `jobs/`, `unique-source.json`, `coverage.json`, `final/`, `final-s24/`), `work/localization-format/`, `work/graphic-ptbr/`, `work/inventory/`.
 - `work/external-single-1.2.10/`: base Exynos exigida por `scripts/patch-widescreen.py`.
 - `work/native/libultimateninjastorm.so` e os manifests de análise citados em `docs/`.
 - `work/candidates/widescreen-followup-20261026-02/libultimateninjastorm.so`, `source-native.so` e `source-assets/`: não estavam na lista de remoção.

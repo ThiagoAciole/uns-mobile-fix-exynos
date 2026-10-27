@@ -6,7 +6,7 @@ Revisado em 26/10/2026. Este plano cobre escurecimento/transições, a demonstra
 
 - O APK atual em `build/Naruto Ultimate Ninja Storm.apk` tem SHA-256 `5DAC1302663CBEC6ABC678B7F9C84976C2A2A1FEA487F183FEBD2D42D2147D86`, versão 1.2.10 / código 38. Esse é o APK aceito no S24.
 - O hash `717A2535...` é a entrada anterior usada para gerar o APK funcional. A correção de composição alterou 8 bytes nativos e removeu a origem X=210 em 2340×1080. Usar `717A...` como base descartaria essa correção e pode reintroduzir a margem.
-- A pasta `audit/` foi restaurada e contém `frame_001.jpg` a `frame_029.jpg`. Inspeção visual: `frame_001` mostra a configuração de controles e uma cena concentrada no centro; `005–008` mostram opções/confirmação e mudança de escurecimento; `015–018` mostram a seleção de modo e seu diálogo; `022–025` registram uma transição clara; `026–029` mostram estados do título. Esses pixels são evidência do sintoma, não prova da rota nativa. Preservar a pasta e seus hashes durante a investigação.
+- Na época, a pasta `audit/` (removida do repositório em `4d0b573`) continha `frame_001.jpg` a `frame_029.jpg`. Inspeção visual: `frame_001` mostra a configuração de controles e uma cena concentrada no centro; `005–008` mostram opções/confirmação e mudança de escurecimento; `015–018` mostram a seleção de modo e seu diálogo; `022–025` registram uma transição clara; `026–029` mostram estados do título. Esses pixels são evidência do sintoma, não prova da rota nativa. Preservar a pasta e seus hashes durante a investigação.
 - O usuário forneceu `background-joystick-widescreen.png` como arte expandida para a tela de controles. Ela mede **2342×1080**, dois pixels a mais que o canvas S24 de 2340×1080, e tem SHA-256 `AA01B4B6F1865E91A5C6D204A873DFF9331CBD5329C9BE3E27CAABBBB3E1F697`. Foi integrada ao candidato preservando os pixels e amostrando os 2340 pixels centrais.
 - O APK atual é protegido: não sobrescrever, remover, desinstalar ou limpar os dados do jogo durante esta tarefa.
 
@@ -79,7 +79,7 @@ Tratar cada sintoma como uma investigação e patch separados. Não mudar coorde
 
 ## Ação inicial do plano — concluída
 
-O hash do APK funcional conferiu como `5DAC1302663CBEC6ABC678B7F9C84976C2A2A1FEA487F183FEBD2D42D2147D86`. Os 29 frames de `audit/`, a arte e uma captura somente leitura da tela de seleção de modo no APK atualmente instalado foram registrados em `work/candidates/widescreen-followup-20261026-01/reference-manifest.json`. A captura não substitui as capturas-base das demais cenas, que seguem pendentes para a aceitação visual.
+O hash do APK funcional conferiu como `5DAC1302663CBEC6ABC678B7F9C84976C2A2A1FEA487F183FEBD2D42D2147D86`. Os 29 frames de `audit/` (hoje removidos do repositório), a arte e uma captura somente leitura da tela de seleção de modo no APK atualmente instalado foram registrados em `work/candidates/widescreen-followup-20261026-01/reference-manifest.json`. A captura não substitui as capturas-base das demais cenas, que seguem pendentes para a aceitação visual.
 
 ## Execução — 26/10/2026
 

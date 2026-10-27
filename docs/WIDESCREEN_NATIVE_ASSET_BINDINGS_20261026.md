@@ -7,7 +7,7 @@ Este relatório registra novos vínculos obtidos da biblioteca ARM64 e dos XFBIN
 - APK: `build/Naruto Ultimate Ninja Storm.apk`, SHA-256 `5dac1302663cbec6abc678b7f9c84976c2a2a1fea487f183febd2d42d2147d86`.
 - Biblioteca: SHA-256 `5e2797280a0d9eae2cf2d14f0089d6a9585699673a7c872e0d21d61be6f78071`, Build ID `c3e506f9be350dfb4a00c79228754028`.
 - Inventário CPK atualizado diretamente dessa base: `work/candidates/widescreen-app-completion/canonical-base-cpk-inventory.json`, SHA-256 `faed547c903ad4bc88878023babf0960da9df6fb233fadf5e8ba2978ea1ab313`. Os 12 bancos CPK foram validados.
-- `work/assets/cpk-inventory.json` é um inventário histórico: nele `installTimeDisc.awb` tem 435.684.928 bytes; na base canônica, o membro tem 584.534.016 bytes. Uma extração com o inventário antigo foi corretamente recusada pelo verificador. Seus offsets não servem para o APK canônico.
+- `work/inventory/cpk-inventory.json` é um inventário histórico: nele `installTimeDisc.awb` tem 435.684.928 bytes; na base canônica, o membro tem 584.534.016 bytes. Uma extração com o inventário antigo foi corretamente recusada pelo verificador. Seus offsets não servem para o APK canônico.
 - Os sete XFBINs de mapa/menu foram extraídos da base com `scripts/extract-cpk-files.py` para `work/candidates/widescreen-app-completion/sprite-binding-assets/`; hashes estão no `manifest.json` ao lado. Tutorial e imagens de tutorial foram extraídos separadamente em `tutorial-canonical-source/`; o hash da textura `xcmn_tutorial_win00` é `3e9db920fa2c6a4ba71e66965eab82ac6fdba9a79d9ae0f0ddf5ec9b7ba1bac2` e coincide com a exportação anterior. PNGs canônicos estão em `tutorial-textures-canonical/`.
 
 ## Menu inicial da aventura

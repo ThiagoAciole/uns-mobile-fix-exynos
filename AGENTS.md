@@ -17,7 +17,7 @@ Leia antes de mexer: [README.md](README.md), [docs/PRD.md](docs/PRD.md) e [docs/
 - `build/Naruto Ultimate Ninja Storm.apk` é o APK final. Cada build do `build-selective.py` **substitui** esse arquivo e o `.build.json` ao lado. Não rode a build sobre `build/` sem confirmação do usuário, porque o APK anterior não é guardado.
 - Testes de APK são **sempre limpos**: o `build-selective.py` usa uma pasta temporária `work/build-tmp-*`, apagada ao fim de toda execução, inclusive em falha. Não deixe APK intermediário fora dela. Para limpar restos de execuções interrompidas: `python scripts/build-selective.py --clean`.
 - Não crie APK de teste em pasta própria sem apagá-lo logo após a verificação. Se a verificação for só de hash, prefira não gerar o APK inteiro.
-- `audit/` e `original/` são somente leitura para evidência.
+- `original/` é somente leitura para evidência.
 - Não rode `adb uninstall` nem limpe dados do pacote. Instalação segura: `adb install --no-incremental -r --user 0 <apk>`.
 - Não faça commit, push nem branch sem pedido explícito do usuário.
 - Não apague nada de `work/` sem confirmar o caminho exato com o usuário.

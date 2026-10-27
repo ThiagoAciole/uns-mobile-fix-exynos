@@ -204,7 +204,7 @@ def patch_all(source_dir: Path, output_dir: Path, controls_png: Path | None = No
     require(source_dir.resolve() != output_dir.resolve(), "Source and output directories must differ")
     require(not output_dir.exists(), "Output directory already exists; preserved")
     if controls_png is None:
-        default_png = Path(__file__).resolve().parents[1] / "background-joystick-widescreen.png"
+        default_png = Path(__file__).resolve().parents[1] / "assets" / "widescreen-expansion-png" / "opcoes" / "moption" / "xoption_battlebg01-widescreen.png"
         if default_png.is_file():
             controls_png = default_png
 

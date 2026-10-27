@@ -18,7 +18,7 @@ Pacote `com.bandainamcoent.ultimateninjastorm`, versão `1.2.10` / código `38`;
 - Assinatura v3 e certificado conferidos contra o APK funcional; alinhamento de 16 KiB conferido após assinatura.
 - Os bancos CPK foram inventariados; os dois assets substituídos foram extraídos do APK assinado e seus hashes conferem com os candidatos. Os outros payloads mantiveram CRC e tamanho na reconstrução.
 - Autoteste do importador de controles aprovado; testes das camadas do título: 4 aprovados; testes do patch de cobertura: 3 aprovados.
-- `audit/frame_001.jpg` a `frame_029.jpg` permanecem presentes. O APK funcional e o original não foram sobrescritos.
+- `audit/frame_001.jpg` a `frame_029.jpg` estavam presentes na época; hoje foram removidos do repositório (`4d0b573`). O APK funcional e o original não foram sobrescritos.
 
 ## Estado de aceitação
 

@@ -53,13 +53,6 @@ $dirRel = @(
     'work\original-redump',
     'work\s24-coverage'
 )
-$auditRoot = Join-Path $ProjectRoot 'audit'
-for ($frame = 1; $frame -le 29; $frame++) {
-    $framePath = Join-Path $auditRoot ('frame_{0:D3}.jpg' -f $frame)
-    if (-not (Test-Path -LiteralPath $framePath -PathType Leaf)) {
-        throw "Frame de referência ausente ($framePath); limpeza cancelada para preservar a análise widescreen."
-    }
-}
 
 $dirTargets = @()
 foreach ($relativePath in $dirRel) {
@@ -139,10 +132,6 @@ $readmePath = Join-Path $ProjectRoot 'README.md'
 $readme = [IO.File]::ReadAllText($readmePath)
 $readme = $readme.Replace('| `build/` | APK integrado aceito e um candidato anterior substituído; a remoção está pendente. |', '| `build/` | Somente o APK integrado aceito para uso no S24. |')
 $readme = [regex]::Replace($readme, '(?m)^\| `original/` \| Cópia duplicada do candidato anterior substituído; a remoção está pendente\. \|\r?\n', '')
-$auditRow = '| `audit/` | Frames de referência para análise visual widescreen; preservar. |'
-if (-not $readme.Contains($auditRow)) {
-    $readme = $readme.Replace('| `docs/` | Guias de uso, evidências, limites e histórico. |', "| ``docs/`` | Guias de uso, evidências, limites e histórico. |`r`n$auditRow")
-}
 $readme = $readme.Replace('| `work/` | Insumos de extração, patch e assinatura, além de APKs de teste e auditorias antigas; limpeza pendente. |', '| `work/` | Insumos temporários de extração, patch e assinatura; APKs de teste e conjuntos antigos de auditoria foram removidos. |')
 $readme = $readme.Replace('A organização desejada é manter somente a entrada em `origin/` e a saída aceita em `build/`; a revisão automática bloqueou a exclusão dos artefatos antigos nesta execução.', 'Os únicos APKs mantidos são a entrada em `origin/` e a saída aceita em `build/`. APKs de teste e candidatos antigos foram removidos de `work/`.')
 [IO.File]::WriteAllText($readmePath, $readme, $utf8NoBom)
@@ -163,10 +152,5 @@ $remainingOriginApks = @(Get-ChildItem -LiteralPath (Join-Path $ProjectRoot 'ori
 if ($remainingWorkApks.Count -ne 0) { throw "Restaram $($remainingWorkApks.Count) APK(s) em work/. Revise manualmente." }
 if ($remainingBuildApks.Count -ne 1 -or $remainingBuildApks[0].FullName -ne $FinalApk) { throw 'Conteúdo inesperado em build/. Revise manualmente.' }
 if ($remainingOriginApks.Count -ne 1 -or $remainingOriginApks[0].FullName -ne $OriginApk) { throw 'Conteúdo inesperado em origin/. Revise manualmente.' }
-if (-not (Test-Path -LiteralPath $auditRoot -PathType Container)) { throw 'A pasta audit/ deveria ter sido preservada.' }
-for ($frame = 1; $frame -le 29; $frame++) {
-    $framePath = Join-Path $auditRoot ('frame_{0:D3}.jpg' -f $frame)
-    if (-not (Test-Path -LiteralPath $framePath -PathType Leaf)) { throw "Frame removido inesperadamente: $framePath" }
-}
 
 Write-Host 'Limpeza concluída. origin/ e build/ contêm somente os APKs preservados.'
