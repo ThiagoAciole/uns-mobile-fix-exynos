@@ -17,11 +17,6 @@ A base ativa é o APK único **1.2.10** (`versionCode 38`).
     <td align="center"><img src="docs/screenshots/05-batalha.jpg" width="260" alt="Batalha"><br><sub>Batalha</sub></td>
     <td align="center"><img src="docs/screenshots/06-vila-missao.jpg" width="260" alt="Vila com missão"><br><sub>Vila com missão</sub></td>
   </tr>
-  <tr>
-    <td align="center"><img src="docs/screenshots/07-menu-pausa.jpg" width="260" alt="Menu de pausa"><br><sub>Menu de pausa</sub></td>
-    <td></td>
-    <td></td>
-  </tr>
 </table>
 
 ## Estado atual
