@@ -36,7 +36,8 @@ python scripts/build-selective.py --clean                                       
 - Sem `--keystore` e sem `--unsigned` o script recusa.
 
 - A correção Exynos entra sempre.
-- `--controls` existe só para recusar com código 2 enquanto não houver patch validado.
+- `--controls` aplica o patch Paddleboat validado no S24 somente com `--controller-base-apk`, cuja biblioteca exigida é identificada por SHA-256. Não tente aplicar sobre o APK original usando a saída diferente do patch widescreen seletivo.
+- `--console-ui` é experimental, exige `--controller-base-apk --controls`, oculta o HUD tátil de batalha e substitui os dois glyphs do atlas Android de seleção (triângulo/círculo) por Y/B. A troca de glyphs é estática no APK e ainda não muda dinamicamente com conexão/desconexão; não instalar nem declarar aceito sem evidência no S24.
 
 Ferramentas usadas pelo build (chamadas pelo orquestrador; rode direto só para depurar):
 

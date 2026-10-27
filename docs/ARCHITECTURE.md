@@ -73,7 +73,7 @@ flowchart TD
     Q --> P["Paddleboat_processInputEvent<br/>chamador: NotifyInputEvent"]
     P --> S["Paddleboat_update / getControllerData<br/>chamador: Update; init: Initialize"]
     P --> M["Mapeamento para o jogo<br/>nummInputManager / ccMenuPad"]
-    M --> T["Ação na tela<br/>não ocorre"]
+    M --> T["Ação na tela<br/>validada com máscara 0x23 no S24"]
 ```
 
 Estado de cada elo:
@@ -81,12 +81,17 @@ Estado de cada elo:
 | Elo | Estado |
 |---|---|
 | Driver e evdev | Verificado: eventos corretos no Linux. |
-| InputDispatcher | Verificado: tecla entregue ao processo do jogo; depois, fila acumulada ("unprocessed events"). |
-| Chamadas Paddleboat | Existem no binário: `init` em `Initialize`, `update` em `Update`, `processInputEvent` em `NotifyInputEvent`. |
-| Ordem e condições de chamada | **Não verificado.** Falta confirmar o chamador de `NotifyInputEvent` e se `Initialize` retorna sucesso. |
-| Mapeamento e ação | **Não verificado.** `IsControllerConnected` não tem chamada direta; é consultado por ponteiro virtual, e o chamador ainda não foi identificado. |
+| InputDispatcher | Teclas entregues ao processo. O acúmulo de fila foi observado em teste anterior; na captura passiva de 27/10 o canal atual terminou responsivo. Não confundir o bloco histórico de último ANR com o estado corrente. |
+| Chamadas Paddleboat | `init` em `Initialize`, `update` em `Update`, `processInputEvent` em `NotifyInputEvent`. No diagnóstico instrumentado de 27/10, 442 eventos do GameSir chegaram à chamada e todos retornaram zero (não tratados). Nenhuma chamada ao ponto de leitura `getControllerData` foi observada nos 60 s capturados. |
+| Ordem e condições de chamada | **Rastreado estaticamente.** `UpdatePlatform` chama `NotifyInputEvent` após `AInputQueue_preDispatchEvent`; `mmInput::Update` processa a plataforma antes de atualizar o gerenciador de controle. O sucesso de `Paddleboat_init` ainda não foi observado; seu retorno é descartado pelo motor. |
+| Configuração de dispositivos | **Gamepad desligado na máscara do jogo.** `androidMain` grava `0x22`, convertida em `0x14`: teclado e toque, sem criação do gerenciador de controle. A recriação da entrada finaliza o gerenciador anterior quando existe. Evidência e candidato `0x23`, ainda sem teste: [CONTROLLER_MASK_FINDINGS_20261027.md](CONTROLLER_MASK_FINDINGS_20261027.md). |
+| Mapeamento e ação | **Não verificado no aparelho.** `ccMenuPad::Ctrl` consulta `nuccSys::GetControllerActiveUser`. `IsControllerConnected` não aparece na vtable de `nummInputManager`, que contém somente os destrutores; não foi localizado chamador direto nem relocação para essa função. A antiga hipótese de chamada virtual foi descartada. |
 
-Hipótese de trabalho para a tela de toque: o motor pode esconder os botões de toque quando detecta controle conectado. Não está comprovada.
+Retomada estática, endereços, limites do diagnóstico e comparação com os APKs locais: [CONTROLLER_INVESTIGATION_20261027.md](CONTROLLER_INVESTIGATION_20261027.md).
+
+**Resultado da habilitação:** a mudança local para `0x23` foi validada pelo usuário nos menus, na batalha e na reconexão com GameSir-X5 Lite. A versão sem instrumentação ficou instalada e foi aceita. A tabela acima registra também os achados anteriores à mudança; ver [CONTROLLER_S24_VALIDATION_20261027.md](CONTROLLER_S24_VALIDATION_20261027.md) para os resultados atuais.
+
+**UI de gamepad — candidato de HUD:** `scripts/patch-controls-console-ui.py` gera um patch de segunda etapa sobre a biblioteca de gamepad validada. Ele consulta Paddleboat e suprime os botões/sticks de toque da batalha enquanto o controle está ativo, mantendo a chamada original que desenha a lista de itens; sem controle, a função original continua. No mesmo caminho `--controller-base-apk ... --controls --console-ui`, `scripts/patch-controls-prompts.py` troca por pixels determinísticos triângulo→Y e círculo→B nos prompts Android de seleção, por posição física. A troca é estática no APK, não cobre A/X e não foi empacotada ou aceita no S24. O editor Duel possui lógica especializada no binário, mas a página Android de controles táteis não expõe essa rota. Detalhes: [CONTROLLER_CONSOLE_UI_INVESTIGATION_20261027.md](CONTROLLER_CONSOLE_UI_INVESTIGATION_20261027.md).
 
 ## 7. Módulos de análise
 
@@ -99,11 +104,12 @@ Hipótese de trabalho para a tela de toque: o motor pode esconder os botões de 
 - **Biblioteca de controle externa não é adicionada.** O binário já contém a Paddleboat; o trabalho é garantir que o jogo a use.
 - **Sem refatoração do engine.** O projeto é um patch sobre o binário; cada mudança é pequena e isolada.
 - **Exynos é sempre incluído.** Widescreen depende dele, e a cadeia de pt-BR isolada não foi validada.
-- **Controle externo bloqueado no orquestrador.** A opção existe para deixar a limitação explícita.
+- **Controle externo no orquestrador.** `--controller-base-apk <apk> --controls` exige a biblioteca widescreen S24 de hash conhecido, reaplica a máscara `0x23` e grava manifesto ligado à base fornecida. O aceite permanece limitado ao S24 + GameSir-X5 Lite; a composição padrão `--widescreen` não é confundida com essa base.
+- **HUD de console experimental.** `--controller-base-apk <apk> --controls --console-ui` oculta o HUD tátil de batalha, preserva a lista de itens e aplica a skin Y/B aos prompts existentes de seleção. Tem validação estática/host, sem aceite visual no S24; a skin não alterna com o estado de conexão.
 
 ## 9. Pontos em aberto
 
-1. Confirmar o chamador de `NotifyInputEvent` e o retorno de `Initialize` (Ghidra em andamento).
-2. Identificar o chamador do slot de vtable de `IsControllerConnected`.
-3. Se o controle for entregue e não gerar ação, localizar o consumo nativo da fila.
-4. Testar a assinatura do orquestrador com um keystore real.
+1. Ampliar a cobertura da habilitação de controles, combinações de botões e outros modelos; o aceite atual é S24 + GameSir-X5 Lite.
+2. Investigar a falha pontual de abertura em `vkCreateAndroidSurfaceKHR`, registrada na primeira execução da versão sem logs. O processo posterior funcionou; a causalidade não foi determinada. Não confundir essa ocorrência com a antiga recusa de eventos pela Paddleboat.
+3. Testar a assinatura do orquestrador com um keystore real.
+4. Para a UI de console: recuperar as labels de `CCD_KEY_CONFIG`, localizar a rota que instancia `ccKeyConfigDuel`, mapear os prompts por contexto e só então concluir o patch ABXY.

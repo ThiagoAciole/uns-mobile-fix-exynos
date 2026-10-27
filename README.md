@@ -1,6 +1,6 @@
 # Naruto Storm Mobile Fix Exynos
 
-Correções e documentação para **Naruto: Ultimate Ninja Storm** no Android: patch Exynos, widescreen, português (Brasil) e, em investigação, controle externo.
+Correções e documentação para **Naruto: Ultimate Ninja Storm** no Android: patch Exynos, widescreen, português (Brasil) e suporte ao GameSir-X5 Lite validado no Galaxy S24.
 
 A base ativa é o APK único **1.2.10** (`versionCode 38`).
 
@@ -23,10 +23,11 @@ A base ativa é o APK único **1.2.10** (`versionCode 38`).
 
 - Correção de composição widescreen instalada no Galaxy S24 (SM-S921B) por atualização ADB, sem desinstalar nem limpar dados.
 - O usuário confirmou após abrir o jogo: a margem lateral e o desalinhamento dos toques foram corrigidos.
-- APK ativo: `build/Naruto Ultimate Ninja Storm.apk` (versão 1.2.10, código 38).
-- SHA-256: `5DAC1302663CBEC6ABC678B7F9C84976C2A2A1FEA487F183FEBD2D42D2147D86`.
-- Relatório da correção e aceite no S24: [WIDESCREEN_COMPOSITION_VALIDATION_20261026.md](docs/WIDESCREEN_COMPOSITION_VALIDATION_20261026.md).
-- A aceitação registrada é para o S24 em 2340×1080. Outras proporções e o jogo completo não foram homologados.
+- Instalação atual: versão 1.2.10, código 38, com pt-BR/inglês, widescreen e gamepad, sem logs de diagnóstico. Os APKs anteriores foram preservados para retorno.
+- SHA-256 do APK instalado: `A9288675A6D66B235349F1B20B81E9ADF95CD9FA6AEB69B2811138D14BFD32FD`.
+- Aceites: [composição widescreen](docs/WIDESCREEN_COMPOSITION_VALIDATION_20261026.md) e [controle no S24](docs/CONTROLLER_S24_VALIDATION_20261027.md). O usuário confirmou menus, batalha, reconexão e funcionamento da versão sem logs.
+
+A aceitação é limitada ao S24 em 2340×1080 e ao GameSir-X5 Lite. Outras proporções, controles e o jogo completo não foram homologados. Houve uma falha Vulkan na primeira abertura da versão final; a reabertura funcionou, mas a causa dessa ocorrência permanece em aberto no relatório de controle.
 
 ## Recursos
 
@@ -35,7 +36,7 @@ A base ativa é o APK único **1.2.10** (`versionCode 38`).
 | **Correção Exynos** | Aplicada e verificada por hash. Entra sempre nas builds. |
 | **Widescreen** | Validado somente no Galaxy S24 em 2340×1080. Outras proporções não foram testadas. |
 | **Português (Brasil)** | Incluído nos textos e letreiros. Dublagem e algumas artes continuam no idioma original. |
-| **Controle externo** | ⚠️ **Não funciona ainda.** Investigação em andamento; não use como referência de funcionamento. |
+| **Controle externo** | Validado no S24 com GameSir-X5 Lite: menus, batalha e reconexão. O build seletivo reaplica o patch com `--controller-base-apk ... --controls` sobre a base S24 identificada por hash. |
 
 Uma variante mantém português e coloca inglês no lugar de francês. O usuário confirmou o funcionamento do inglês no S24; veja a construção e os limites em [Inglês no espaço do francês](docs/ENGLISH_NO_FRANCES.md).
 
@@ -46,6 +47,8 @@ Este repositório **não distribui o jogo**. Você precisa do seu próprio APK 1
 **Requisitos:** Windows com PowerShell, Python 3, Android SDK Build-Tools (`apksigner`, `zipalign`), ADB e um certificado de assinatura local criado por você.
 
 Escolha só os ajustes que quiser com [`scripts/build-selective.py`](scripts/build-selective.py). A correção Exynos entra sempre, porque o widescreen depende dela.
+
+O controle foi validado no S24 sobre a biblioteca widescreen de SHA `8797E444…`. Para reaplicar, use `--controller-base-apk` apontando para essa base e `--controls`; o caminho rejeita outra biblioteca. `--console-ui` oculta os controles táteis da batalha, preserva a lista de itens e troca triângulo/círculo por Y/B nos prompts Android de seleção. Essa troca é estática no APK, cobre apenas os dois glyphs existentes e ainda não muda ao conectar/desconectar o controle; a variante não foi instalada nem aceita no aparelho. Evidências: [controle no S24](docs/CONTROLLER_S24_VALIDATION_20261027.md#versão-sem-instrumentação) e [investigação da interface de console](docs/CONTROLLER_CONSOLE_UI_INVESTIGATION_20261027.md).
 
 ```powershell
 # só Exynos

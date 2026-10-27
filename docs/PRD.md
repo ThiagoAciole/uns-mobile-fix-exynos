@@ -12,7 +12,7 @@ O APK 1.2.10 original do jogo tem três problemas em dispositivos Android atuais
 2. **Tela não ocupa a largura de celulares widescreen.** O jogo é projetado para 16:9 e deixa margens laterais, e os toques ficam deslocados.
 3. **Textos e letreiros só em inglês.** O jogo não tem português.
 
-Além disso, o controle externo (gamepad) não responde no jogo. Esse problema ainda não está resolvido.
+O controle externo originalmente não respondia: o jogo desabilitava o gamepad na máscara de inicialização. A habilitação foi validada no S24 com GameSir-X5 Lite e a reaplicação foi conectada ao build seletivo pela base S24 exata; repack/assinatura dessa nova rota ainda não foram executados.
 
 ## 2. Usuários
 
@@ -28,7 +28,8 @@ Não é público geral. Não há instalador nem loja.
 | **Correção Exynos** | Jogo renderiza em GPUs Exynos sem o formato de depth não suportado. | Patch de 1 byte aplicado e verificado por hash. Parte da build final aceita. |
 | **Widescreen** | Preencher telas 2340×1080 sem esticar personagens e com toques alinhados. | Validado no S24 em 2340×1080. Outras proporções **não** foram testadas. |
 | **Português (Brasil)** | Textos de menus, mensagens, batalha e itens traduzidos; letreiros gráficos traduzidos. | Catálogos cobrem 7.104 textos únicos. Dublagem e algumas artes continuam em inglês. |
-| **Controle externo** | Navegar nos menus e jogar com gamepad. | **Não funciona.** Causa ainda não identificada. |
+| **Controle externo** | Navegar nos menus e jogar com gamepad. | Validado pelo usuário no S24 com GameSir-X5 Lite: menus, batalha e reconexão. Reaplicável pelo build seletivo com `--controller-base-apk --controls`, com hash guard. |
+| **HUD de console** | Ocultar HUD tátil na batalha com gamepad ativo e apresentar prompts ABXY. | Patch candidato v2 oculta botões/sticks e preserva a lista de itens; patch estático ligado ao build troca triângulo/círculo por Y/B nos prompts de seleção por posição. Não cobre A/X, não alterna dinamicamente e não foi empacotado/instalado. A tela de configuração Duel ainda não foi exposta. |
 
 ## 4. Escopo
 
@@ -64,14 +65,15 @@ Fora:
 | Exynos | Biblioteca final com SHA-256 `CCEA158F…` a partir da entrada `C631E7…`. | Verificado por hash e pelo repacker. |
 | Widescreen | Tela 2340×1080 sem margem lateral e toques alinhados no S24. | Aceito pelo usuário no S24. |
 | pt-BR | Contadores de campos alterados batem com a documentação (7843 / 442 / 679). | Verificado no build. |
-| Controle | Navegação nos menus e gameplay com gamepad no S24. | **Não atendido.** |
+| Controle | Navegação nos menus e gameplay com gamepad no S24. | Atendido para S24 + GameSir-X5 Lite, com aceite do usuário. Ver [validação](CONTROLLER_S24_VALIDATION_20261027.md). |
 
 ## 8. Pendências
 
-1. **Controle externo.** Descobrir por que o jogo não reage ao GameSir-X5 Lite, que envia eventos corretos ao Linux e às teclas do Android. Ver [ARCHITECTURE.md §6](ARCHITECTURE.md#6-caminho-da-entrada-do-controle).
-2. **Widescreen em outras proporções** e outros aparelhos.
-3. **Assinatura** do build seletivo com keystore real (ainda não testada).
-4. **Commit** dos arquivos que ainda estão fora do Git.
+1. **Controle externo.** Ampliar a cobertura de controles/aparelhos sem extrapolar o aceite atual. Ver [ARCHITECTURE.md §6](ARCHITECTURE.md#6-caminho-da-entrada-do-controle).
+2. **HUD de console.** Aceitar visualmente no S24 a ocultação condicional, implementar prompts ABXY por contexto e expor o editor de configuração Duel existente.
+3. **Widescreen em outras proporções** e outros aparelhos.
+4. **Assinatura** do build seletivo com keystore real (ainda não testada).
+5. **Commit** dos arquivos que ainda estão fora do Git.
 
 ## 9. Riscos
 
@@ -79,3 +81,4 @@ Fora:
 - Os offsets nativos podem mudar em outra versão do engine, e nesse caso os scripts abortam em vez de corromper o APK.
 - O widescreen pode quebrar telas não testadas: só o S24 foi verificado.
 - Os catálogos de tradução cobrem as strings identificadas; textos novos ficam em inglês.
+- Foi registrada uma falha de criação de superfície Vulkan na primeira abertura da versão com gamepad; a reabertura funcionou. A causa e a relação com a atualização não foram determinadas. Ver o relatório de validação do controle.
