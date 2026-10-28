@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "flows": [
+    {
+      "id": "character_select",
+      "screen": "Selecao de personagem",
+      "entry": "Entrar na selecao",
+      "exit": "Avancar para suportes ou retornar",
+      "navigation": "Navegacao pelo elenco relatada no roteiro",
+      "actions": [
+        "Selecionar",
+        "Aleatorio",
+        "Configuracoes de batalha"
+      ],
+      "buttonMappings": {
+        "Selecionar": "A, confirmado pelo usuario",
+        "Aleatorio": "Y, confirmado pelo usuario",
+        "Configuracoes de batalha": "Start, confirmado pelo usuario",
+        "retorno": "pendente"
+      },
+      "focusBehavior": "Foco e selecao confirmados na F1.1; retorno de modal pendente",
+      "promptAssets": [
+        "cmn_button00",
+        "msel1.xfbin"
+      ],
+      "nativeFunctions": [
+        "ccCharacterSelectPad::Setup",
+        "ccCharacterSelectPad::Draw",
+        "ccSelectCharacter::Ctrl"
+      ],
+      "relatedPatches": [
+        "scripts/patch-controls-select-prompts.py"
+      ],
+      "evidence": {
+        "userProvidedVideoSummary": "Roteiro fornecido pelo usuario; complementado por quadros pontuais do video.",
+        "code": "analysis/controls/catalog.json",
+        "device": "Confirmacoes explicitas somente quando mencionadas em buttonMappings ou focusBehavior",
+        "video": {
+          "path": "C:/Users/Thiago Aciole/Downloads/Screen_Recording_20261028_133230_Ultimate Ninja STORM.mp4",
+          "sha256": "4a88f9defbb0391f354df5edbc62de762cde82350b516142af1894d3f7f89ff5",
+          "observation": "00:02: START e A visiveis sobre botoes; presenca nao prova associacao ou comportamento.",
+          "limit": "Quadros pontuais; nao comprovam bindings, reconexao ou ausencia de defeitos no fluxo completo."
+        }
+      },
+      "status": "investigacao; nao aceito",
+      "confidence": "observacao visual pontual e analise estatica; comportamento interativo pendente",
+      "pendingQuestions": [
+        "Verificar posicao e estado de A/Y/START no candidato",
+        "Confirmar B, retorno de modal e reconexao"
+      ]
+    },
+    {
+      "id": "supports_customization",
+      "screen": "Suportes e personalizacao",
+      "entry": "Selecao principal",
+      "exit": "Confirmar personagens e suportes",
+      "navigation": "Transicoes e foco a validar",
+      "actions": [
+        "Selecionar suporte",
+        "Abrir e fechar personalizacao",
+        "Confirmar",
+        "Cancelar"
+      ],
+      "buttonMappings": {},
+      "focusBehavior": "Persistencia e restauracao pendentes",
+      "promptAssets": [],
+      "nativeFunctions": [],
+      "relatedPatches": [],
+      "evidence": {
+        "userProvidedVideoSummary": "Roteiro fornecido pelo usuario; complementado por quadros pontuais do video.",
+        "code": "analysis/controls/catalog.json",
+        "device": "Confirmacoes explicitas somente quando mencionadas em buttonMappings ou focusBehavior",
+        "video": {
+          "path": "C:/Users/Thiago Aciole/Downloads/Screen_Recording_20261028_133230_Ultimate Ninja STORM.mp4",
+          "sha256": "4a88f9defbb0391f354df5edbc62de762cde82350b516142af1894d3f7f89ff5",
+          "observation": "00:08: SUPPORT SELECT com Y em Aleatorio, START em Configuracoes e A em Selecionar; botoes tateis permanecem visiveis. 00:11,5: CUSTOMIZE mostra lider e dois suportes sem prompts ABXY visiveis no quadro; navegacao e cortes persistentes nao comprovados.",
+          "limit": "Quadros pontuais; nao comprovam bindings, reconexao ou ausencia de defeitos no fluxo completo."
+        }
+      },
+      "status": "investigacao; nao aceito",
+      "confidence": "observacao visual pontual e analise estatica; comportamento interativo pendente",
+      "pendingQuestions": [
+        "Identificar controles e foco apos retorno",
+        "Distinguir animacoes de defeitos persistentes"
+      ]
+    },
+    {
+      "id": "arena_select",
+      "screen": "Selecao de arena",
+      "entry": "Apos selecao de personagens",
+      "exit": "Iniciar combate ou voltar",
+      "navigation": "Navegacao horizontal relatada no roteiro",
+      "actions": [
+        "Selecionar",
+        "Aleatorio",
+        "Retornar"
+      ],
+      "buttonMappings": {
+        "Selecionar": "A, confirmado pelo usuario no S24",
+        "Aleatorio": "Y, confirmado pelo usuario no S24",
+        "Voltar": "B esperado; usuario relata fechamento do jogo ao pressionar, sem retorno validado"
+      },
+      "focusBehavior": "Foco e restauracao pendentes",
+      "promptAssets": [],
+      "nativeFunctions": [
+        "ccStageSelectPad::Setup",
+        "ccStageSelectPad::Draw"
+      ],
+      "relatedPatches": [
+        "scripts/patch-controls-select-prompts.py",
+        "scripts/patch-controls-gamepad-b.py"
+      ],
+      "evidence": {
+        "userProvidedVideoSummary": "Roteiro fornecido pelo usuario; complementado por quadros pontuais do video.",
+        "code": "analysis/controls/catalog.json",
+        "device": "S24: usuario confirmou A e Y e reproduziu B; getevent registrou BTN_EAST e InputDispatcher seguido de onBackInvoked; Android moveu a tarefa para segundo plano e PID permaneceu ativo. Usuario relata o mesmo comportamento em outros apps; Generic.kl mapeia 305 para BUTTON_B e Generic.kcm define fallback BACK.",
+        "video": {
+          "path": "C:/Users/Thiago Aciole/Downloads/Screen_Recording_20261028_133230_Ultimate Ninja STORM.mp4",
+          "sha256": "4a88f9defbb0391f354df5edbc62de762cde82350b516142af1894d3f7f89ff5",
+          "observation": "00:17: Aleatorio e Selecionar visiveis sem glyphs de gamepad.",
+          "limit": "Quadros pontuais; nao comprovam bindings, reconexao ou ausencia de defeitos no fluxo completo."
+        }
+      },
+      "status": "candidato em memoria, testes de host; aparelho pendente",
+      "confidence": "observacao visual pontual e analise estatica; comportamento interativo pendente",
+      "pendingQuestions": [
+        "Validar em execucao os retornos dos consumidores antes de corrigir o evento nao tratado",
+        "Comprovar B como retorno nos menus e ataque no combate",
+        "Verificar foco e retorno",
+        "Validar glyphs, foco, retorno e reconexao no candidato integrado"
+      ]
+    },
+    {
+      "id": "battle",
+      "screen": "Combate",
+      "entry": "Iniciar combate",
+      "exit": "Menu de pausa ou fim do combate",
+      "navigation": "Movimentacao e ataques relatados no roteiro",
+      "actions": [
+        "Movimentar",
+        "Atacar",
+        "Defender",
+        "Chakra",
+        "Suportes",
+        "Itens"
+      ],
+      "buttonMappings": {
+        "Defesa": "L2, relato do usuario",
+        "Substituicao": "R2, relato do usuario",
+        "Suportes": "L1 e R1, relato do usuario",
+        "Itens": "direcional (D-pad), relato do usuario",
+        "Chakra": "Y, relato do usuario",
+        "Ataque": "X, relato do usuario; diverge do mapa estatico B no catalogo",
+        "Pulo": "A, relato do usuario",
+        "Investida Ninja": "Y + A, relato do usuario",
+        "B": "aciona retorno ao Android no candidato instalado; acao no jogo nao demonstrada"
+      },
+      "focusBehavior": "F1.1: usuario confirmou foco, selecao, lista de itens e alternancia de HUD no S24",
+      "promptAssets": [
+        "xbattle_pad.xfbin"
+      ],
+      "nativeFunctions": [
+        "ccDuelPad::Draw",
+        "Paddleboat_getControllerStatus",
+        "ccPlayerItemListBase::Draw"
+      ],
+      "relatedPatches": [
+        "scripts/patch-controls-console-ui.py"
+      ],
+      "evidence": {
+        "userProvidedVideoSummary": "Roteiro fornecido pelo usuario; complementado por quadros pontuais do video.",
+        "code": "analysis/controls/catalog.json",
+        "device": "Confirmacoes explicitas somente quando mencionadas em buttonMappings ou focusBehavior",
+        "video": {
+          "path": "C:/Users/Thiago Aciole/Downloads/Screen_Recording_20261028_133230_Ultimate Ninja STORM.mp4",
+          "sha256": "4a88f9defbb0391f354df5edbc62de762cde82350b516142af1894d3f7f89ff5",
+          "observation": "00:26: HUD informativo, itens e suportes visiveis; circulo translucido a direita de origem nao determinada.",
+          "limit": "Quadros pontuais; nao comprovam bindings, reconexao ou ausencia de defeitos no fluxo completo."
+        }
+      },
+      "status": "investigacao; nao aceito",
+      "confidence": "observacao visual pontual e analise estatica; comportamento interativo pendente",
+      "pendingQuestions": [
+        "Validar demais acoes e ausencia de entrada duplicada no candidato",
+        "Confirmar divergencia entre X relatado para ataque e B no mapeamento estatico; determinar mapeamento ativo antes de adaptar tutorial"
+      ]
+    },
+    {
+      "id": "tutorial_commands",
+      "screen": "Tutoriais e lista de comandos",
+      "entry": "Abrir instrucoes em batalha ou pausa",
+      "exit": "Retornar a tela anterior",
+      "navigation": "Navegacao pendente",
+      "actions": [
+        "Consultar instrucoes"
+      ],
+      "buttonMappings": {},
+      "focusBehavior": "Pendente",
+      "promptAssets": [
+        "textos PT-BR com marcadores icon; imagens e composicao a identificar"
+      ],
+      "nativeFunctions": [
+        "ccDispTutorial::Setup"
+      ],
+      "relatedPatches": [],
+      "evidence": {
+        "userProvidedVideoSummary": "Roteiro fornecido pelo usuario; complementado por quadros pontuais do video.",
+        "code": "analysis/controls/catalog.json",
+        "device": "Confirmacoes explicitas somente quando mencionadas em buttonMappings ou focusBehavior",
+        "video": {
+          "path": "C:/Users/Thiago Aciole/Downloads/Screen_Recording_20261028_133230_Ultimate Ninja STORM.mp4",
+          "sha256": "4a88f9defbb0391f354df5edbc62de762cde82350b516142af1894d3f7f89ff5",
+          "observation": "00:24,5–00:25,1: Tela Principal mostra HUD tatil; Controles basicos apresenta instrucoes de deslizar e tocar e imagens de controles tateis.",
+          "limit": "Quadros pontuais; nao comprovam bindings, reconexao ou ausencia de defeitos no fluxo completo."
+        }
+      },
+      "status": "investigacao; nao aceito",
+      "confidence": "observacao visual pontual e analise estatica; comportamento interativo pendente",
+      "pendingQuestions": [
+        "Identificar paginas e recursos reais",
+        "Determinar bindings ativos e fallback tatil"
+      ]
+    },
+    {
+      "id": "pause_menu",
+      "screen": "Menu de pausa",
+      "entry": "Abrir pausa durante combate",
+      "exit": "Retornar ao combate",
+      "navigation": "Navegacao direcional pendente",
+      "actions": [
+        "Lista de comandos",
+        "Tutorial",
+        "Configuracoes de controle"
+      ],
+      "buttonMappings": {},
+      "focusBehavior": "Foco inicial e restauracao pendentes",
+      "promptAssets": [],
+      "nativeFunctions": [
+        "ccPauseMenuDuel::StepKeyConfig"
+      ],
+      "relatedPatches": [],
+      "evidence": {
+        "userProvidedVideoSummary": "Roteiro fornecido pelo usuario; complementado por quadros pontuais do video.",
+        "code": "analysis/controls/catalog.json",
+        "device": "Confirmacoes explicitas somente quando mencionadas em buttonMappings ou focusBehavior",
+        "video": {
+          "path": "C:/Users/Thiago Aciole/Downloads/Screen_Recording_20261028_133230_Ultimate Ninja STORM.mp4",
+          "sha256": "4a88f9defbb0391f354df5edbc62de762cde82350b516142af1894d3f7f89ff5",
+          "observation": "00:36: lista inclui Configuracoes de controle; abertura e foco nao comprovados.",
+          "limit": "Quadros pontuais; nao comprovam bindings, reconexao ou ausencia de defeitos no fluxo completo."
+        }
+      },
+      "status": "investigacao; nao aceito",
+      "confidence": "observacao visual pontual e analise estatica; comportamento interativo pendente",
+      "pendingQuestions": [
+        "Confirmar A/B e retorno",
+        "Validar abertura e fechamento de submenus"
+      ]
+    },
+    {
+      "id": "control_configuration",
+      "screen": "Configuracao de controles",
+      "entry": "Opcao no menu de pausa",
+      "exit": "Voltar ao menu de pausa",
+      "navigation": "Rota para pagina tatil identificada estaticamente",
+      "actions": [
+        "Abrir",
+        "Fechar"
+      ],
+      "buttonMappings": {},
+      "focusBehavior": "Ciclo completo e persistencia pendentes",
+      "promptAssets": [
+        "cmn_button00"
+      ],
+      "nativeFunctions": [
+        "ccPauseMenuDuel::StepKeyConfig",
+        "ccOptionControl::StepInit",
+        "ccOptionControl::StepMain",
+        "ccOptionControl::StepEnd",
+        "ccKeyConfigDuel::InitButtonSet"
+      ],
+      "relatedPatches": [],
+      "evidence": {
+        "userProvidedVideoSummary": "Roteiro fornecido pelo usuario; complementado por quadros pontuais do video.",
+        "code": "analysis/controls/catalog.json",
+        "device": "Confirmacoes explicitas somente quando mencionadas em buttonMappings ou focusBehavior",
+        "video": {
+          "path": "C:/Users/Thiago Aciole/Downloads/Screen_Recording_20261028_133230_Ultimate Ninja STORM.mp4",
+          "sha256": "4a88f9defbb0391f354df5edbc62de762cde82350b516142af1894d3f7f89ff5",
+          "observation": "00:36: opcao visivel no menu de pausa; abertura nao demonstrada.",
+          "limit": "Quadros pontuais; nao comprovam bindings, reconexao ou ausencia de defeitos no fluxo completo."
+        }
+      },
+      "status": "investigacao; nao aceito",
+      "confidence": "observacao visual pontual e analise estatica; comportamento interativo pendente",
+      "pendingQuestions": [
+        "Validar abertura no aparelho",
+        "Mapear criacao, fechamento, Paddleboat e persistencia de ccKeyConfigDuel antes de F1.3"
+      ]
+    }
+  ]
+}

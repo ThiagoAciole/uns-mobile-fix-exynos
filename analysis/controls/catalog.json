@@ -1,0 +1,525 @@
+{
+  "schema_version": 1,
+  "scope": "Controles Android 1.2.10; evidencias historicas devem ser verificadas antes de reutilizacao",
+  "address_spaces": {
+    "elf_va": "VA ELF; nos segmentos validados pelos scripts, offset do arquivo = VA - 0x4000",
+    "ghidra_va": "Endereco Ghidra com imagem base 0x100000; nao confundir com VA ELF",
+    "display_id": "Identificador DISP_ELEMENT_ID, nao endereco de memoria"
+  },
+  "sources": [
+    {
+      "artifact": "APK de referencia",
+      "sha256": "7333fef226ac9147fc8b40de0c49a6824304c2e3ec2b1a69c27e8de3d71514ea",
+      "evidence": "docs/CONTROLLER_CONSOLE_UI_INVESTIGATION_20261027.md",
+      "confidence": "historico estatico"
+    },
+    {
+      "artifact": "biblioteca S24 widescreen",
+      "sha256": "8797e4446449b505bd20d704c4123f4bdbedeec8b9e1e71a87414a876572cfd0",
+      "evidence": "scripts/patch-controls-flow-diag.py",
+      "confidence": "guarda no codigo"
+    },
+    {
+      "artifact": "biblioteca GameSir para console UI",
+      "sha256": "2923db436931bb2f3a0b7178a7b1c007434e28d269e5ec5a81c5be4a73e96db7",
+      "build_id": "c3e506f9be350dfb4a00c79228754028",
+      "evidence": "scripts/patch-controls-console-ui.py",
+      "confidence": "guarda no codigo; controle validado no S24 segundo documentacao"
+    },
+    {
+      "artifact": "xmode.xfbin",
+      "sha256": "887bfc1f0bc56961acbf57a914e2bee5b046e5055043b98a97fcc3e26bbe52fb",
+      "evidence": "scripts/patch-controls-prompts.py",
+      "confidence": "guarda no codigo"
+    },
+    {
+      "artifact": "xbattle_pad.xfbin",
+      "sha256": "ca7767141ad6cce3404e1dc70aefea98ff699e34f7e04eb33700f423356082c3",
+      "evidence": "docs/CONTROLLER_CONSOLE_UI_INVESTIGATION_20261027.md",
+      "confidence": "extracao estatica relatada"
+    }
+  ],
+  "symbols": [
+    {
+      "name": "ccDuelPad::Draw",
+      "address": "0x9f26a4",
+      "space": "elf_va",
+      "function": "entrada do patch de HUD",
+      "evidence": "scripts/patch-controls-console-ui.py",
+      "confidence": "estatica e host"
+    },
+    {
+      "name": "Paddleboat_getControllerStatus",
+      "address": "0x1188360",
+      "space": "elf_va",
+      "function": "estado do controle 0, ACTIVE=1",
+      "evidence": "scripts/patch-controls-console-ui.py",
+      "confidence": "estatica e host"
+    },
+    {
+      "name": "ccPlayerItemListBase::Draw",
+      "address": "0x12d1c30",
+      "space": "elf_va",
+      "function": "desenho preservado da lista de itens",
+      "evidence": "scripts/patch-controls-console-ui.py",
+      "confidence": "estatica e host"
+    },
+    {
+      "name": "ccOptionControl::StepInit",
+      "address": "0xd56944",
+      "space": "ghidra_va",
+      "function": "abre Entry(0xaa), pagina tatil",
+      "evidence": "docs/CONTROLLER_CONSOLE_UI_INVESTIGATION_20261027.md",
+      "confidence": "decompilacao estatica"
+    },
+    {
+      "name": "ccOptionControl::StepMain",
+      "address": "0xbe13c8",
+      "space": "ghidra_va",
+      "function": "processa retorno",
+      "evidence": "docs/CONTROLLER_CONSOLE_UI_INVESTIGATION_20261027.md",
+      "confidence": "decompilacao estatica"
+    },
+    {
+      "name": "ccOptionControl::StepEnd",
+      "address": "0xd3a504",
+      "space": "ghidra_va",
+      "function": "encerra e sinaliza conclusao",
+      "evidence": "docs/CONTROLLER_CONSOLE_UI_INVESTIGATION_20261027.md",
+      "confidence": "decompilacao estatica"
+    },
+    {
+      "name": "ccPauseMenuDuel::StepKeyConfig",
+      "address": "0xc3ca9c",
+      "space": "ghidra_va",
+      "function": "cria e controla ccOptionControl",
+      "evidence": "docs/CONTROLLER_CONSOLE_UI_INVESTIGATION_20261027.md",
+      "confidence": "decompilacao estatica"
+    },
+    {
+      "name": "ccKeyConfigDuel::InitButtonSet",
+      "address": null,
+      "space": null,
+      "function": "instancia sprites de face; rota Android desconhecida",
+      "evidence": "docs/CONTROLLER_CONSOLE_UI_INVESTIGATION_20261027.md",
+      "confidence": "estatica"
+    },
+    {
+      "name": "nuccSys::GetControllerButtonName",
+      "address": null,
+      "space": null,
+      "function": "converte mascaras em glyphs PlayStation; consumidor de UI nao confirmado",
+      "evidence": "docs/CONTROLLER_CONSOLE_UI_INVESTIGATION_20261027.md",
+      "confidence": "estatica"
+    }
+  ],
+  "assets": [
+    {
+      "name": "cmn_button00",
+      "function": "atlas ABXY; xcmn_triangle/batsu/square/circle usam IDs 0x0f/0x10/0x11/0x12",
+      "space": "display_id",
+      "evidence": "docs/CONTROLLER_CONSOLE_UI_INVESTIGATION_20261027.md",
+      "confidence": "estatica; regioes dos quatro sprites conferidas no atlas"
+    },
+    {
+      "name": "xmode00 e xmode00_1",
+      "function": "atlas de selecao; skin Y/B estatica",
+      "evidence": "scripts/patch-controls-prompts.py",
+      "confidence": "host; nao validado no S24"
+    },
+    {
+      "name": "data/interface/battle/pad/xbattle_pad.xfbin",
+      "function": "HUD tatil de batalha",
+      "evidence": "docs/CONTROLLER_CONSOLE_UI_INVESTIGATION_20261027.md",
+      "confidence": "estatica"
+    }
+  ],
+  "patches": [
+    {
+      "name": "Paddleboat",
+      "script": "scripts/patch-controls-flow-diag.py",
+      "dependencies": [
+        "biblioteca S24 com SHA 8797e4446449b505bd20d704c4123f4bdbedeec8b9e1e71a87414a876572cfd0",
+        "base e manifesto compativeis"
+      ],
+      "evidence": "AGENTS.md",
+      "confidence": "controle validado no S24 segundo documentacao"
+    },
+    {
+      "name": "HUD console",
+      "script": "scripts/patch-controls-console-ui.py",
+      "dependencies": [
+        "biblioteca GameSir e manifesto anterior",
+        "patches/controls-diag/console-ui.S"
+      ],
+      "cave": {
+        "start": "0x9b1368",
+        "end_exclusive": "0x9b145c",
+        "space": "elf_va"
+      },
+      "output_sha256": "557b842e7f3372b1498843fce78df8b32bab43e26030d4092ef6c66ce290cb9e",
+      "evidence": "analysis/controls/findings.md",
+      "confidence": "aceito pelo usuario no S24"
+    },
+    {
+      "name": "prompts Y/B",
+      "script": "scripts/patch-controls-prompts.py",
+      "dependencies": [
+        "base S24 e xmode.xfbin com hashes esperados"
+      ],
+      "evidence": "docs/CONTROLLER_CONSOLE_UI_INVESTIGATION_20261027.md",
+      "confidence": "host; nao validado no S24"
+    },
+    {
+      "name": "diagnostico legado",
+      "script": "scripts/patch-controls-diag.py",
+      "dependencies": [
+        "SHA ccea158f39368ed13254a2f29e608e1fd7e5dcb4a1427ed4461b6a05f3c194ca"
+      ],
+      "evidence": "scripts/patch-controls-diag.py",
+      "confidence": "diagnostico"
+    },
+    {
+      "name": "fundo controles S24",
+      "script": "scripts/patch-controls-bg-s24.py",
+      "dependencies": [
+        "asset SHA a1c0461e95a70e57e7f3994e81e0c8827cfdd01c0a9cd1a6ed3b71f69400f6cf"
+      ],
+      "evidence": "scripts/patch-controls-bg-s24.py",
+      "confidence": "guarda no codigo"
+    }
+  ],
+  "default_bindings": [
+    {
+      "action": "KeyAttack",
+      "game_mask": "0x2000",
+      "paddleboat_mask": "0x20",
+      "button": "B"
+    },
+    {
+      "action": "KeyJump",
+      "game_mask": "0x4000",
+      "paddleboat_mask": "0x10",
+      "button": "A"
+    },
+    {
+      "action": "KeyChakraLoad",
+      "game_mask": "0x1000",
+      "paddleboat_mask": "0x80",
+      "button": "Y"
+    },
+    {
+      "action": "KeyShuriken",
+      "game_mask": "0x8000",
+      "paddleboat_mask": "0x40",
+      "button": "X"
+    }
+  ],
+  "bindings_evidence": "docs/CONTROLLER_CONSOLE_UI_INVESTIGATION_20261027.md: reconstrucao estatica do perfil padrao",
+  "f1_2": {
+    "status": "em investigacao",
+    "flows": {
+      "path": "analysis/controls/flows.json",
+      "ids": [
+        "character_select",
+        "supports_customization",
+        "arena_select",
+        "battle",
+        "tutorial_commands",
+        "pause_menu",
+        "control_configuration"
+      ]
+    },
+    "accepted_base": "build/UNSM-S24-GAMEPAD-HUD-F1.1.apk",
+    "accepted_base_native_sha256": "557b842e7f3372b1498843fce78df8b32bab43e26030d4092ef6c66ce290cb9e",
+    "selection_candidate": {
+      "apk": "build/UNSM-S24-GAMEPAD-ABXY-F1.2-SELECAO.apk",
+      "apk_sha256": "4f6399ad9da671cc2454077676a593d37e521c22f9b307212344853df8cdb2bc",
+      "native_sha256": "d782700a6dfa71128d6364bf21dd8f27e8074bef2d27065a7e34818555b0eb2d",
+      "status": "experimental, instalado por atualizacao no S24; SHA-256 confere; video mostra A/Y/START, mas interacao e reconexao ainda pendentes",
+      "scope": "somente selecao de personagem: A/Y e texto START; demais telas e bindings personalizados pendentes"
+    },
+    "host_components": [
+      {
+        "path": "scripts/extend-controls-elf.py",
+        "status": "reserva ELF em memoria, sem payload e sem validacao no S24",
+        "test": "tests/controls/test_elf_exec_extension.py"
+      },
+      {
+        "path": "patches/controls-diag/abxy-mapping.c",
+        "status": "conversao de mascaras para IDs testada no host",
+        "test": "tests/controls/test_abxy_mapping.py"
+      },
+      {
+        "path": "scripts/patch-controls-select-prompts.py",
+        "status": "candidato nativo de selecao verificado em memoria; sprites A/Y e texto START; sem validacao no S24",
+        "test": "tests/controls/test_abxy_select_patch.py"
+      }
+    ],
+    "gamepad_b_candidate": {
+      "script": "scripts/patch-controls-gamepad-b.py",
+      "status": "experimental, composto com prompts de personagem e arena em memoria; check-only e host; nao instalado",
+      "scope": "finalizacao comum; BUTTON_B de gamepad apenas apos entrega ao motor",
+      "finish_hooks_elf_va": [
+        "0x9e7c30",
+        "0x9e7cbc"
+      ],
+      "output_library_sha256": "dac92156cad6ced9c68f92e4ede76736b44747cedc7e68e9be179fc127cd91e7",
+      "limitations": "cancelamento, ataque e prevençao do fallback exigem validacao no S24"
+    },
+    "existing_static_patch": "check-only validado na base anterior; troca Y/B por posicao, nao dinamica e sem A/X",
+    "compatibility": "patch-controls-prompts.py exige SHA nativo 8797e4446449b505bd20d704c4123f4bdbedeec8b9e1e71a87414a876572cfd0 e rejeita diretamente a base aceita F1.1",
+    "screen_inventory": [
+      {
+        "screen": "selecao de modo",
+        "asset": "xmode.xfbin: xmode00 e xmode00_1",
+        "mapping": "triangulo e circulo; acoes e bindings nao comprovados",
+        "confidence": "estatica"
+      },
+      {
+        "screen": "selecao de personagem",
+        "asset": "msel1.xfbin: msel1_wline_tag e msel1_wline",
+        "mapping": "CtrlCaptionControls associa texto a Awakening e Costume; glyph e binding nao comprovados",
+        "confidence": "decompilacao estatica"
+      },
+      {
+        "screen": "selecao de cenario",
+        "asset": "ccStageSelectPad: botoes de texto em this+0xb0 e this+0x410",
+        "mapping": "usuario confirmou A para Selecionar e Y para Aleatorio; B ainda nao validado",
+        "confidence": "relato do usuario no S24 e disassembly estatico"
+      },
+      {
+        "screen": "menus, batalha e tutoriais",
+        "asset": null,
+        "mapping": "pendente",
+        "confidence": "desconhecida"
+      },
+      {
+        "screen": "configuracao Duel",
+        "asset": "cmn.xfbin: cmn_button00",
+        "mapping": "IDs 0x0f a 0x12; regioes ABXY identificadas; rota Android e bindings ainda nao comprovados",
+        "confidence": "estatica"
+      }
+    ],
+    "sprite_atlas": {
+      "container_sha256": "66957f1853f49a20c5ad1acd6d1bb13bc8454bc31f6b1556671f4e7a9f193ab4",
+      "texture_sha256": "0276b4830fca46ffc677baf16ab23188b62077ed26e1f0305e633717756e1880",
+      "texture_size": [
+        384,
+        384
+      ],
+      "region_size": [
+        68,
+        68
+      ],
+      "regions": [
+        {
+          "sprite": "xcmn_batsu",
+          "origin": [
+            315,
+            178
+          ],
+          "observed_glyph": "A"
+        },
+        {
+          "sprite": "xcmn_circle",
+          "origin": [
+            316,
+            109
+          ],
+          "observed_glyph": "B"
+        },
+        {
+          "sprite": "xcmn_triangle",
+          "origin": [
+            315,
+            246
+          ],
+          "observed_glyph": "Y"
+        },
+        {
+          "sprite": "xcmn_square",
+          "origin": [
+            315,
+            315
+          ],
+          "observed_glyph": "X"
+        }
+      ],
+      "evidence": "regioes extraidas dos chunks nuccChunkSprite e conferidas visualmente na textura cmn_button00; uso na interface e bindings permanecem nao comprovados"
+    },
+    "help_icon_candidates": {
+      "address_space": "elf_va",
+      "input_library_sha256": "2923db436931bb2f3a0b7178a7b1c007434e28d269e5ec5a81c5be4a73e96db7",
+      "helpers": [
+        {
+          "name": "ccHelpIconSet::GetElementIdOk",
+          "address": "0xaa4b90",
+          "behavior": "campo global +0x1e0 comparado a 0x2000 seleciona ID 0x12 ou 0x10"
+        },
+        {
+          "name": "ccHelpIconSet::GetElementIdCancel",
+          "address": "0xaf20b4",
+          "behavior": "campo global +0x1e4 comparado a 0x4000 seleciona ID 0x10 ou 0x12"
+        },
+        {
+          "name": "ccHelpTextSet::GetElementIdOk",
+          "address": "0xd846ec",
+          "behavior": "mesma selecao de IDs de confirmacao"
+        },
+        {
+          "name": "ccHelpTextSet::GetElementIdCancel",
+          "address": "0xd84710",
+          "behavior": "mesma selecao de IDs de cancelamento"
+        }
+      ],
+      "direct_callers_sample": [
+        "ccSelectCharacter::InitHelpIcon",
+        "ccSelectCharacter::CtrlHelpIcon",
+        "ccDispTutorial::Setup",
+        "ccOptionTop::CtrlHelpIcon",
+        "ccDispMissionSelect::Ctrl",
+        "ccPauseMenuDuel::StepDuelCondition"
+      ],
+      "global_owner": "Relocation em VA ELF 0x13b3e10 aponta para nuccSys::m_instancePtr; nuccSys::UpdateKeyAssign em 0x1079ae4 grava +0x1e0 e +0x1e4 a partir de entradas 0x10/0x20/0x40/0x80, sob condicoes. A origem usa o singleton mmInputManager (relocation 0x13b8680); associacao dos indices a acoes e frequencia de atualizacao ainda nao comprovadas",
+      "connection_layout": "ControllerStatusCallback (VA ELF 0x11881cc) chama SetLayout (0x1187fec) no ramo param_2 == 2. SetLayout registra indices de entradas 0x10/0x20 em +0x154/+0x156 e ativa +0x158; MainStart (0x9aa040), chamado por nuccSys::Update (0x9aa390), contem copia da logica que consome esses campos. Frequencia em execucao nao comprovada. Status do callback e status da consulta Paddleboat sao contratos distintos.",
+      "limitation": "GetElementIdOk e Cancel escolhem apenas IDs 0x10 e 0x12, inclusive quando UpdateKeyAssign grava mascaras associadas a X/Y; a origem e ciclo de vida das entradas e atualizacao visual ainda requerem comprovacao",
+      "character_select_lifecycle": {
+        "init": "ccSelectCharacter::InitHelpIcon cria o conjunto e adiciona sprites de confirmacao e cancelamento segundo os IDs consultados no momento",
+        "control": "ccSelectCharacter::CtrlHelpIcon cria o conjunto se ausente e habilita o icone de cancelamento encontrado pelo ID atual; nao chama ChangeButton nem recria o icone de confirmacao nesse caminho. GetHelpIconId pesquisa o ID do texto ou do botao, retornando indice ou -1",
+        "replacement": "ccHelpIconSet::ChangeButton cria novo sprite, conserva posicao e alpha e substitui o handle; chamada por essa tela na mudanca de conexao ou binding nao demonstrada",
+        "android_rendering": "No ELF, ccHelpIconSet::Ctrl e Draw sao RET de 4 bytes e ccSelectCharacter::Ctrl e Draw nao chamam CtrlHelpIcon e DrawHelpIcon. Busca B/BL nao encontrou chamadas diretas a essas duas rotinas; referencias indiretas nao foram excluidas. A captura da F1.1 no S24 mostra botoes Android sem glyphs ABXY; reativar somente os helpers nao apresenta os icones.",
+        "android_touch_buttons": "ccCharacterSelectPad::Setup (VA ELF 0xaafb68) cria quatro botoes de texto em this + 0x1a20 + indice*0x360: Aleatorio, Configuracoes de batalha, Selecionar, Selecionar. ccCommonTouchTextButton::SetText (0xb79f74) atualiza texto e escala; Draw do pad desenha os objetos. Integracao de sprites e transicao ainda nao implementadas.",
+        "stable_labels": [
+          {
+            "id": "0x3e",
+            "element": "xcmn_helpe_fd01",
+            "role": "confirmacao"
+          },
+          {
+            "id": "0x3f",
+            "element": "xcmn_helpe_fd02",
+            "role": "cancelamento"
+          }
+        ],
+        "user_confirmed_actions": [
+          {
+            "action": "Selecionar",
+            "button": "A"
+          },
+          {
+            "action": "Aleatorio",
+            "button": "Y"
+          },
+          {
+            "action": "Configuracoes de batalha",
+            "button": "Start"
+          }
+        ],
+        "evidence": "Ghidra headless readOnly, imagem base 0x100000; bytes das quatro funcoes analisadas coincidem com a biblioteca F1.1",
+        "confidence": "estatica; execucao e atualizacao no aparelho nao comprovadas"
+      },
+      "confidence": "disassembly, relocacao e busca de branches BL no ELF; execucao Android e atualizacao por conexao nao confirmadas"
+    },
+    "evidence": [
+      "docs/superpowers/plans/2026-10-27-naruto-gamesir-console.md",
+      "docs/CONTROLLER_CONSOLE_UI_INVESTIGATION_20261027.md",
+      "scripts/patch-controls-prompts.py"
+    ],
+    "arena_candidate": {
+      "status": "experimental em memoria; nao empacotado nem testado no S24",
+      "mapping": "confirmacao pela mascara atual e Y para Aleatorio; B depende de identificacao da rota visual",
+      "hooks_elf_va": [
+        "0x9f1ad0",
+        "0xd04890"
+      ],
+      "test": "tests/controls/test_abxy_select.py",
+      "evidence": "usuario confirmou A/Y na arena; Draw e destrutor conferidos em ARM64"
+    },
+    "tutorial_path": {
+      "address_space": "elf_va",
+      "functions": [
+        {
+          "name": "ccTutorialManager::GetTutorialMsgId",
+          "address": "0xa7a69c",
+          "role": "consulta ID da pagina ativa"
+        },
+        {
+          "name": "ccTutorialManager::GetTutorialMsg",
+          "address": "0xa7a898",
+          "role": "resolve mensagem Mobile"
+        },
+        {
+          "name": "ccTutorialManager::GetTutorialPicture",
+          "address": "0xa7a75c",
+          "role": "resolve imagem por pagina"
+        },
+        {
+          "name": "ccDispTutorial::Draw",
+          "address": "0xa7a308",
+          "role": "consulta texto e imagem e imprime texto"
+        }
+      ],
+      "evidence": "docs/WIDESCREEN_NATIVE_ASSET_BINDINGS_20261026.md e decompilacao existente",
+      "confidence": "estatica; ABI e pagina em execucao nao comprovadas",
+      "pending": "identificar pagina e bindings efetivos, formato e selecao dinamica da imagem antes de alterar"
+    },
+    "runtime_bindings_user_report": {
+      "defesa": "L2",
+      "substituicao": "R2",
+      "suportes": [
+        "L1",
+        "R1"
+      ],
+      "itens": "D-pad",
+      "chakra": "Y",
+      "ataque": "X",
+      "pulo": "A",
+      "confidence": "relato do usuario, nao instrumentado",
+      "conflict": "Ataque X relatado difere de KeyAttack=B no mapa estatico; configuracao efetiva e causa nao comprovadas",
+      "pending": [
+        "confirmar X e B em combate apos corrigir fallback",
+        "determinar bindings atuais e sincronizacao de tutoriais"
+      ],
+      "investida_ninja": "Y + A, relato do usuario",
+      "botao_b": "leva o jogo para segundo plano no candidato instalado; acao no jogo nao demonstrada"
+    },
+    "integrated_candidate": {
+      "status": "experimental-signed-verified-not-installed",
+      "sourceApk": "build/UNSM-S24-GAMEPAD-HUD-F1.1.apk",
+      "sourceApkSha256": "07f75ca822fcb606ca7327f96348abb0add8755be68c26d5ce789dd3557836da",
+      "outputApk": "build/UNSM-S24-GAMEPAD-F1.2-INTEGRADO.apk",
+      "outputApkSha256": "8e030cfb6e0ff0a3eb284f439895df6a10df087d51b8b438aa4fe3f5614d03fe",
+      "nativeSha256": "dac92156cad6ced9c68f92e4ede76736b44747cedc7e68e9be179fc127cd91e7",
+      "buildId": "c3e506f9be350dfb4a00c79228754028",
+      "certificateSha256": "17d4f698488d0eca80bcff7c4440426e8bc7e145abf0ec05d9692a815693f074",
+      "scope": "HUD F1.1, prompts experimentais personagem e arena, tratamento de B; tutorial contextual nao implementado",
+      "validation": [
+        "11 testes de controles no host",
+        "check-only nativo",
+        "assinatura e certificado conferidos",
+        "zipalign 16 KiB",
+        "SHA nativo e CRC/tamanho dos 571 demais membros conferidos"
+      ],
+      "deviceValidation": "pendente; nao instalado"
+    }
+  },
+  "f1_1_validation": {
+    "status": "aceita",
+    "accepted_gamepad_apk": "build/UNSM-S24-GAMEPAD-INSTALADO.apk; recuperado do S24 e hash conferido com o registro de aceite",
+    "accepted_apk_sha256": "a9288675a6d66b235349f1b20b81e9adf95cd9fa6aeb69b2811138d14bfd32fd",
+    "local_gamepad_library_sha256": "2923db436931bb2f3a0b7178a7b1c007434e28d269e5ec5a81c5be4a73e96db7",
+    "local_apk_library_sha256": "8797e4446449b505bd20d704c4123f4bdbedeec8b9e1e71a87414a876572cfd0",
+    "host_checks": [
+      "check-only, hash, Build ID e manifesto",
+      "cinco testes de fluxo",
+      "disassembly ARM64 e branch de entrada",
+      "reversao dos dois intervalos e preservacao da cave do gamepad"
+    ],
+    "cave_limit": "A verificacao automatica de entrada na cave cobre branches imediatos B/BL, nao acessos indiretos.",
+    "device_validation": "S24: usuario confirmou HUD oculto com controle, visivel sem controle, lista de itens visivel, foco e selecao funcionais e restauracao do HUD ao desconectar e reconectar sem fechar o jogo",
+    "integrated_candidate": "build/UNSM-S24-GAMEPAD-HUD-F1.1.apk",
+    "integrated_candidate_sha256": "07f75ca822fcb606ca7327f96348abb0add8755be68c26d5ce789dd3557836da",
+    "candidate_checks": "assinatura verificada, certificado igual a fonte, alinhamento 16 KiB, SHA nativo e CRC/tamanho dos demais membros"
+  }
+}

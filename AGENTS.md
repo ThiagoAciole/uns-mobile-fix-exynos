@@ -60,6 +60,9 @@ Testes: os scripts `scripts/test-*.py` validam widescreen e cobertura. Rode os q
 
 ## Convenções
 
+- Antes de novas análises de controles, consulte `analysis/controls/catalog.json` e `analysis/controls/findings.md`; atualize-os com evidência e confiança ao confirmar achados.
+- Por padrão, não crie relatórios Markdown datados: atualize o catálogo e o estado atual. Crie relatório separado somente quando solicitado ou necessário para uma evidência que não caiba nesses registros.
+- Inventário sem alterações: `python scripts/inventory-artifacts.py --dry-run`. As categorias são conservadoras e não autorizam exclusão.
 - Documentação em português (Brasil). Código e nomes de símbolos em inglês, como já está no projeto.
 - Scripts novos: Python para orquestração e patches; PowerShell só onde o fluxo já existe (Exynos).
 - Todo patch valida: hash da entrada, Build ID, bytes esperados e releitura da saída. Mantenha esse padrão.

@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "f1_1_status": "aceita",
+  "note": "F1.1: usuario confirmou HUD, lista de itens, foco, selecao e alternancia na desconexao e reconexao sem fechar o jogo no S24. Cenarios ABXY e configuracao permanecem pendentes.",
+  "cases": [
+    {
+      "id": "static-guards",
+      "type": "static",
+      "steps": [
+        "Conferir hash, Build ID, prologo, cave e manifesto anterior nos patches."
+      ],
+      "expected": "Entrada incompativel rejeitada; sem concluir aceite visual."
+    },
+    {
+      "id": "static-assets",
+      "type": "static",
+      "steps": [
+        "Conferir hashes de entrada, IDs e regioes dos sprites no catalogo e scripts."
+      ],
+      "expected": "xmode e skin Y/B estatica; regioes de cmn_button00 correspondem a A/B/Y/X; uso por telas e bindings requer comprovacao."
+    },
+    {
+      "id": "hud-connect",
+      "type": "device",
+      "status": "aceita",
+      "evidence": "Confirmacao do usuario no S24, inclusive reconexao sem fechar o jogo e lista de itens visivel.",
+      "steps": [
+        "Em batalha, conectar e desconectar o controle ativo."
+      ],
+      "expected": "HUD tatil some ao conectar e retorna ao desconectar; lista de itens permanece visivel."
+    },
+    {
+      "id": "focus",
+      "type": "device",
+      "status": "aceita",
+      "evidence": "Usuario confirmou foco e selecao funcionais com controle no S24.",
+      "steps": [
+        "Navegar menus e selecao com controle."
+      ],
+      "expected": "Foco e selecao permanecem visiveis e operaveis."
+    },
+    {
+      "id": "abxy-character-select",
+      "type": "device",
+      "status": "pendente",
+      "steps": [
+        "Na selecao de personagem, conectar o GameSir, conferir os prompts A/Y/Start e executar as tres acoes.",
+        "Desconectar e reconectar sem fechar a tela e conferir a apresentacao e os controles."
+      ],
+      "expected": "A seleciona, Y escolhe Aleatorio e Start abre Configuracoes; prompts acompanham conexao e nao ocultam controles ou foco."
+    },
+    {
+      "id": "abxy",
+      "type": "device",
+      "steps": [
+        "Testar A/B/X/Y no perfil padrao e com bindings alterados quando disponivel."
+      ],
+      "expected": "Acoes e prompts correspondem ao mapa ativo; desconexao restaura apresentacao tatil."
+    },
+    {
+      "id": "configuration",
+      "type": "device",
+      "steps": [
+        "Abrir configuracao, alterar e salvar binding, retornar e reabrir."
+      ],
+      "expected": "Tela correta abre; navegacao, retorno e persistencia funcionam sem perder configuracao tatil."
+    },
+    {
+      "id": "supports",
+      "type": "device",
+      "status": "pendente",
+      "steps": [
+        "Selecionar suportes e retornar, verificando foco e confirmacao."
+      ],
+      "expected": "Comportamento correto e consistente; registrar evidencia especifica no S24."
+    },
+    {
+      "id": "customization",
+      "type": "device",
+      "status": "pendente",
+      "steps": [
+        "Abrir e fechar personalizacao e verificar restauracao da selecao."
+      ],
+      "expected": "Comportamento correto e consistente; registrar evidencia especifica no S24."
+    },
+    {
+      "id": "arena",
+      "type": "device",
+      "status": "pendente",
+      "steps": [
+        "Navegar, selecionar e retornar da arena; confirmar botoes fisicos e prompts."
+      ],
+      "expected": "A seleciona, Y escolhe Aleatorio e B retorna sem encerrar o jogo; foco e selecao preservados.",
+      "evidence": "Usuario confirmou A para Selecionar e Y para Aleatorio; relatou fechamento ao pressionar B, investigacao pendente."
+    },
+    {
+      "id": "battle-actions",
+      "type": "device",
+      "status": "pendente",
+      "steps": [
+        "Iniciar combate e verificar movimento, ataques, defesa, chakra, suporte, itens e HUD informativo."
+      ],
+      "expected": "Comportamento correto e consistente; registrar evidencia especifica no S24."
+    },
+    {
+      "id": "tutorial",
+      "type": "device",
+      "status": "pendente",
+      "steps": [
+        "Abrir tutoriais e comparar instrucoes em modo controle e tatil."
+      ],
+      "expected": "Comportamento correto e consistente; registrar evidencia especifica no S24."
+    },
+    {
+      "id": "pause",
+      "type": "device",
+      "status": "pendente",
+      "steps": [
+        "Abrir pausa, navegar, entrar e sair de submenus e retornar ao combate."
+      ],
+      "expected": "Comportamento correto e consistente; registrar evidencia especifica no S24."
+    },
+    {
+      "id": "input-switch",
+      "type": "device",
+      "status": "pendente",
+      "steps": [
+        "Alternar GameSir e toque sem fechar o jogo; verificar prompts e entrada duplicada."
+      ],
+      "expected": "Comportamento correto e consistente; registrar evidencia especifica no S24."
+    },
+    {
+      "id": "menu-return",
+      "type": "device",
+      "status": "pendente",
+      "steps": [
+        "Retornar entre menus e verificar selecao e foco."
+      ],
+      "expected": "Comportamento correto e consistente; registrar evidencia especifica no S24."
+    },
+    {
+      "id": "configuration-route",
+      "type": "device",
+      "status": "pendente",
+      "steps": [
+        "Abrir e fechar configuracao existente; verificar editor Duel somente quando implementado."
+      ],
+      "expected": "Comportamento correto e consistente; registrar evidencia especifica no S24."
+    },
+    {
+      "id": "b-unexpected-close",
+      "type": "device",
+      "status": "reproduzida; mecanismo em investigacao",
+      "steps": [
+        "Reproduzir B na tela identificada e correlacionar evento de entrada, processo e logs."
+      ],
+      "expected": "B nao envia o jogo para segundo plano em nenhuma tela; cancelar nos menus e atacar na batalha continuam funcionando.",
+      "evidence": "S24: BTN_EAST seguido de onBackInvoked e moveTaskToBack; PID permaneceu ativo."
+    }
+  ]
+}
