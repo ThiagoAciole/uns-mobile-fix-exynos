@@ -40,6 +40,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
     if args.output.exists() or args.output.resolve() == args.apk.resolve():
         raise ValueError("A fresh separate output APK is required")
+    if args.output.resolve().is_relative_to(Path(__file__).resolve().parents[1] / "build"):
+        raise ValueError("build/ is reserved for build-selective.py output; use work/ for intermediates")
     patch = json.loads(Path(str(args.library) + ".patch.json").read_text(encoding="utf-8-sig"))
     library_hash = hashlib.sha256(args.library.read_bytes()).hexdigest().upper()
     if library_hash != patch["outputSha256"].upper():

@@ -196,7 +196,7 @@ def main():
     parser.add_argument('--output', required=True, type=Path)
     args = parser.parse_args()
     original, base, output = args.original.resolve(), args.base.resolve(), args.output.resolve()
-    if output.exists() or output == base or output == original or output.is_relative_to(ROOT / 'origin') or output.is_relative_to(ROOT / 'original'):
+    if output.exists() or output == base or output == original or output.is_relative_to(ROOT / 'origin') or output.is_relative_to(ROOT / 'original') or output.is_relative_to(ROOT / 'build'):
         raise ValueError('Output must be a fresh path outside protected directories')
     if digest_file(original) != ORIGINAL_SHA or digest_file(base) != BASE_SHA:
         raise ValueError('Unexpected APK SHA-256; no candidate generated')

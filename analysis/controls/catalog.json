@@ -473,16 +473,28 @@
       ],
       "itens": "D-pad",
       "chakra": "Y",
-      "ataque": "X",
+      "ataque": "B",
+      "x": "Shuriken (KeyShuriken), relato do usuario no INTEGRADO",
       "pulo": "A",
-      "confidence": "relato do usuario, nao instrumentado",
-      "conflict": "Ataque X relatado difere de KeyAttack=B no mapa estatico; configuracao efetiva e causa nao comprovadas",
+      "confidence": "relato do usuario no S24 com INTEGRADO; nao instrumentado. Ataque B confere com KeyAttack=B do mapa estatico",
+      "conflict": "resolvido: a correção anterior do relato (X para ataque) foi retirada pelo próprio usuário",
       "pending": [
-        "confirmar X e B em combate apos corrigir fallback",
         "determinar bindings atuais e sincronizacao de tutoriais"
       ],
       "investida_ninja": "Y + A, relato do usuario",
-      "botao_b": "leva o jogo para segundo plano no candidato instalado; acao no jogo nao demonstrada"
+      "botao_b": "ataque; no INTEGRADO não leva mais o jogo para segundo plano (relato do usuario)",
+      "referencia_xbox": {
+        "fonte": "mapa de combate Xbox informado pelo usuario; nao verificado no S24",
+        "paridade": "relato do usuario: os controles seguem a mesma logica da versao de console/PC e o gamepad segue essa logica; nao comparado com fonte de console/PC neste repositorio",
+        "A": "pulo; A, A = dash",
+        "X": "shuriken / itens ninja",
+        "B": "ataque corpo a corpo; baixo+B = guard crush/agarrao; segurar B perto da parede = lancar o oponente",
+        "Y": "carrega chakra; Y+B = ninjutsu; Y, Y+B = jutsu supremo",
+        "LB_RB": "suportes",
+        "LT_RT": "LT defesa; RT kawarimi (substituicao no momento do golpe)",
+        "equivalencia_android": "LT=L2, RT=R2, LB=L1, RB=R1; coerente com o relato de L2 defesa e R2 substituicao",
+        "confidence": "documentacao externa informada pelo usuario; testado pelo usuario no S24 e confirmado por ele (relato, nao instrumentado). Dash, guard crush, ninjutsu e jutsu supremo confirmados como relato"
+      }
     },
     "integrated_candidate": {
       "status": "experimental-signed-verified-not-installed",
